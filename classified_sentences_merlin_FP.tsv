@@ -1,0 +1,201 @@
+error_type	sentence	classification	generated senteces	gnerated sentences eval			
+FP	Ciao Caro , come stai ?	miscl. in multiged	Ciao caro, come stai?	fully	122		200
+			Ciao cara, come stai?	divergent	6		
+			Ciao caro, come stai?	fully	51		
+			Ciao caro, come stai.	divergent	21		
+			Ciao caro, come stai.	divergent	0		
+FP	Tanto non bisognò di prenotare un alloggio .	plausible	Tanto non bisogna prenotare un alloggio .	fully			
+			Tanto non fu necessario prenotare un alloggio .	divergent			
+			Tanto non si dovette prenotare un alloggio .	divergent			
+			Tanto non era necessario prenotare un alloggio .	divergent			
+			Tanto non bisognò prenotare un alloggio .	fully			
+FP	La mia esperienza lavorativa questi .	plausible	La mia esperienza lavorativa è questa .	fully			
+FP	Vorrei presentarmi in breve e darVi alcuni informazioni sulla mia persona .	wrong	Vorrei presentarmi in breve e darvi alcuni informazioni sulla mia persona.	no modification			
+			Vorrei presentarmi brevemente e darvi alcune informazioni sulla mia persona.	partially			
+			Vorrei presentarmi in modo conciso e darvi alcuni dettagli sulla mia persona.	divergent			
+			Vorrei presentarmi rapidamente e darvi some information about myself.	divergent			
+			Vorrei presentarmi e darvi alcune informazioni sulla mia persona.	divergent			
+FP	Forse ti piaci ?	plausible	Forse ti piace ?	divergent			
+			Forse ti piacciono?	divergent			
+			Forse ti piaci da?	divergent			
+			Forse ti piacendo?	divergent			
+			Forse ti piaciuto?	divergent			
+FP	Secondo me l' amizicia virtuale sia possibile solo in alcune parte .	wrong	Secondo me l'amicizia virtuale sia possibile solo in alcune parti .	partially			
+			Secondo me l'amicizia virtuale sia possibile solo in alcune parti .	partially			
+			Secondo me l'amicizia virtuale è possibile solo in alcune parti .	fully			
+			Secondo me l'amizienza virtuale sia possibile solo in alcune parti .	divergent			
+			Secondo me l' amizie virtuale sia possibile solo in alcune parti .	divergent			
+FP	Non mi piace tanto , perché i nostri clienti non sono tanto gentile sai ...	plausible	Non mi piace tanto, perché i nostri clienti non sono molto gentili sai ...	partially			
+			Non mi piace tanto perché i nostri clienti non sono gentili abbastanza sai ...	divergent			
+			Non mi piace tanto perché i nostri clienti non sono molto gentili sai ...	partially			
+			Non mi piace tanto perché i nostri clienti non sono tanto gentili sai ...	fully			
+			Non mi piace tanto perché i nostri clienti non sono così gentili sai ...	divergent			
+FP	Dopo l' esame di maturità vorrei trasferirmi a Roma così è necessario che possa parlare in italiano .	plausible	Dopo l'esame di maturità vorrei trasferirmi a Roma, quindi è necessario che possa parlare in italiano .	divergent			
+			Dopo l'esame di maturità vorrei trasferirmi a Roma; è necessario che possa parlare in italiano .	divergent			
+			Dopo l'esame di maturità vorrei trasferirmi a Roma perché è necessario che possa parlare in italiano .	divergent			
+			Dopo l'esame di maturità, quando vorrei trasferirmi a Roma, è necessario che possa parlare in italiano .	divergent			
+			Dopo l'esame di maturità vorrei solo trasferirmi a Roma; è necessario che possa parlare in italiano .	divergent			
+FP	"Ho letto il vostro annuncio delle """""""" Serate di cucina internazionale """""""" e devo dire , che lo è stato molto interessante per me ."	plausible	"Ho letto il vostro annuncio delle ""Serate di cucina internazionale"" e devo dire che è stato molto interessante per me."	fully			
+			"Ho letto il vostro annuncio sulle ""Serate di cucina internazionale"" e devo dire che lo è stato molto interessante per me."	divergent			
+			"Ho letto il vostro annuncio sulle ""Serate di cucina internazionale"" e devo dire che è stato molto interessante per me."	divergent			
+			"Ho letto il vostro annuncio delle ""Serate di cucina internazionale"" e devo dire che lo è stato molto interessante per me."	no modification			
+			"Ho letto il vostro annuncio sulle ""Serate di cucina internazionale"" e devo dire che lo è stato molto interessante per me."	divergent			
+FP	Infatti , questo è in intenzione per iscrivermi al primo ciclo .	wrong	Infatti, questo è in intenzione per iscrivermi al primo ciclo.	no modification			
+			Infatti, questo è inteso per iscrivermi al primo ciclo.	divergent			
+			Infatti, questo è in intenzione per iscriverti al primo ciclo.	divergent			
+			Infatti, questo è in intenzione per iscriversi al primo ciclo.	divergent			
+			Infatti, questo è in intenzione per iscriversi al primo anno.	divergent			
+FP	27-03-2010 Città X Cara Roberta , Non ho visto te da molto tempo .	wrong	27-03-2010 Città X Cara Roberta , Non ho visto te da molto tempo .	fully			
+			27-03-2010 Città X Cara Roberta , Non ho visto te da un po' .	divergent			
+			27-03-2010 Città X Cara Roberta , Non ti ho visto da molto tempo .	fully			
+			27-03-2010 Città X Cara Roberta , Non ti ho visto da un po' .	divergent			
+			27-03-2010 Città X Cara Roberta , Ho non visto te da molto tempo .	divergent			
+FP	Non abbiamo dei gravi problemi come la famina .	miscl. in multiged	Non abbiamo gravi problemi come la fame .	fully			
+			Non ci sono dei gravi problemi come la famina .	divergent			
+			Non abbiamo gravi problemi come la carestia .	fully			
+			Non abbiamo gravi problemi simili alla famina .	divergent			
+			Non abbiamo problemi gravi come la fame .	fully			
+FP	Ma come faccio per andare a Casa tua ?	wrong	Ma come faccio a fare per andare a casa tua ?	divergent			
+			Ma come faccio a tornare a casa tua ?	divergent			
+			Ma come faccio ad andare a casa tua ?	fully			
+			Ma come faccio a raggiungere casa tua ?	divergent			
+FP	Città X , 13 agosto 2011 Caro Francesco , grazie la tua lettera , l' ho aspettata molto !	wrong	Città X , 13 agosto 2011 Caro Francesco , grazie per la tua lettera , l' ho aspettata molto !	fully			
+			Città X , 13 agosto 2011 Caro Francesco , grazie della tua lettera , l' ho aspettata molto !	fully			
+			Città X , 13 agosto 2011 Caro Francesco , ringraziando per la tua lettera , l' ho aspettata molto !	divergent			
+			Città X , 13 agosto 2011 Caro Francesco , grazie per aver ricevuto la tua lettera , l' ho aspettata molto !	divergent			
+			Città X , 13 agosto 2011 Caro Francesco , grazie per la tua lettera , aspettandola molto !	divergent			
+FP	Prima , vorrei presentarmi : Mi chiamo Maria Rossi e ho 19 anni .	wrong	Prima, vorrei presentarmi: Mi chiamo Maria Rossi e ho 19 anni.	no modification			
+			Prima; vorrei presentarmi: Mi chiamo Maria Rossi e ne ho 19.	divergent			
+			Prima; vorrei presentarmi: Chiamami Maria Rossi e ho 19 anni.	divergent			
+			Prima; vorrei presentarmi: Mi chiamo Maria Rossi ed ho 19 anni.	divergent			
+			Prima; vorrei presentarmi: Mi chiamo Maria Rossi e ne ho 19.	divergent			
+FP	Non abbiamo piu nessun contate con lei .	wrong	Non abbiamo più nessun contatto con lei .	fully			
+			Non abbiamo più nessuna contata con lui .	divergent			
+			Non abbiamo piu nessuna contatto con lei .	divergent			
+			Non abbiamo più nessun contatto con lei .	divergent			
+			Non abbiamo più nessun contatto con lei .	fully			
+FP	Spero di avere presto tue notizie .	wrong	Spero di avere presto le tue notizie .	divergent			
+			Spero di avere tuoi notizie presto.	divergent			
+			Spero di ricevere presto tue notizie .	divergent			
+			Spero di avere notizie tue presto.	divergent			
+FP	Città X , 18 / 6 / 2011 Cara Beatrice , Caro Stefano , Che sorpresa !	miscl. in multiged	Città X , 18 / 6 / 2011 Cara Beatrice , Caro Stefano , Che sorpresa !	fully			
+			Città X , 18 / 6 / 2011 Cara Beatrice , Caro Stefano , Che sorpresa !	fully			
+			Città X , 18 / 6 / 2011 Carissima Beatrice , Carissimo Stefano , Che sorpresa !	divergent			
+			Città X , 18 / 6 / 2011 Cara Beatrice , Caro Stefano , Pieno piacere !	divergent			
+			Città X , 18 / 6 / 2011 Cara Beatrice , Caro Stefano , Grande sorpresa !	divergent			
+FP	Ho lavorato come ragazza alla pare per imperare l' italiano .	wrong	Ho lavorato come babysittrice per imparare l'italiano .	divergent			
+			Ho lavorato come au pair per imparare l'italiano .	divergent			
+			Ho lavorato come baby sittora per imparare l'italiano .	divergent			
+			Ho lavorato come baby-sitter per imparare l'italiano .	divergent			
+FP	Ho sentito dire , che la Loro società é molto piacevole per i lavoratori e da tanta sodisfazione del lavoro .	miscl. in multiged	Ho sentito dire che la loro società è molto piacevole per i lavoratori e da tanta soddisfazione del lavoro.	divergent			
+			Ho sentito dire che la loro società é molto piacevole per i lavoratori e da tanta soddisfazione del lavoro.	divergent			
+			Ho sentito dire che la loro società è molto piacevole per i lavoratori e da tanta soddisfazione al lavoro.	divergent			
+			Ho sentito dire che la loro società è molto piacevole per i lavoratori e dal grande senso di soddisfazione.	divergent			
+			Ho sentito dire che la loro società è molto piacevole per i lavoratori e da una grande soddisfazione.	divergent			
+FP	Conosco bene l' informatica e la dattilografia e parlo e scrivo correttamente in tedesco e in italiano .	wrong	Conosco bene l'informatica e la dattilografia e parlo e scrivo correttamente in tedesco e italiano .	fully			
+			Conosco bene l'informatica e la dattilografia e parlo e scrivo correttamente in tedesco e italiano .	fully			
+			Conosco bene l'informatica e la dattilografia e parlo e scrivo correttamente in tedesco e in italiano .	fully			
+			Conosco bene l'informatica e la dattilografia e parlo e scrivo correttamente in tedesco e in italiano .	fully			
+FP	Ciao Michele grazie per la tua ..... .	miscl. in multiged	Ciao Michele grazie per tua .	divergent			
+			Ciao Michele grazie ......	divergent			
+			Ciao Michele grazie per la tua .	divergent			
+			Ciao Michele grazie .	divergent			
+			Ciao Michele .	divergent			
+FP	Tante grazie per le informazione .	wrong	Tante grazie per le informazioni .	fully			
+			Tante grazie alle informazione .	divergent			
+			Tante grazie alle informazioni .	divergent			
+			Tante grazie per le informazioni .	divergent			
+			Molte grazie per le informazioni .	divergent			
+FP	Noi impariamo già alla scuola elementare due lingue stranieri .	wrong	Noi impariamo già alla scuola elementare due lingue straniere .	fully			
+			Noi impariamo già a scuola elementare due lingue stranieri .	divergent			
+			Noi already impariamo alla scuola elementare two foreign languages .	divergent			
+			Noi impariamo già alla scuola elementare due lingue estranei .	divergent			
+			Noi impariamo già alla scuola elementare due lingue straniere .	fully			
+FP	So che potrebbe essere difficile trovare un posto per me , ma dopo il 29 agosto , comincerò studiare nei Paese Y .	plausible	So che potrebbe essere difficile trovare un posto per me, ma dopo il 29 agosto comincerò a studiare nel Paese Y.	divergent			
+			So che potrebbe essere difficile trovare un posto per me, ma dopo il 29 agosto comincerò a studiare in Paese Y.	fully			
+			So che potrebbe essere difficile trovare un posto per me, ma dopo il 29 agosto comincerò a studiare nello Y.	fully			
+			So che potrebbe essere difficile trovare un posto per me, ma dopo il 29 agosto comincerò a studiare nel Y.	fully			
+FP	Mi scriva , per favore , se è possibile prestissimo .	wrong	Mi scrivere, per favore, se è possibile prestissimo.	divergent			
+			Mi scriva, per favore, se è possibile il più presto possibile.	divergent			
+			Mi scriva, per favore, immediatamente se è possibile.	divergent			
+			Mi scriva, per favore, al più presto.	divergent			
+			Mi scriva, per favore, se possibile prestissimo.	fully			
+FP	Sono stata operata al ginocchio tre settimane fa .	wrong	Sono stata operata al ginocchio tre settimane fa.	fully			
+			Sono stata operata al ginocchio tre settimane fa	fully			
+			Sono stata operata al ginocchio tre settimane fa.	fully			
+			Sono stata operata al ginocchio tre settimane fa.	fully			
+			Sono stata operata al ginocchio tre settimane fa.	fully			
+FP	La sera ce chosa fate andate al cinema o a ballare .	wrong	La sera cosa fate andate al cinema o a ballare .	partially			
+			La sera cosa fate andate al cinema o a ballare?	fully			
+			La sera che cosa fate andate al cinema o a ballare.	partially			
+			La sera ce cosa fate andate al cinema o a ballare.	partially			
+			La sera ce ché cosa fate andate al cinema o a ballare.	divergent			
+FP	Io viaggo IN TRENO , IO SONO ALLE 19 A CASA TUA .	miscl. in multiged	Io viaggio IN TRENO, io sono alle 19 a casa tua.	partially			
+			Io viaggio IN Treno, io sono alle 19 a casa tua.	partially			
+			Io viaggio in treno, io sono alle 19 a casa tua.	fully			
+			Io viaggio in treno, iosono alle 19 a casa tua.	divergent			
+			Io viaggio in treno, io sono alle 19 a casa tua.	fully			
+FP	Quando bisogno la informazione ?	wrong	Quando necessito l'informazione ?	divergent			
+			Quando ho bisogno dell'informazione ?	fully			
+			Quando si ha bisogno della informazione ?	divergent			
+			Quando c'è bisogno dell'informazione ?	fully			
+			Quando ho bisogno dell'information ?	divergent			
+FP	La mia familia sta bene : zio Michele è allegro e felice anche zia Maria sta bene , Io sono contenta del mio lavoro - ho molto da fare , ma mi piace molto In vacanza sono andata in montagnia - un mio amico ha ci una casa .	miscl. in multiged	La mia famiglia sta bene : zio Michele è allegro e felice . Anche zia Maria sta bene , io sono contenta del mio lavoro - ho molto da fare , ma mi piace molto . In vacanza sono andata in montagna - un mio amico ha una casa .	fully			
+			La mia famiglia sta bene : zio Michele è allegro e felice . Anche zia Maria sta bene , io sono contenta del mio lavoro - ho molto da fare . Ma mi piace molto . In vacanza sono andata in montagnia - un mio amico ha ci una casa .	partially			
+			La mia famiglia sta bene : zio Michele è allegro e felice . Anche zia Maria sta bene , io sono contenta del mio lavoro - ho molto da fare . Ma mi piace molto . In vacanza sono andata in montagne - un mio amico ha una casa .	divergent			
+			La mia famiglia sta bene : zio Michele è allegro e felice . Anche zia Maria sta bene , io sono contenta del mio lavoro - ho molto da fare , ma mi piace molto . In vacanza sono andata in montagnia - un mio amico ha una casa .	partially			
+			La mia famiglia sta bene : zio Michele è allegro e felice . Anche zia Maria sta bene , io sono contenta del mio lavoro - ho molto da fare , ma mi piace molto . In vacanza sono andata in montagne - un mio amico ha una casa .	divergent			
+FP	Caro Daniele , Mi dispiace ma e una settimana orribile .	plausible	Caro Daniele, Mi dispiace ma è una settimana orribile.	fully			
+			Caro Daniele, Mi dispiace, ma e' una settimana orribile.	divergent			
+			Caro Daniele, Mi dispiace, ma è una settimana orribile.	fully			
+			Caro Daniele, Mi dispiace, ma e una settimana orribile.	no modification			
+			Caro Daniele, Mi dispiace, ma è una settimana orribile .	fully			
+FP	Non ho un desiderio speciale sul denaro .	wrong	Non ho un desiderio speciale su denaro .	divergent			
+			Non ho un desiderio sul denaro .	divergent			
+			Non ho speciali desideri sul denaro .	divergent			
+			Non ho un desiderio sul denaro .	divergent			
+			Non ho un desiderio economico sul denaro .	divergent			
+FP	Non ho pensato su una cosa meravigliosa come ques ' invito , quando ho aperto la lettera .	plausible	Non ho pensato a una cosa meravigliosa come l'invito , quando ho aperto la lettera .	partially			
+			Non ho pensato su una cosa meravigliosa come un invito , quando ho aperto la lettera .	divergent			
+			Non ho pensato su una cosa meravigliosa come l'invito , quando ho aperto la lettera .	divergent			
+			Non ho pensato su una cosa meravigliosa come l'invito quando ho aperto la lettera .	divergent			
+FP	Monstrero lo al capoufficio !	wrong	Monstrero lo al capoufficio!	no modification			
+			Monstrero lo all'capoufficio!	divergent			
+			Monstrero lo allo capoufficio!	divergent			
+			Monstrero lo all'ufficio!	divergent			
+			Monstrero lo all'ufficio!	divergent			
+FP	Puoi mi dice che lavoro fai adesso ?	wrong	Puoi mi dire che lavoro fai adesso?	divergent			
+			Puoi dirmi che lavoro fai adesso?	fully			
+			Puoi mi dico che lavoro fai adesso?	divergent			
+			Puoi mi dici qual lavoro fai adesso?	divergent			
+			Puoi mi dici che lavoro fa adesso?	divergent			
+FP	Abito un un albergo directamente in centro di Città X .	miscl. in multiged	Abito un albergo directamente in centro di Città X .	partially			
+			Abito un albergo direttamente in centro di Città X .	divergent			
+			Abito un albergo in centro diretto di Città X .	divergent			
+			Abito un albergo in centro di Città X .	divergent			
+			Abito un albergo in centro di Città X .	divergent			
+FP	Mentre leggere la tua lettere ero penseto che questo problema è un grand problema nella nostra socetà !	miscl. in multiged	Mentre leggevo la tua lettere ero pensato che questo problema è un grande problema nella nostra società !	partially			
+			Mentre leggere la tua lettere ero pensato che questo problema è un grande problema nella nostra società !	partially			
+			Mentre leggerei la tua lettere ero pensato che questo problema è un grande problema nella nostra società !	divergent			
+			Mentre leggere la tua lettere ero pensato che questo problema è un grandissimo problema nella nostra società !	divergent			
+			Mentre leggere la tua lettere ero pensato che questo problema è un grande problema nella nostra società !	partially			
+FP	Mi dispiace , ma il mio capo ha organizzato una riunione questo pomeriggio e devo participare .	miscl. in multiged	Mi dispiace, ma il mio capo ha organizzato una riunione questo pomeriggio e devo partecipare.	fully			
+			Mi dispiace, ma il mio capo ha organizzato una riunione oggi pomeriggio e devo partecipare.	divergent			
+			Mi dispiace, ma il mio capo ha organizzato una riunione quest'pomeriggio e devo partecipare.	divergent			
+			Mi dispiace, ma il mio capo ha organizzato una riunione questo pomeriggio e non posso partecipare.	divergent			
+			Mi dispiace, ma il mio capo ha organizzato una riunione oggi pomeriggio e non posso partecipare.	divergent			
+FP	Il mio albergho à vicino alla Monumento X .	plausible	Il mio albergo è vicino al Monumento X .	fully			
+			Il mio albergo à vicino al Monumento X .	fully			
+			Il mio albergho è vicino a Monumento X .	partially			
+			Il mio albergho à vicino a Monumento X .	divergent			
+			Il mio albergo è vicino alla Monumento X .	fully			
+FP	Poi scrivere una cartolina anche o puoi chiamiami a questo numero : 0345-11111111 !	wrong	Poi scrivere una cartolina anche oppure puoi chiamami a questo numero: 0345-11111111!	divergent			
+			Poi scrivere una cartolina anche o puoi chiamami a questo numero: 0345-11111111!	divergent			
+			Poi scrivere una cartolina anche oppure puoi chiamarmi a questo numero: 0345-11111111!	partially			
+			Poi scrivere una cartolina anche o puoi chiamarmi a questo numero: 0345-11111111!	partially			
+			Poi scrivere una cartolina anche oppure puoi chiamarmi a questo numero: 0345-11111111!	partially			
+FP	Crispi 119 80127 Caserta Oggetto : La Sua lettera Caro Giorgio , in riferimento della Sua lettera Le scrivo .	wrong	Crispi 119 80127 Caserta Oggetto: La Sua lettera Caro Giorgio, in riferimento alla Sua lettera Le scrivo.	fully			
+			Crispi 119 80127 Caserta Oggetto: La Sua lettera Caro Giorgio, in riferimento a Sua lettera Le scrivo.	divergent			
+			Crispi 119 80127 Caserta Oggetto: La Sua lettera Caro Giorgio, in riferimento alla Sua Le scrivo.	divergent			
+			Crispi 119 80127 Caserta Oggetto: La Sua lettera Caro Giorgio, in riferimento alla Sua lettera .	divergent			
+			Crispi 119 80127 Caserta Oggetto: La Sua lettera Caro Giorgio, in riferimento a Sua lettera .	divergent			

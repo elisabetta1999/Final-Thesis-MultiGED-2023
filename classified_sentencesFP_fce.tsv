@@ -1,0 +1,248 @@
+error_type	sentence		generated sentences	eval generation		
+FP	Dear Principal , First of all , we would like to thank you for good programme which provides us 3 days stay in London .	wrong	Dear Principal, First of all, we would like to thank you for the good programme which provides us with a 3-day stay in London.	fully		145
+			Dear Principal, First of all, we would like to thank you for the good programme that provides us with a 3-day stay in London.	fully		4
+			Dear Principal, First of all, we would like to thank you for the good programme providing us with a 3-day stay in London.	divergent		74
+			Dear principal, first of all, we would like to thank you for the good programme which provides us with a 3-day stay in london.	introducing error		18
+			Dear principal, first of all, we would like to thank you for the good program which provides us with a 3-day stay in london.	introducing error		6
+FP	However , we have found an advertisement for the London Fashion and Leisure show , which will be held at Central Exhibition Hall on 14th of March .	miscl. in multi	However, we have found an advertisement for the London Fashion and Leisure show, which will be held at Central Exhibition Hall on March 14th.	fully		
+			However, we have found an advertisement for the London Fashion and Leisure Show, which will be held at the Central Exhibition Hall on 14th of March.	no modification		
+			However, we have found an advertisement for the London Fashion and Leisure Show, which will be held at the Central Exhibition Hall on March 14th.	fully		
+			However, we have found an ad for the London Fashion and Leisure show, which will be held at Central Exhibition Hall on March 14th.	divergent		
+			However, we have found an ad for the London Fashion and Leisure show, which will be held at the Central Exhibition Hall on March 14th.	divergent		
+FP	50 years ago , Korean mothers should have made a fire by burning woods to warm a room up and make food .	wrong	50 years ago, Korean mothers should have made a fire by burning wood to warm a room up and cook food.	fully		
+			50 years ago, Korean mothers should have made a fire by burning woods to warm the room up and make food.	divergent		
+			50 years ago, Korean mothers should have made a fire by burning wood to warm the room up and make food.	divergent		
+			50 years ago, Korean mothers should have made a fire by burning woods to warm a room up and cook food.	divergent		
+			50 years ago, Korean mothers should have made a fire by burning wood to keep a room warm and make food.	divergent		
+FP	He / she can just press the button or send e - mail to operate what he / she needs , even though the owner is far from the house .	wrong	He she can just press the button or send email to operate what he she needs even though the owner is far from the house	introducing error		
+			He can just press the button or send email to operate what he needs even though the owner is far from the house	divergent		
+			He/she can just press the button or send e-mail to operate what he/she needs even though the owner is far from the house	introducing error		
+			He/she can just press the button or send e-mail to operate what he/she needs even though the owner is near the house	divergent		
+			He/she can just press the button or send email to operate what he/she needs even though the owner is near the house	divergent		
+FP	Please let me know if you are agree with us !	miscl. in multi	Please let me know if you agree with us.	fully		
+			Please let me know if you are agreed with us.	divergent		
+			Please let me know if you are in agreement with us.	divergent		
+			Please let me know if you are agree upon us.	divergent		
+			Please let me know if you are agrees with us.	divergent		
+FP	However , our class has spotted an advertisement for the London Fashion and Leisure Show and would all wish to attend .	plausible	However, our class has spotted an advertisement for the London Fashion and Leisure Show and would all like to attend.	no modification		
+			However, our class has spotted an advertisement for the London Fashion and Leisure Show and would wish to attend.	divergent		
+			However, our class has spotted an ad for the London Fashion and Leisure Show and would all like to attend.	divergent		
+			However, our class has spotted an ad for the London Fashion and Leisure Show and would all like to attend.	divergent		
+			However, our class has spotted an advertisement for the London Fashion and Leisure Show and would like to attend.	fully		
+FP	This will be a great opportunity for us because we will be able to find out more about the people of London and their fashions and style we might also get a change to meet new people and interest with them .	wrong	This will be a great opportunity for us because we will be able to find out more about the people of London and their fashions and styles.	divergent		
+			We might also get the chance to meet new people and share our interests with them.	divergent		
+			This will be a great opportunity for us because we will be able to find out more about the people of London and their fashions and styles. We might also get a chance to meet new people and discuss our interests with them.	divergent		
+			This will be a great opportunity for us because we will be able to find out more about the people of London and their fashions and styles. We might also get a chance to meet new people and learn about their interests.	divergent		
+			This will be a great opportunity for us because we will be able to find out more about the people of London and their fashions and styles. We might also have the chance to meet new people and engage with them.	fully		
+FP	We might not need maids to do housework anymore as they can easily be replaced with a robot , a machine , or something other with the same purpose .	plausible	We might not need maids to do housework anymore as they can easily be replaced with a robot, a machine, or something else with the same purpose.	fully		
+			We might not need maids to do housework anymore as they can be easily replaced with a robot, a machine, or something else with the same purpose.	fully		
+			We might not need maids to do housework anymore as they can easily be replaced with a robot, a machine, or something similar with the same purpose.	divergent		
+			We might not need maids to do housework anymore as they can easily be replaced by a robot, a machine, or something else with the same purpose.	fully		
+			We might not need maids to do housework anymore as they can easily be replaced with robots, machines, or something else with the same purpose.	divergent		
+FP	The biggest commercial gain in history I believe , but celebrities are not animals although they may be sometimes treated the same way .	wrong	The biggest commercial gain in history, I believe, but celebrities are not animals, although they may be treated the same way sometimes.	fully		
+			The biggest commercial gain in history, I believe, but celebrities are not animals although they may be sometimes treated the same way.	fully		
+			The biggest commercial gain in history, I believe but celebrities are not animals although they may be sometimes treated the same way.	fully		
+			The biggest commercial gain in history, I believe but celebrities are not animals although they may be treated the same way sometimes.	fully		
+			The biggest commercial gain in history, I believe; but celebrities are not animals although they may be sometimes treated the same way.	divergent		
+FP	To sum up , I believe that everyone has the right to keep privacy of their own homes and even someone extremely famous deserve to have a private life .	wrong	To sum up, I believe that everyone has the right to keep the privacy of their own homes and even someone extremely famous deserves to have a private life.	fully		
+			To sum up, I believe that everyone has the right to maintain the privacy of their own homes and even someone extremely famous deserves to have a private life.	divergent		
+			To sum up, I believe that everyone has the right to preserve the privacy of their own homes and even someone extremely famous deserves to have a private life.	divergent		
+			To sum up, I believe that everyone has the right to protect the privacy of their own homes and even someone extremely famous deserves to have a private life.	divergent		
+			To sum up, I believe that everyone has the right to maintain their own home's privacy and even someone extremely famous deserves to have a private life.	divergent		
+FP	If the famous person does n't mind in being filmed in his personal life there 's no problem .	miscl. in multi	If the famous person doesn't mind being filmed in his personal life, there's no problem.	fully		
+			If the famous person does not mind being filmed in his personal life there is no problem.	partially		
+			If the famous person doesn't mind being filmed in his personal life there is no problem.	partially		
+			If the famous person does n't mind being filmed in his personal life there is no problem.	partially		
+			If a famous person does n't mind being filmed in his personal life there is no problem.	divergent		
+FP	We also can suggest how the originally programme can be changed .	plausible	We also can suggest how the original program can be changed.	partially		
+			We can also suggest how the originally programmed can be changed.	fully		
+			We can also suggest how the original programme can be changed.	fully		
+			We can also suggest how the original program can be changed.	fully		
+			We also can suggest how the original program can be changed.	partially		
+FP	And checking his body condition .	miscl. in multi	And checking his body condition.	no modification		
+			And his checking body condition.	divergent		
+			And check his body condition.	fully		
+			And checking the body condition.	divergent		
+			And checking his condition.	divergent		
+FP	Now about your questions , it is very difficult for me to give any advice you about it , I do n't know your cousin very well so I do n't know what she prefers reading .	miscl. in multi	Now about your questions, it is very difficult for me to give you any advice about it. I don't know your cousin very well so I don't know what she prefers reading.	fully		
+			Now about your questions, it is very difficult for me to give any advice about it. I don't know your cousin very well so I don't know what she prefers reading.	partially		
+			Now about your questions, it is very difficult for me to give you any advice about it. I don't know what she prefers reading.	divergent		
+			Now about your questions, it is very difficult for me to give you any advice. I don't know your cousin very well so I don't know what she prefers reading.	divergent		
+			Now about your questions, it is very difficult for me to give you any advice. I don't know your cousin very well and I don't know what she prefers reading.	divergent		
+FP	Working long hours , doing plenty of activieties , going out , going on holidays .	wrong	Working long hours, doing plenty of activities, going out, going on holidays.	fully		
+			Working long hours, doing plenty of activities, going out, taking holidays.	divergent		
+			Working long hours, doing plenty of activities, going out, going on vacation.	divergent		
+			Working long hours, doing plenty of activities, going out, going on holiday.	divergent		
+			Working long hours, doing plenty of activities, going out, going on vacations.	divergent		
+FP	Okay , I hope to have news from you very soon .	wrong	Okay, I hope to have news from you very soon.	fully		
+			Okay, I hope to hear from you very soon.	divergent		
+			Okay, I hope to receive news from you soon.	divergent		
+			Okay, I hope to get news from you soon.	divergent		
+			Okay, I hope to be informed by you soon.	divergent		
+FP	Secondly , the show started at 20:15 instead of 19:30 , it 's a theatre but not a concert hall ! ! ! !	wrong	Secondly, the show started at 20:15 instead of 19:30. It's a theatre but not a concert hall!!!	fully		
+			Secondly, the show started at 20:15 instead of 19:30. It's a theatre but not a concert hall!	fully		
+			Secondly, the show started at 20:15 instead of 19:30. It's a theatre but not a concert hall	fully		
+			Secondly, the show started at 20:15 instead of 19:30; it's a theatre but not a concert hall!!!	fully		
+			Secondly, the show started at 20:15 instead of 19:30; it's a theatre but not a concert hall!	fully		
+FP	Firstly , I have had no discount at paying . secondly there was delay which got me into trouble , After the show I could n't catch my train .	wrong	Firstly, I have had no discount when paying.	divergent		
+			Secondly, there was a delay which got me into trouble. After the show, I couldn't catch my train.	divergent		
+			Firstly, I did not receive any discount when making payment.	divergent		
+			Secondly, there was a delay that caused problems for me. After the performance, I was unable to board my train.	divergent		
+			I have never received any discount while paying. Secondly, there was a delay which caused trouble. After the show, I failed to catch my train.	divergent		
+			Firstly, I did not get any discount when paying. Secondly, there was a delay that got me into trouble. After the performance, I could not catch my train.	divergent		
+FP	I could n't consentrate on the play any more .	wrong	I couldn't concentrate on the play any more.	fully		
+			I couldn't consentrate on the play anymore.	partially		
+			I couldn't consentrate on the play any more.	no modification		
+			I could not consentrate on the play any more.	divergent		
+			I could n't concentrate on the play anymore.	partially		
+FP	There has been change relatinships between people .	wrong	There has been a change in relationships between people.	fully		
+			There has been changes in relationships between people.	fully		
+			There has been changes relating to relationships between people.	divergent		
+			There has been a change in relationships among people.	divergent		
+			There has been a change in the relationships between people.	divergent		
+FP	In my opinion , the morden technology make our life style combinient .	miscl. in multi	In my opinion, modern technology makes our lifestyle convenient.	fully		
+			In my opinion, the modern technology makes our life convenient.	partially		
+			In my opinion, modern technology makes our lives convenient.	divergent		
+			In my opinion, modern technologies make our lifestyles convenient.	partially		
+			In my opinion, the modern technology makes our living convenient.	divergent		
+FP	I was promised that the starring was Danny Brock but when I was there I saw just other starring that was completely difference from your brochar .	wrong	I was promised that the starring role was Danny Brock, but when I was there, I saw just other stars that were completely different from your brochar.	divergent		
+			I was promised that the starring role was Danny Brock, but when I was there, I saw just other starring roles that were completely different from your brochar.	divergent		
+			I was promised that the starring was Danny Brock, but when I was there, I saw just other stars that were completely different from your Brock.	partially		
+			I was promised that the starring was Danny Brock, but when I was there, I saw just other starring that was completely different from your Brock.	divergent		
+			I was promised that the starring was Danny Brock, but when I was there, I saw just other starring that was completely difference from your Brock.	divergent		
+FP	I had to pay full prise .	wrong	I had to pay full price .	fully		
+FP	I would like you to give my money back as soon as possible .	plausible	I would like you to give me my money back as soon as possible.	fully		
+			I would like you to return my money as soon as possible.	divergent		
+			I would like you to give my money back??.	divergent		
+			I would like you to give back my money as soon as possible.	fully		
+			I would like you to give my money as soon as possible.	divergent		
+FP	Second of all , the play was suposed to start at 19:30 , but it started at 20:15 .	wrong	Second of all, the play was supposed to start at 19:30, but it started at 20:15.	fully		
+			Second of all, the play was supposed to start at 19:30, but it didn't start until 20:15.	divergent		
+			The second point is that the play was supposed to start at 19:30, but it started at 20:15.	divergent		
+			The second point is that the play was supposed to start at 19:30, but it didn't start until 20:15.	divergent		
+			Second, the play was supposed to start at 19:30, but it started at 20:15.	divergent		
+FP	Pat was worried , she did n't know what to do .	wrong	Pat was worried. She didn't know what to do.	divergent		
+			Pat was worried, but she didn't know what to do.	divergent		
+			Pat was worried; she didn't know what to do.	divergent		
+			Pat was worried: she didn't know what to do.	divergent		
+			Pat was worried. Didn't know what to do.	divergent		
+FP	Apologise me for disturb .	miscl. in multi	Apologize to me for disturbing.	divergent		
+			??????????	divergent		
+			Sorry for disturbing you.	fully		
+			Sorry for disturb.	divergent		
+FP	Everything was set ... the day and hour came .	wrong	Everything was set. The day and hour came.	divergent		
+			Everything was set. On the day and hour, it came.	divergent		
+			Everything was set; the day and hour arrived.	divergent		
+			Everything was set: the day and hour came.	divergent		
+			Everything was set... Then the day and hour came.	divergent		
+FP	There are some machines which have helped in my development , and others which help me to make my life easier .	wrong	There are some machines that have helped in my development, and others that help me to make my life easier.	fully		
+			There are some machines which have helped in my development, and others which help me to make my life easier.	fully		
+			There are some machines which have helped in my development and others which help me to make my life easier.	fully		
+			There are some machines which have helped in my development, and others that help me make my life easier.	fully		
+			There are some machines which have helped in my development, and others which help me make my lives easier.	divergent		
+FP	Firs of all Internet gives you an access to a great number of different information .	wrong	First of all, the Internet gives you access to a great number of different kinds of information.	divergent		
+			First of all, the Internet gives you access to a great deal of different information.	divergent		
+			First of all, the Internet gives you access to a vast amount of different information.	divergent		
+			First of all, the Internet provides you with access to a great number of different information.	divergent		
+			The Internet gives you access to a great number of different information.	divergent		
+FP	I would like to complain about the show which you presented on last saturday .	miscl. in multi	I would like to complain about the show which you presented last Saturday.	fully		
+			I would like to complain about the show that you presented on last Saturday.	partially		
+			I would like to complain about the show which you presented on Saturday.	divergent		
+			I would like to complain about the show which you presented last Saturday.	fully		
+			I would like to complain about the show which you presented on last Saturday.	partially		
+FP	There was a not on the door saying that the painting was going on the weekend .	miscl. in multi	There was a notice on the door saying that the painting would go on the weekend.	divergent		
+			There was a note on the door saying that the painting was going over the weekend.	fully		
+			There was a no on the door saying that the painting was going on the weekend.	divergent		
+			There was a not on the door saying that the painting was going this weekend.	divergent		
+			There was a notice on the door saying that the painting would go on the coming weekend.	divergent		
+FP	Finally the sentence was written blow down on the advertisement was absolutely not true .	wrong	Finally the sentence was written below down on the advertisement was absolutely not true.	divergent		
+			Finally the sentence was written below on the advertisement was absolutely not true.	divergent		
+			Finally the sentence was written blow on the advertisement was absolutely not true.	divergent		
+			Finally the sentence was written below down on the advertisement is absolutely not true.	divergent		
+			Finally the sentence was written below on the advertisement is absolutely not true.	divergent		
+FP	It took quite long time to adjust in the multi culture in the language institue .	miscl. in multi	It took quite a long time to adjust in the multicultural environment at the language institute.	divergent		
+			It took quite a long time to adjust to the multi-culture at the language institute.	fully		
+			It took quite a long time to adjust to the multicultural environment at the language institute.	divergent		
+			It took quite a long time to adjust to the multi-culture in the language institute.	fully		
+			It took quite a long time to adjust to the multicultural environment.	divergent		
+FP	One day she realized that I was always been outside of circle .	miscl. in multi	One day she realized that I was always outside the circle.	fully		
+			One day she realized that I had always been outside of the circle.	fully		
+			One day she realized that I was always outside the circle .	fully		
+			One day she realized that I was always outside the circle.	fully		
+			One day she realized that I was always been outside the circle.	divergent		
+FP	So , I had no perfect evening out and I want my money back .	wrong	So, I had no perfect evening out and I want my money back.	fully		
+			So, I didn't have a perfect evening out and I want my money back.	divergent		
+			So, I had no perfect night out and I want my money back.	divergent		
+			So, I had no perfect outing and I want my money back.	divergent		
+			So, I didn't have a perfect evening out and I want a refund.	divergent		
+FP	When Thomas Adison invented an electric light , it was the greatest invention for people of that centure .	wrong	When Thomas Edison invented an electric light, it was the greatest invention for people of that century.	fully		
+			When Thomas Edison invented an electric light, it was the greatest invention for people in that century.	divergent		
+			When Thomas Edison invented an electric light, it was the greatest invention for people during that century.	divergent		
+			When Thomas Edison invented an electric light, it was the greatest invention for people of that time.	divergent		
+			When Thomas Edison invented an electric light, it was the greatest invention for people at that time.	divergent		
+FP	On the other hand people can atrophided of all this inventions .	miscl. in multi	On the other hand, people can atrophy from all these inventions.	fully		
+			On the other hand, people can atrophied by all these inventions.	partially		
+			On the other hand, people can be atrophided by all this inventions.	partially		
+			On the other hand, people can atrophy from all this inventions.	partially		
+			On the other hand, people can atrophy from all these inventions.	fully		
+FP	The technology is growing and growing .	wrong	The technology is growing rapidly.	divergent		
+			The technology is growing and growing.	fully		
+FP	The new technology is changing our lives .	wrong	The new technology is changing our lives.	divergent		
+			The new technology changes our lives.	divergent		
+			New technology is changing our lives.	divergent		
+			The technology is changing our lives.	divergent		
+			New technologies are changing our lives.	divergent		
+FP	First day in London , I saw your advertisement which was very interesting to me .	wrong	First day in London I saw your advertisement which was very interesting to me	introducing error		
+			On my first day in London I saw your advertisement which was very interesting to me	partially		
+			First day in London I saw your ad which was very interesting to me	divergent		
+			On my first day in London I saw your ad which was very interesting to me	partially		
+			First day in London I saw your advertisement and it was very interesting to me	introducing error		
+FP	Second , I went to the theatre exactly seven thirty in the evening .	plausible	Second, I went to the theatre at exactly seven thirty in the evening.	fully		
+			Second, I went to the theatre at exactly thirty-seven in the evening.	divergent		
+			Second, I went to the theatre at exactly seven thirty in the evening .	fully		
+			Second, I went to the theatre at seven thirty in the evening.	divergent		
+			Second, I went to the theatre at exactly thirty-seven in the morning.	divergent		
+FP	However the show started 45 minutes later .	wrong	However, the show started 45 minutes later.	fully		
+			However, the show began 45 minutes later.	divergent		
+			However, the show started 45 minutes afterward.	divergent		
+			However, the show commenced 45 minutes later.	divergent		
+			However, the performance started 45 minutes later.	divergent		
+FP	Have you ever seen the film star wars ?	plausible	Have you ever seen the film Star Wars?	fully		
+			Have you ever seen the star wars?	divergent		
+			Have you ever seen a film Star Wars?	divergent		
+			Have you ever seen a star wars?	divergent		
+FP	And did you notice something about fashion of the future ?	wrong	And did you notice something about the fashion of the future?	fully		
+			And did you notice something about fashion in the future?	divergent		
+			And did you notice something about future fashion?	divergent		
+			Did you notice something about fashion of the future?	divergent		
+			Did you notice something about the fashion future?	divergent		
+FP	She had to be operated on and my family and I were very scared .	wrong	She had to be operated on, and my family and I were very scared.	fully		
+			She had to be operated on; my family and I were very scared.	divergent		
+			She had to be operated on, and my family and I were extremely scared.	divergent		
+			She had to be operated on, and my family and I were quite scared.	divergent		
+			She had to be operated on, and my family and I were very much scared.	divergent		
+FP	Last week I was on holiday in London and I went to the theatre for entertaining but I wish I 'd not go there because everythings went wrong .	miscl. in multi	Last week I was on holiday in London and I went to the theatre for entertainment but I wish I hadn't gone there because everything went wrong.	fully		
+			Last week I was on holiday in London and I went to the theatre for entertaining but I wish I hadn't go there because everything went wrong.	fully		
+			Last week I was on holiday in London and I went to the theatre for entertaining but I wish I'd not gone there because something went wrong.	divergent		
+			Last week I was on holiday in London and I went to the theatre for entertainment but I wish I'd not go there because everything went wrong.	fully		
+			Last week I was on holiday in London and I went to the theatre for entertainment but I wish I'd not gone there because things went wrong.	divergent		
+FP	All the time I am thinking about Peter .	wrong	All the time I am thinking about Peter.	fully		
+			All the time I think about Peter.	divergent		
+			All the time I am thinking of Peter.	divergent		
+			Every moment I am thinking about Peter.	divergent		
+			At all times I am thinking about Peter.	divergent		
+FP	It 's good that he far away ... I miss Peter very much , it 's unfair to put him in a prison .	wrong	It's good that he is far away... I miss Peter very much, it's unfair to put him in prison.	fully		
+			It's good that he is far away... I miss Peter very much, it's unfair to put him in a prison.	fully		
+			It's good that he is far away... I miss Peter very much, it is unfair to put him in prison.	fully		
+			It's good that he is far away... I miss Peter very much, it is unfair to put him in a prison.	fully		
+			It's good that he is far away... I miss Peter very much, it is unfair to put him in prison.	fully		
+FP	But it 's life , destiny , very cruel destiny ...	wrong	But it's life, cruel destiny...	divergent		
+			But it's destiny, very cruel destiny...	divergent		
+			But it's life, very cruel destiny...	divergent		
+			But it's life, cruel destiny	divergent		
+			But	divergent		
+FP	Afterwards I decided to go for a meal in the theatre restaurant, but it was closed.	miscl. in multi	Afterwards I decided to go for a meal in the theatre restaurant, but it was closed.	fully		
+			Afterwards I decided to go for a meal at the theatre restaurant but It was closed.	divergent		
+			Afterwards I decided to go for a meal at the theatre restaurant but it was closed.	divergent		
+			Afterwards I decided to go for a meal in the theatre's restaurant but it was closed.	fully		
+			Afterwards I decided to go for a meal in the theater restaurant but it was closed.	fully		

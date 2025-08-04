@@ -1,0 +1,946 @@
+error_type	sentence	model prediction	generated sentences	generated sentences eval			count genereted senteces		count original
+AGV	Fortunately today everyone can take an aeroplane and go to America , Australia or wherever else he wants !	wrong	Fortunately today everyone can take an aeroplane and go to America and Australia or wherever else he wants!	divergent	31	divergent	60		13
+			Fortunately today everyone can take a plane and go to America , Australia or wherever else he wants !	divergent	1	no modification			
+			Fortunately today everyone can take an aeroplane and go to America , Australia and wherever else he wants !	divergent	2	fully			
+			Fortunately today everyone can take an aeroplane and go to America , Australia or where else he wants !	introducing error	19	partially +			
+			Fortunately today everyone can take an aeroplane and go to America , Australia or wherever he wants !	divergent	0	partially -			
+AGV	Secondly , I would like to give you more details about the show and particularly what does it include .	wrong	Secondly, I would like to give you more details about the show and particularly what it includes.	fully	7	introducing error			
+			Secondly, I would like to give you more details about the show and especially what does it include.	divergent					
+			Secondly, I would like to give you more details about the show and especially what it includes.	partially +					
+			Secondly, I would like to give you more details about the show and particularly what it is.	divergent					
+			Secondly, I would like to give you more details about the show and what it includes.	partially +					
+AGV	Moreover there was no discount ticket .	grammatical	Moreover there was no discount ticket	partially +					
+			Moreover there were no discount tickets	partially +					
+			There was no discount ticket	divergent					
+			No discount ticket	introducing error					
+			Moreover no discount ticket	introducing error					
+AGV	For the fashion of the future , I think it depends on the people 's own personalities and develope their own styles which suits them the most .	wrong	For the fashion of the future, I think it depends on people's own personalities and developing their own styles which suit them the most.	partially +					
+			For the fashion of the future, I think it depends on people's own personalities and developing their own styles that suit them the most.	partially +					
+			For the fashion of the future, I think it depends on people's own personalities and developing their own styles for them the most.	divergent					
+			For the fashion of the future, I think it depends on people's own personalities and developing their own styles which they find the most suitable.	divergent					
+			For the fashion of the future, I think it depends on people's own personalities and developing their own styles that they find the most suitable.	divergent					
+AGV	I am not telling about some kind of achivements in those discipines but It is my big pasion	grammatical	I am not telling about some kinds of achievements in those disciplines but it is my big passion	introducing error					
+			I am not telling about any kind of achievements in those disciplines but it is my big passion	divergent					
+			I am not telling about some kind of achievements in those disciplines but it is my big passion	fully					
+			I am not telling about some kind of achievements in those disciplines but that is my big passion	divergent					
+			I am not telling about some kind of achievements in those disciplines but it is a big passion	partially +					
+AGV	I start thinking what she or he prefer and I try my best buying something apropiate does n't matter how much money does it cost .	wrong	I start thinking what she or he prefers and I try my best to buy something appropriate. Does it matter how much money it costs?	divergent					
+			I start thinking about what she or he prefers and I try my best to buy something appropriate. Does it matter how much money it costs?	partially +					
+			I start thinking what she or he prefers and I try my best buying something appropriate does n't matter how much money it costs.	partially +					
+			I start thinking what she or he prefers and I try my best buying something appropriate does n't matter how much it costs.	partially +					
+			I start thinking what she or he prefers and I try my best to buy something appropriate. Does n't matter how much money it costs.	divergent					
+AGV	The rooms and size should remain as it was and the living rooms and all may still be decorated in the same style .	wrong	The rooms and size should remain as it was. And the living rooms and all may still be decorated in the same style.	introducing error					
+			The rooms and their size should remain as they were. And the living rooms and all may still be decorated in the same style.	introducing error					
+			The rooms and their size should remain as it was. And the living rooms and all may still be decorated in the same style.	partially +					
+			The rooms and size should remain as it was. The living rooms and all may still be decorated in the same style.	partially +					
+			The rooms and size should remain as they were. And the living rooms and all may still be decorated in the same style.	divergent					
+AGV	Another thing I would like to choose from the activity list is singing ( because I take part in a chorus at school ) and photography .	wrong	Another thing I would like to choose from the activity list is singing because I take part in a chorus at school and photography.	divergent					
+			Another thing I would like to choose from the activity list is singing (because I take part in a chorus at school) and photography.	divergent					
+			Another thing I would like to choose from the activity list is singing because I take part in a chorus at school or photography.	partially +					
+			Another thing I would like to choose from the activity list is singing (because I take part in a chorus at school or photography).	divergent					
+			Another thing I would like to choose from the activity list is singing and photography because I take part in a chorus at school.	partially +					
+AGV	The area for parking , space for play grown to the children or bus station near the mall is not really appropiate .	wrong	The area for parking, space for play has grown to the children or bus station near the mall is not really appropriate.	divergent					
+			The area for parking, space for play has grown to the children and a bus station near the mall is not really appropriate.	divergent					
+			The area for parking, space for play has grown to children or there is a bus station near the mall and it is not really appropriate.	divergent					
+			The area for parking, space for play has grown to children or there is a bus station near the mall which is not really appropriate.	divergent					
+			The area for parking, space for play has grown to children or there is a bus station near the mall and this is not really appropriate.	partially +					
+AGV	Also , I would like to join basketball team , I used to play basketball when I was in high school , and our high school basketball team have won many competitions during last ten years in our city .	wrong	Also I would like to join the basketball team I used to play basketball when I was in high school and our high school basketball team has won many competitions during the last ten years in our city	partially +					
+AGV	Are there some possibility to rent the golfshoes ?	plausible	Are there some possibilities to rent the golf shoes?	partially +					
+			Are there any possibility to rent the golf shoes?	divergent					
+			Are there some possibility to rent the golf shoes?	partially +					
+			Are there some possibilities to rent the golfshoes?	divergent					
+			Is there any possibility to rent the golf shoes?	divergent					
+AGV	In other hand you ask me I have the chance for to choose two activities while I am at the camp . but is no easy , because all is very interesting for me .	plausible	In other hand you ask me I have the chance for to choose two activities while I am at the camp. but is no easy, because all is very interesting for me.	partially +					
+			In other hands you ask me I have the chance to choose two activities while I am at the camp. but is not easy, because all is very interesting for me.	divergent					
+			In other hand you ask me I have the chance to choose two activities while I am at the camp. but it is no easy, because all is very interesting for me.	no modification					
+			In other hand you ask me I have the chance to choose two activities while I am at the camp. but it is not easy, because all is very interesting for me.	divergent					
+			In other hand you ask me I have the chance to choose two activities while I am at the camp. but this is no easy, because all is very interesting for me.	introducing error					
+AGV	However , during my stay at Camp , there are two activities I can choose , one of them I will choose Basketball because it is the sport I play most , I and my friend used to win the first place in school - wide match when we was in school .	wrong	However, during my stay at Camp, there are two activities I can choose from. One of them I will choose Basketball because it is the sport I play most. I and my friend used to win the first place in school-wide matches when we were in school.	divergent					
+			However, during my stay at Camp, there are two activities I can choose from. One of them I will choose basketball because it is the sport I play the most. I and my friend used to win the first place in school-wide matches when we were in school.	divergent					
+			However, during my stay at Camp, there are two activities I can choose from. One of them I will choose Basketball because it is the sport I played most. I and my friend used to win the first place in school-wide matches when we were in school.	divergent					
+			However, during my stay at Camp, there are two activities I can choose from. One of them I will choose Basketball because it is the sport I play most. I and my friend used to win the first place in school-wide matches when we was in school.	divergent					
+AGN	About accommodation during these two weeks at the Camp I would prefer log cabins ; because maybe is more interesting to share with other people .	grammatical	About accommodation during these two weeks at the camp, I would prefer log cabins; because it is more interesting to share with other people.	divergent	63		132		27
+			About accommodation during these two weeks at the camp, I would prefer log cabins; maybe is more interesting to share with other people.	divergent	2				
+			About accommodation during these two weeks at the camp, I would prefer log cabins; because maybe is more interesting to share with other people.	partially +	27				
+			About accommodation during these two weeks at the camp, I would prefer log cabins; because it is more interesting to share with others.	fully	31				
+			About accommodation during these two weeks at the camp, I would prefer log cabins; because it may be more interesting to share with other people.	partially -	4				
+			About accommodation during these two weeks at Camp, I would prefer log cabins; because maybe is more interesting to share with other people.	partially -	5				
+AGN	Since the eletric fire and microwave oven had been invented , their life have been far easier than before .	wrong	Since the electric fire and microwave oven had been invented, their lives have been far easier than before.	partially +					
+			Since electric fires and microwave ovens had been invented, their life has been far easier than before.	fully					
+			Since electric fires and microwave ovens had been invented, their lives have been far easier than before.	no modification					
+			Since the electric fire and microwave ovens had been invented, their life have been far easier than before.	divergent					
+			Since the electric fire and microwave ovens had been invented, their lives have been far easier than before.	divergent					
+AGN	In the letter you said that accommodation provided can be either tents or log cabins .	grammatical	In the letter, you said that accommodation provided can be either tents or log cabins.	divergent					
+			In the letter you said that the accommodation provided can be either tents or log cabins.	divergent					
+			In the letter you said that accommodations provided can be either tents or log cabins.	partially +					
+			In the letter you said that the accommodations provided can be either tents or log cabins.	partially +					
+			In the letter, you said that the accommodations provided can be either tents or log cabins.	partially +					
+AGN	I hope you find my opinion useful .	grammatical	I hope you find my opinion useful.	partially +					
+			I hope you find my opinions useful.	fully					
+			I hope you find my opinion usefully.	introducing error					
+			I hope you will find my opinion useful.	divergent					
+			I hope you find my viewpoint useful.	divergent					
+AGN	Moreover there was no discount ticket .	grammatical	Moreover there was no discount ticket.	fully					
+			Moreover there were no discount tickets.	fully					
+			There was no discount ticket.	divergent					
+			No discount ticket was available.	divergent					
+			There wasn't a discount ticket.	divergent					
+AGN	I would prefer to stay in tents rather than in log cabins , because it would be a new experience for me and I would like to try something different .	grammatical	I would prefer to stay in tents rather than log cabins because it would be a new experience for me and I would like to try something different.	fully					
+			I would prefer staying in tents rather than in log cabins because it would be a new experience for me and I would like to try something different.	divergent					
+			I would prefer to stay in tents rather than log cabins, because it would be a new experience for me and I would like to try something different.	fully					
+			I would prefer to stay in tents rather than in log cabins; because it would be a new experience for me and I would like to try something different.	introducing error					
+			I would prefer staying in tents rather than log cabins because it would be a new experience for me and I would like to try something different.	divergent					
+AGN	Why did you not change the name of your advertisement ?	grammatical	Why didn't you change the name of your advertisement?	partially +					
+			Why did you fail to change the name of your advertisement?	divergent					
+			Why didn't you alter the name of your advertisement?	divergent					
+			Why didn't you modify the name of your advertisement?	divergent					
+			Why didn't you update the name of your advertisement?	divergent					
+AGN	I would prefer tents because I have never stay in tents before and I am wondering how it is going to be like And among these activities I am choosing basketball and swimming .	wrong	I would prefer tents because I have never stayed in tents before and I am wondering how it is going to be like. And among these activities, I am choosing basketball and swimming.	fully					
+			I would prefer tents because I have never stayed in tents before and I am wondering how it will be like. And among these activities, I am choosing basketball and swimming.	divergent					
+			I would prefer tents because I have never stayed in tents before and I wonder how it is going to be like. And among these activities, I choose basketball and swimming.	divergent					
+			I would prefer tents because I have never stayed in tents before and I am wondering how it will be like. And among these activities, I am choosing basketball and swimming.	divergent					
+			I would prefer staying in tents because I have never stayed in tents before and I am wondering how it is going to be like. And among these activities, I am choosing basketball and swimming.	divergent					
+AGN	Our life will be managed by robots and they will replace us in our jobs .	grammatical	Our lives will be managed by robots and they will replace us in our jobs.	fully					
+			Our life will be managed by robots and they will replace us with other robots.	divergent					
+			Our lives will be managed by robots and they will replace us for our jobs.	divergent					
+			Our lives will be managed by robots and they will take our jobs.	divergent					
+			Our lives will be managed by robots and we will lose our jobs.	divergent					
+AGN	About accommodation , I would prefer log cabins , because I have a problem in my back .	grammatical	About accommodation, I would prefer log cabins because I have a problem with my back.	partially +					
+			About accommodations, I would prefer log cabins because I have a problem with my back.	partially +					
+			I would prefer log cabins for accommodation because I have a problem with my back.	divergent					
+			I would prefer log cabins regarding accommodation because I have a problem with my back.	divergent					
+			About accommodation, I would prefer log cabins as I have a problem with my back.	divergent					
+AGN	As state in your letter I have to choose the accommodation type . I would prefer to stay in tents because since I was a child I have being using this type of accommodation .	grammatical	As stated in your letter, I have to choose the accommodation type. I would prefer to stay in tents because since I was a child, I have been using this type of accommodation.	fully					
+			As state in your letter I have to choose the accommodation type I would prefer to stay in tents because since I was a child I have being use this type of accommodation	introducing error					
+			As stated in your letter I have to choose the accommodation type. I would prefer to stay in tents because since I was a child I have been using another type of accommodation	divergent					
+			As stated in your letter I have to choose the accommodation type. I would prefer to stay in tents because since I was a child I have being use this type of accommodation	partially +					
+			As stated in your letter I have to choose the accommodation type. I would prefer to stay in tents because since I was a child I have been using this type of accommodation	partially +					
+AGN	For the accommodation I would like to have log cabins rather than tents because two weeks is quite a long time and I think they are more comfortable and give you more privacy .	grammatical	For the accommodation, I would like to have log cabins rather than tents because two weeks is quite a long time and I think they are more comfortable and give you more privacy.	fully					
+			For the accommodation, I would prefer log cabins rather than tents because two weeks is quite a long time and I think they are more comfortable and give you more privacy.	divergent					
+			The accommodation: I would like to have log cabins rather than tents because two weeks is quite a long time and I think they are more comfortable and give you more privacy.	divergent					
+			For the accommodation, I prefer log cabins rather than tents because two weeks is quite a long time and I think they are more comfortable and give you more privacy.	divergent					
+			For the accommodation, I would like to have log cabins instead of tents because two weeks is quite a long time and I think they are more comfortable and give you more privacy.	fully					
+AGN	But everyone always noticed he had secrets from his face .	grammatical	But everyone always noticed that he had secrets from his face.	divergent					
+			But everyone always noticed his secrets from his face.	divergent					
+			But everyone always noticed him with secrets in his face.	divergent					
+			But everyone always noticed something about him that revealed his secrets.	divergent					
+			But everyone always noticed secrets in his face.	divergent					
+AGN	Whenever he has secrets , his nose moves quickly .	grammatical	Whenever he has secrets, his nose moves quickly.	fully					
+			Whenever he has a secret, his nose moves quickly.	fully					
+			When he has secrets, his nose moves quickly.	divergent					
+			Whenever he has secrets, his nose moves rapidly.	divergent					
+			Whenever he keeps secrets, his nose moves quickly.	divergent					
+AGN	For all these reason , I want to ask for my money back and I hope to hear from you soon !	wrong	For all these reasons, I want to ask for my money back and I hope to hear from you soon!	fully					
+			For all these reasons, I want to ask for a refund and I hope to hear from you soon!	divergent					
+			For all these reasons, I want to request a refund and I hope to hear from you soon!	divergent					
+			For all these reasons, I want to ask for my money back and hopefully will hear from you soon!	divergent					
+			For all these reasons, I want to ask for my money back and I hope to hear from you as soon as possible!	divergent					
+AGN	Also , it was certain to me to bought a discount tickets cause I am a student .	wrong	Also, it was certain to me that I bought a discount ticket because I am a student.	partially +					
+			Also, it was certain to me that I buy a discount ticket because I am a student.	partially +					
+			Also, it was certain for me to have bought a discount ticket because I am a student.	partially +					
+			Also, it was certain to me to have bought a discount tickets because I am a student.	divergent					
+			Also, it was certain to me to buy a discount ticket because I am a student.	partially +					
+AGN	I would prefer an accomodation in log cabins because I am not keen on tents and I think that a log cabin is more comfortable than a tent .	wrong	I would prefer accommodation in log cabins because I am not keen on tents and I think that a log cabin is more comfortable than a tent.	partially +					
+			I would prefer an accommodation in log cabins because I am not keen on tents and I think that a log cabin is more comfortable than a tent.	fully					
+			I would prefer an accommodation in log cabins because I am not keen on tents and I think log cabins are more comfortable than tents.	divergent					
+			I would prefer an accommodation in log cabins because I am not keen on tents and I think that log cabins are more comfortable than tents.	divergent					
+			I would prefer an accommodation in log cabins because I am not a fan of tents and I think log cabins are more comfortable than tents.	divergent					
+AGN	With the accomodation , I would prefered tents becase it is more according with a camp .	grammatical	With the accommodation, I would prefer tents because it is more appropriate for a camp.	partially +					
+			With the accommodation, I would prefer tents since it is more according with a camp.	divergent					
+			With the accommodation, I would prefer tents as it is more according with a camp.	divergent					
+			With the accommodation, I would preferred tents because it is more according with a camp.	partially -					
+			With the accommodation, I would preferred tents because it is more appropriate for a camp.	partially +					
+AGN	"But I could n't shut my mouth , I continued : """""""" You ca n't believe it Pat , she wears trousers like men and green flowery blouses """""""" Of course , my friend and I were laughing during half an hour ."	grammatical	"But I couldn't shut my mouth. I continued: ""You can't believe it, Pat. She wears trousers like men and green flowery blouses."" Of course, my friend and I were laughing for half an hour."	fully					
+AGN	There were n't any discount available as you 'd assured in the add .	wrong	There weren't any discounts available as you'd assured in the ad.	partially +					
+			There weren't any discounts available as you'd assured in the add.	fully					
+			There were no discounts available as you'd assured in the ad.	divergent					
+			There were no discounts available as you'd assured in the add.	divergent					
+			There were no discounts available as you'd assured in the advertisement.	divergent					
+AGN	Before the concert actually started I had to give out lots of leaflets , they are list of pop band and group which will appear in the concert in order , and some information about their performance and backgrounds .	wrong	Before the concert actually started, I had to give out lots of leaflets. They are lists of pop bands and groups which will appear at the concert in order, and some information about their performances and backgrounds.	fully					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop band and group names which will appear at the concert in order, and some information about their performance and backgrounds.	partially +					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop bands and groups which will appear in the concert in order, and some info about their performances and backgrounds.	fully					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop band and group names which will appear at the concert in order, and some information about their performance and background.	divergent					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop bands and groups which will perform at the concert in order, and some info about their performances and backgrounds.	divergent					
+AGN	PEOPLE , WHO DON'T LIKE SHOPPING HAVE THEIR OWN REASONS OF THIS SITUATIONS ( MAYBE THEY HAD AN ACCIDENT WITH A RUDE SHOP - ASSISTANCE , BOUGHT NOT FRESH FOOD ONE DAY AND DO NOT WANT TO DO THAT ANY MORE , HAD BAD EXPERIENCE WITH OTHER PEOPLE IN SHOPS ) .	plausible	PEOPLE WHO DON'T LIKE SHOPPING HAVE THEIR OWN REASONS FOR THIS SITUATION (MAYBE THEY HAD AN ACCIDENT WITH A RUDE SHOP-ASSISTANCE, BOUGHT NOT FRESH FOOD ONE DAY AND DO NOT WANT TO DO THAT ANY MORE, HAD BAD EXPERIENCE WITH OTHER PEOPLE IN SHOPS).	partially +					
+			PEOPLE WHO DON'T LIKE SHOPPING HAVE THEIR OWN REASONS FOR THIS SITUATION (MAYBE THEY HAD AN ACCIDENT WITH A RUDE SHOP ASSISTANCE, BOUGHT NOT FRESH FOOD ONE DAY AND DO NOT WANT TO DO THAT ANY MORE, HAD BAD EXPERIENCE WITH OTHER PEOPLE IN SHOPS).	partially +					
+			PEOPLE WHO DON'T LIKE SHOPPING HAVE THEIR OWN REASONS FOR THIS SITUATION (MAYBE THEY HAD AN ACCIDENT WITH A RUDE SHOP-ASSISTANCE, BOUGHT NOT FRESH FOOD ONE DAY AND DO NOT WANT TO DO THAT ANY MORE, BAD EXPERIENCE WITH OTHER PEOPLE IN SHOPS).	partially +					
+			PEOPLE WHO DON'T LIKE SHOPPING HAVE THEIR OWN REASONS FOR THIS SITUATION (MAYBE THEY HAD AN ACCIDENT WITH A RUDE SHOP ASSISTANCE, BOUGHT NOT FRESH FOOD ONE DAY AND DO NOT WANT TO DO THAT ANY MORE, BAD EXPERIENCE WITH OTHER PEOPLE IN SHOPS).	partially +					
+			PEOPLE WHO DON'T LIKE SHOPPING HAVE THEIR OWN REASONS FOR THIS SITUATION (MAYBE THEY HAD AN ACCIDENT WITH A RUDE SHOP-ASSISTANCE, BOUGHT NOT FRESH FOOD AND DO NOT WANT TO DO THAT ANY MORE, BAD EXPERIENCE WITH OTHER PEOPLE IN SHOPS).	partially +					
+AGN	WE THINK IS A GRATE OPORTUNITY , BECAUSE AS YOU KNOW , WE DON'T HAVE ACCES TO THAT KIND OF SHOWS IN THIS CITY .	idk	WE THINK IT IS A GREAT OPPORTUNITY, BECAUSE AS YOU KNOW, WE DON'T HAVE ACCESS TO THAT KIND OF SHOWS IN THIS CITY.	fully					
+			WE THINK IT IS A GRATE OPPORTUNITY, BECAUSE AS YOU KNOW, WE DON'T HAVE ACCES TO THAT KIND OF SHOWS IN THIS CITY.	no modification					
+			WE THINK IT IS A GREAT OPPORTUNITY, BECAUSE AS YOU KNOW, WE DON'T HAVE ACCES TO THAT KIND OF SHOWS IN THIS CITY.	partially +					
+			WE THINK IT IS A GREAT OPPORTUNITY BECAUSE AS YOU KNOW WE DON'T HAVE ACCESS TO THAT KIND OF SHOWS IN THIS CITY	introducing error					
+			WE THINK IS A GRATE OPPORTUNITY BECAUSE AS YOU KNOW WE DON'T HAVE ACCESS TO THAT KIND OF SHOWS IN THIS CITY	introducing error					
+AGN	IN MY OPINION , PEOPLE WILL GIVE IMPORTANCE TO HOW THEIR PERSONALITY DEVELOP AND THEY WILL GIVE UP WORRYING ABOUT WHAT THEY WEAR .	plausible	IN MY OPINION, PEOPLE WILL GIVE IMPORTANCE TO HOW THEIR PERSONALITY DEVELOPS AND THEY WILL GIVE UP WORRYING ABOUT WHAT THEY WEAR.	fully					
+			IN MY OPINION, PEOPLE WILL GIVE IMPORTANCE TO HOW THEIR PERSONALITY IS DEVELOPING AND THEY WILL GIVE UP WORRYING ABOUT WHAT THEY WEAR.	divergent					
+			IN MY OPINION, PEOPLE WILL GIVE IMPORTANCE TO HOW THEIR PERSONALITY DEVELOPS AND THEY WILL GIVE UP WORRYING ABOUT THE CLOTHES THEY WEAR.	divergent					
+			IN MY OPINION, PEOPLE WILL GIVE IMPORTANCE TO HOW THEIR PERSONALITY DEVELOPS AND THEY WILL STOP WORRYING ABOUT WHAT THEY WEAR.	fully					
+			IN MY OPINION, PEOPLE WILL ATTACH IMPORTANCE TO HOW THEIR PERSONALITY DEVELOPS AND THEY WILL GIVE UP WORRYING ABOUT WHAT THEY WEAR.	divergent					
+AGN	To spend the two weeks I would prefer to live in tents , that 's in my opinion a way to be nearer the enviroment and the animals , although I do n't mind living in log cabins .	wrong	To spend the two weeks, I would prefer to live in tents. That's in my opinion a way to be nearer to the environment and the animals. Although I don't mind living in log cabins.	fully					
+			To spend the two weeks, I would prefer to live in tents. That's, in my opinion, a way to be nearer to the environment and the animals. Although I don't mind living in log cabins.	fully					
+			To spend the two weeks I would prefer to live in tents. That's in my opinion a way to be nearer to the environment and the animals. Although I don't mind living in log cabins.	fully					
+			To spend the two weeks, I would prefer to live in tents. That's in my opinion a way to be nearer to the environment and the animals although I don't mind living in log cabins.	fully					
+			To spend the two weeks, I would prefer to live in tents that's in my opinion a way to be nearer to the environment and the animals although I don't mind living in log cabins.	partially +					
+AGN	I would like to travel in July for two reason one 's is because I totaly will finish my exam in that date and the other in the first two week I will go to Farnborought is special 10 days the presentation the Air show and will be there the delegation from my country .	wrong	I would like to travel in July for two reasons. One is because I will totally finish my exam on that date, and the other is that in the first two weeks I will go to Farnborough-special 10 days of the Air Show, and there will be the delegation from my country.	partially +					
+			I would like to travel in July for two reasons. One is because I will totally finish my exams on that date, and the other is that in the first two weeks I will go to Farnborough-is special 10 days of the Air show, and there will be the delegation from my country.	divergent					
+			I would like to travel in July for two reasons. One's is because I will totally finish my exam on that date, and the other is that in the first two weeks I will go to Farnborough-is special 10 days of the Air show, and there will be the delegation from my country.	partially +					
+			I would like to travel in July for two reasons. One is because I will totally finish my exams on that date, and the other in the first two week I will go to Farnborough-special 10 days the presentation the Air show and will be there the delegation from my country.	divergent					
+			I would like to travel in July for two reasons. One's is because I will totally finish my exam on that date, and the other in the first two weeks I will go to Farnborough-is special 10 days of the Air show, and there will be the delegation from my country.	partially +					
+AGN	The reasons I am really writing , However , is to give you some details of my trip to California .	plausible	The reasons I am really writing, however, is to give you some details of my trip to California.	partially -					
+			The reasons for which I am really writing, however, is to give you some details of my trip to California.	divergent					
+			The reasons I am really writing, however, are to give you some details of my trip to California.	partially +					
+			The reasons why I am really writing, however, is to give you some details of my trip to California.	divergent					
+			The reasons why I am really writing, however, are to give you some details of my trip to California.	divergent					
+TV	Secondly , in the advertisement the discounts are available but in the tickets I bought they were no discount .	grammatical	Secondly, in the advertisement, the discounts are available, but in the tickets I bought, there was no discount.	fully	122		265		54
+			Secondly, in the advertisement, the discounts are available, but in the tickets I bought, they had no discount.	divergent	9				
+			Secondly, in the advertisement, the discounts are available, but in my purchased tickets, there were no discounts.	divergent	46				
+			Secondly, in the advertisement, the discounts are available, but when I bought the tickets, there was no discount.	divergent	21				
+			Secondly, in the advertisement, the discounts are available, but in the tickets I purchased, they had no discount.	divergent	47				
+TV	I am glad I had taken a part in a few competitions , and I was so proud of our basketball team .	wrong	I am glad I had taken part in a few competitions and I was so proud of our basketball team.	partially -	20				
+			I am glad I took part in a few competitions and I was so proud of our basketball team.	fully					
+			I am glad I had taken part in a few competitions and I am so proud of our basketball team.	divergent					
+			I am glad I had participated in a few competitions and I was so proud of our basketball team.	divergent					
+			I am glad I had taken part in a few competitions and I was so proud of the basketball team.	divergent					
+TV	So , that 's everything that I can tell you , I enjoy a lot and I hope to have another experience like this .	grammatical	So, that's everything I can tell you. I enjoy a lot and I hope to have another experience like this.	partially +					
+			So, that's everything I can tell you. I enjoy it a lot and I hope to have another experience like this.	divergent					
+			So, that's everything I can tell you. I enjoy it a lot and I hope to have such an experience again.	divergent					
+			So, that's everything I can tell you. I enjoy it a lot and I hope to have another similar experience.	divergent					
+			So, that's everything I can tell you. I enjoy it a lot and I hope to have another experience like this.	fully					
+TV	I recently had a holiday in London and had been to your musical show ' Over the Rainbow ' but found it very disappointing .	wrong	I recently had a holiday in London and had been to your musical show 'Over the Rainbow' but found it very disappointing.	no modification					
+			I recently had a holiday in London and have been to your musical show 'Over the Rainbow' but found it very disappointing.	divergent					
+			I recently had a holiday in London and went to your musical show 'Over the Rainbow' but found it very disappointing.	fully					
+			I recently had a holiday in London and attended your musical show 'Over the Rainbow' but found it very disappointing.	divergent					
+			I recently had a holiday in London and saw your musical show 'Over the Rainbow' but found it very disappointing.	divergent					
+TV	There was no discount at all which is in contrast with ' Discounts Availabe ' .	grammatical	"There was no discount at all, which is in contrast with ""Discounts Available""."	fully					
+			There was no discount at all which is in contrast with Discounts Available	introducing error					
+			There was no discount at all which is in contrast with Discounts Available.	partially +					
+			There was no discount at all which is in contrast with discounts available.	partially +					
+			There was no discount at all.	divergent					
+TV	The Francis 's secret was discovered !	grammatical	The Francis's secret was discovered!	no modification					
+			The Francis 's secret was found!	divergent					
+			Francis's secret was discovered!	partially +					
+			Francis's secret was found!	divergent					
+			The Francis secret was discovered!	introducing error					
+TV	There are a lot of reasons that could be awful to go shopping .	wrong	There are a lot of reasons that could be awful for going shopping.	divergent					
+			There are lots of reasons that could be awful to go shopping.	divergent					
+			There are many reasons that could be awful to go shopping.	divergent					
+			There are a lot of reasons that could be awful when going shopping.	divergent					
+			There are a lot of reasons that could be awful to do some shopping.	divergent					
+TV	When I feel me comfortable for shopping everything will be closed or you haven't enough time to look around .	wrong	When I feel comfortable shopping, everything will be closed, or you don't have enough time to look around.	partially -					
+			When I feel comfortable for shopping, everything will be closed or you do not have enough time to look around.	divergent					
+			When I feel comfortable shopping, everything will be closed or you haven't enough time to look around.	partially -					
+			When I feel comfortable for shopping, everything will be closed or you don't have enough time to look around.	divergent					
+			When I feel comfortable shopping, everything will be closed, or you do not have sufficient time to look around.	divergent					
+TV	I really wanted to learn how to swim .	grammatical	I really wanted to learn how to swim	introducing error					
+TV	You ca n't imagine How much did I enjoy that journey .	wrong	You can't imagine how much I enjoyed that journey.	fully					
+			You can't imagine how much did I enjoy that journey.	partially -					
+			How much did I enjoy that journey?	divergent					
+			You can't imagine how I enjoyed that journey.	divergent					
+			You can't imagine that journey was enjoyable.	divergent					
+TV	That evening which should be my perfect evening out , was in fact very tireing and boring .	wrong	That evening, which should have been my perfect evening out, was in fact very tiring and boring.	fully					
+			That evening which should have been my perfect evening out was in fact very tiring and boring	introducing error					
+			That evening, which should be my perfect evening out, was in fact very tiring and boring	partially -					
+			That evening which is my perfect evening out, was in fact very tiring and boring	divergent					
+			That evening which should have been my perfect evening out, was in fact very tiring and boring	partially +					
+TV	I 'm a italian student who has come to the last International Arts Festival .	grammatical	I'm an Italian student who has come to the last International Arts Festival.	fully					
+			I'm an Italian student who came to the last International Arts Festival.	fully					
+			I'm an Italian student who has come to the last arts festival.	divergent					
+			I'm a Italian student who has come to the last International Arts Festival.	no modification					
+			I'm an Italian student who has come to last International Arts Festival.	divergent					
+TV	We became passive people , we follow the same routine every day and we live in a society where rules are strongly fixed .	grammatical	We became passive people. We follow the same routine every day, and we live in a society where rules are strongly fixed.	fully					
+			We became passive people. We follow the same routine every day, and we live in a society where rules are firmly established.	divergent					
+			We become passive people. We follow the same routine every day, and we live in a society where rules are strongly fixed.	fully					
+			We became passive individuals. We follow the same routine every day, and we live in a society where rules are strongly fixed.	divergent					
+			We became passive people; we follow the same routine every day, and we live in a society where rules are strongly fixed.	fully					
+TV	I 've seen your festival and I would like to give you my suggestions to it .	grammatical	I've seen your festival and I would like to give you my suggestions.	divergent					
+			I've seen your festival and I would like to give you my suggestions about it.	fully					
+TV	Moreover , I was shocked by the reason for which it was closed : the chef went away after he received a phone call !	grammatical	Moreover, I was shocked by the reason for which it was closed: The chef went away after he received a phone call!	introducing error					
+			Moreover, I was shocked by the reason for which it was closed: After the chef received a phone call, he went away!	introducing error					
+			Moreover, I was shocked by the reason for which it was closed: The chef left after receiving a phone call!	introducing error					
+			Moreover, I was shocked by the reason for which it was closed: He received a phone call and then the chef went away!	introducing error					
+			Moreover, I was shocked by the reason for which it was closed: The chef went away upon receiving a phone call!	introducing error					
+TV	One day , I was falling in love with closest freind .	wrong	One day, I was falling in love with my closest friend.	partially -					
+			One day, I fell in love with my closest friend.	fully					
+			One day, I was falling in love with a close friend.	divergent					
+			One day, I was falling in love with my best friend.	divergent					
+			One day, I was falling in love with the closest friend.	divergent					
+TV	When finally the show had started I found out that Danny Brook was replaced by another actor .	wrong	When finally the show had started, I found out that Danny Brook was replaced by another actor.	no modification					
+			When the show had finally started, I found out that Danny Brook was replaced by another actor.	partially -					
+			When the show had started, I found out that Danny Brook was replaced by another actor.	divergent					
+			When the show had started, I discovered that Danny Brook was replaced by another actor.	divergent					
+			When the show had started, I realized that Danny Brook was replaced by another actor.	divergent					
+TV	I have almost forgotten to mention that it is free for students !	grammatical	I have almost forgotten to mention that it is free for students.	divergent					
+			I have nearly forgotten to mention that it is free for students.	divergent					
+			I almost forgot to mention that it is free for students!	fully					
+			I nearly forgot to mention that it is free for students.	partially +					
+			I have forgotten to mention that it is free for students.	divergent					
+TV	I have got very responsible work I had to bring food for Peter Bolen and Tomas Anders .	wrong	I have got very responsible work. I had to bring food for Peter Bolen and Tomas Anders.	no modification					
+			I have got very responsible work. I had to bring food for Peter Bolen and Tomas Anders.	no modification					
+			I have got very responsible work. I had to bring food for Peter Bolen and Tomas Anderson.	divergent					
+			I have a very responsible job. I had to bring food for Peter Bolen and Tomas Anders.	divergent					
+			I have a very responsible job. I had to bring food for Peter Bolen and Tomas Anderson.	divergent					
+TV	This has been scheduled 3 months ago .	grammatical	This has been scheduled 3 months before.	fully					
+			This was scheduled 3 months ago.	fully					
+			This has been planned 3 months ago.	divergent					
+			This was set for 3 months ago.	divergent					
+			This had been arranged 3 months prior.	divergent					
+TV	I only put the speakers in the right places , or helping engieners tested the lights .	wrong	I only put the speakers in the right places, or helping engineers test the lights.	partially -					
+			I only put the speakers in the right places.	divergent					
+			I only put the speakers in the correct places, or helping engineers tested the lights.	divergent					
+			I only put the speakers in the right places, or helped engineers test the lights.	fully					
+			I only put the speakers in the right places, or helped engineers test the lights.	fully					
+TV	It is only two or three years since I have used a computer at home , but now I wonder how I can live without it .	grammatical	It is only two or three years since I have used a computer at home, but now I wonder how I can live without it.	no modification					
+			It is only two or three years since I used a computer at home, but now I wonder how I can live without it.	divergent					
+			It is only two or three years since I have been using a computer at home, but now I wonder how I can live without it.	divergent					
+			It is only two or three years since I use a computer at home, but now I wonder how I can live without it.	divergent					
+			It is only two or three years since I used a computer at home, but now I wonder how I could live without it.	partially +					
+TV	Maria talked to Pat about the stupid thing that she did , but Pat refused to apologaising to her , because she felt it was n't a mistake and she did it for only one reason : help Maria to get the man that she loved .	grammatical	Maria talked to Pat about the stupid thing that she did, but Pat refused to apologize to her because she felt it wasn't a mistake and she did it for only one reason: to help Maria get the man that she loved.	partially -					
+			Maria talked to Pat about the stupid thing that she did, but Pat refused to apologizing to her because she felt it was n't a mistake and she did it for only one reason: help Maria to get the man that she loved.	partially -					
+			Maria talked to Pat about the stupid thing that she did, but Pat refused to apologize to her because she felt it wasn't a mistake and she did it for only one reason: to help Maria get the man that she loved.	partially -					
+			Maria talked to Pat about the stupid thing that she did, but Pat refused to apologizing to her because she felt it was n't a mistake and she did it for only one reason: to help Maria get the man that she loved.	partially -					
+			Maria talked to Pat about the stupid thing that she did, but Pat refused to apologize to her because she felt it wasn't a mistake and she did it for only one reason: to help Maria get the man that she loved.	partially -					
+TV	Just after Scala told her the new , Pat phoned her mother who worked in a bakery , to tell that Scala is pregnant .	wrong	Just after Scala told her the news, Pat phoned her mother who worked in a bakery to tell that Scala is pregnant.	partially -					
+			Just after Scala told her the new, Pat phoned her mother who worked in a bakery to tell that she is pregnant.	divergent					
+			Just after Scala told her the new, Pat phoned her mother who works in a bakery to tell that Scala is pregnant.	divergent					
+			Just after Scala told her the news, Pat phoned her mother who works in a bakery to tell that she is pregnant.	divergent					
+			Just after Scala told her the news, Pat phoned her mother who worked in a bakery to tell that Scala is pregnant.	partially -					
+TV	During break time I did give a lots of direction to people who ca n't find toilet , and information such as where they could have a cup of coffee .	wrong	During break time, I did give lots of directions to people who can't find the toilet, and information such as where they could have a cup of coffee.	partially -					
+			During break time I gave a lot of direction to people who couldn't find the toilet and information such as where they could have a cup of coffee.	partially +					
+			During break time I gave lots of directions to people who couldn't find the toilet and information such as where they could have a cup of coffee.	partially +					
+			During break time I did give lots of directions to people who can't find the toilet, and information on where they could have a cup of coffee.	divergent					
+			During break time I did give lots of direction to people who can't find the toilet and information about where they could have a cup of coffee.	divergent					
+TV	There are Robert Alan and Jack Ruby instead of them .	grammatical	There are Robert, Alan, and Jack Ruby instead of them.	fully					
+			There are Robert, Alan, and Jack Ruby rather than them.	divergent					
+			There are Robert, Alan, and Jack Ruby in place of them.	divergent					
+			There are Robert, Alan, and Jack Ruby instead of those.	divergent					
+			There are Robert, Alan, and Jack Ruby instead of these.	divergent					
+TV	Unfortunately we realised that on the 14th we will already visit the Science Museum .	grammatical	Unfortunately we realised that on the 14th we will already visit the Science Museum.	fully					
+			Unfortunately we realized that on the 14th we will have already visited the Science Museum.	fully					
+			Unfortunately we realized that on the 14th we will already be visiting the Science Museum.	fully					
+			Unfortunately we realized that we will already visit the Science Museum on the 14th.	divergent					
+			Unfortunately we realize that on the 14th we will already visit the Science Museum.	divergent					
+TV	All her friends were amazed at her change and started trusting her at once .	grammatical	All her friends were amazed at her change and started to trust her at once.	fully					
+			Her friends were all amazed at her change and started trusting her at once.	divergent					
+			All of her friends were amazed at her change and started to trust her at once.	divergent					
+			All her friends were amazed by her change and started to trust her at once.	divergent					
+			All her friends were amazed at her change and immediately started to trust her.	divergent					
+TV	And I was helping them fixing the last details .	grammatical	And I was helping them fix the last details.	fully					
+			And I helped them fixing the last details.	partially +					
+			And I was helping them to fix the last details.	fully					
+			And I was helping them with fixing the last details.	fully					
+			And I was helping them fix last details.	divergent					
+TV	Thanks for your last letter ; I knew you would interested at my experience of helping the pop concert last time , now I tell you about it .	wrong	Thanks for your last letter. I knew you would be interested in my experience of helping the pop concert last time. Now I tell you about it.	partially -					
+			Thanks for your last letter. I knew you would be interested at my experience of helping the pop concert last time. Now I tell you about it.	divergent					
+			Thanks for your last letter. I knew you would be interested at my experience of helping the pop concert last time, now I tell you about it.	divergent					
+			Thanks for your last letter ; I knew you would be interested in my experience of helping the pop concert last time , now I tell you about it .	partially -					
+			Thanks for your last letter ; I knew you would be interested in my experience of helping the pop concert last time. Now I tell you about it .	partially -					
+TV	When the concert started I was preparing some drinks for the band because when the concert finished they were very tired and tersty .	grammatical	When the concert started, I was preparing some drinks for the band because when the concert finished, they were very tired and thirsty.	partially -					
+			When the concert started, I prepared some drinks for the band because when the concert finished, they were very tired and thirsty.	partially +					
+			When the concert started, I was preparing some drinks for the band because when the concert ended, they were very tired and thirsty.	divergent					
+			When the concert began, I was preparing some drinks for the band because when the concert finished, they were very tired and thirsty.	divergent					
+			When the concert started, I was preparing drinks for the band because when the concert finished, they were very tired and thirsty.	divergent					
+TV	By the way I do n't see Pat about one year .	wrong	By the way, I don't see Pat around once a year.	divergent					
+			By the way, I don't see Pat about once a year.	divergent					
+			By the way, I don't see Pat about one year ago.	divergent					
+			By the way, I don't see Pat around.	divergent					
+			I don't see Pat about one year.	divergent					
+TV	We are all extremely excited especially because of the trip to Greenwich , the town we were always interested in .	wrong	We are all extremely excited, especially because of the trip to Greenwich, the town we were always interested in.	no modification					
+			We are all extremely excited, especially because of the trip to Greenwich; the town we were always interested in.	introducing error					
+			We are all extremely excited, especially because of the trip to Greenwich-the town we were always interested in.	introducing error					
+			We are all extremely excited, especially because of the trip to Greenwich. The town we were always interested in.	introducing error					
+			We are all extremely excited, especially because of the trip to Greenwich; the town we were always interested in.	introducing error					
+TV	ON THE OTHER HAND , THERE WILL BE LESS PEOPLE WHO WOULD WEAR WHATEVER THEY LIKE .	wrong	ON THE OTHER HAND, THERE WILL BE LESS PEOPLE WHO WOULD WEAR WHAT THEY LIKE.	divergent					
+			ON THE OTHER HAND, THERE WILL BE FEWER PEOPLE WHO WOULD WEAR WHATEVER THEY LIKE.	fully					
+			ON THE OTHER HAND, THERE WILL BE FEWER PEOPLE WHO WOULD WEAR WHAT THEY LIKE.	divergent					
+			ON THE OTHER HAND, THERE WILL BE LESS PEOPLE WHO WOULD WEAR WHATEVER THEY CHOOSE.	divergent					
+			ON THE OTHER HAND, THERE WILL BE LESS People WHO WOULD WEAR WHATEVER THEY LIKE.	divergent					
+TV	Personally , I wanted to keep serets because I afraid that we might have splited up .	wrong	Personally, I wanted to keep secrets because I was afraid that we might have split up.	partially -					
+			Personaly, I wanted to keep secret because I afraid we might have splited.	introducing error					
+			Personally, I wanted to keep secrets because I feared that we might have split up.	divergent					
+			Personally, I wanted to keep secret because I was afraid we might have split.	partially -					
+			Personally, I wanted to keep secrets because I was afraid we might have split up.	partially -					
+TV	First of all , you must invite artists and stars from more countries around the world , because there are people only from six countries .	grammatical	First of all, you must invite artists and stars from more countries around the world because there are people from only six countries.	fully					
+			First of all, you must invite artists and stars from more countries around the world as there are people from only six countries.	divergent					
+			First of all, you must invite artists and stars from more countries around the world since there are people from only six countries.	divergent					
+			First of all, you must invite artists and stars from more countries around the world for there are people from only six countries.	divergent					
+			First of all, you must invite artists and stars from more countries around the world because there are people in only six countries.	divergent					
+TV	Before the concert actually started I had to give out lots of leaflets , they are list of pop band and group which will appear in the concert in order , and some information about their performance and backgrounds .	wrong	Before the concert actually started, I had to give out lots of leaflets. They are lists of pop bands and groups which will appear at the concert in order, and some information about their performances and backgrounds.	fully					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop bands and groups that will appear at the concert in order, and some information about their performances and backgrounds.	partially +					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop bands and groups which will appear in the concert in order and some information about their performance and backgrounds.	fully					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop band and group which will appear at the concert in order and some information about their performances and background.	divergent					
+			Before the concert actually started, I had to give out lots of leaflets. They are lists of pop bands and groups that will perform at the concert in order, and some information about their performance and backgrounds.	divergent					
+TV	I hope you keep in great form , like you were the last time I saw you , how is your family , I hope everyone is ok .	wrong	I hope you keep in great shape, like you were the last time I saw you. How is your family? I hope everyone is okay.	partially -					
+			I hope you stay in great form, like you were the last time I saw you. How is your family? I hope everyone is okay.	partially -					
+			I hope you keep in great form, like you were the last time I saw you. How are things with your family? I hope everyone is okay.	divergent					
+			I hope you keep in great form, like you did the last time I saw you. How is your family? I hope everything is okay.	divergent					
+			I hope you keep in great condition, like you were the last time I saw you. How is your family? I hope all is well.	divergent					
+TV	Finally , please could you give me an idea what sort of clothes to bring ? and how much would be spend there .	plausible	Finally, please could you give me an idea what sort of clothes to bring? And how much would be spent there.	partially -					
+TV	So I had n't such perfect evening , as was promised in your advertisment .	plausible	So I hadn't such a perfect evening, as was promised in your advertisement.	partially -					
+			So I didn't have such a perfect evening, as was promised in your advertisement.	fully					
+			I hadn't such a perfect evening, as was promised in your advertisement.	divergent					
+			I didn't have such a perfect evening, as was promised in your advertisement.	fully					
+			So I had n't such a perfect evening, as was promised in your advertisement.	partially -					
+TV	The computer for example makes communication much easier and faster then in past time , when everything was send by common mail , and it took weeks till it got the right place .	wrong	The computer, for example, makes communication much easier and faster than in past times. When everything was sent by common mail, it took weeks to get to the right place.	divergent					
+			The computer, for example, makes communication much easier and faster than in the past. Everything was sent by common mail in the past, and it took weeks to reach its destination.	divergent					
+			The computer, for example, makes communication much easier and faster than in the past. When everything was send by common mail in the past, it took weeks to get there.	divergent					
+			The computer, for example, makes communication much easier and faster than in the past. When everything was sent by common mail, it took weeks to reach its destination.	divergent					
+TV	Choosing gave me such big pleasure because I never have to worry from vere do I take money for my wishes .	wrong	Choosing gave me such big pleasure because I never have to worry about where I take money for my wishes.	fully					
+			Choosing gave me such great pleasure because I never have to worry from where I take money for my wishes.	divergent					
+			Choosing gave me such big pleasure because I never had to worry from where I take money for my wishes.	fully					
+			Choosing gave me such big pleasure because I never have to worry from ver where I take money for my wishes.	introducing error					
+			Choosing gave me such big pleasure because I never have to worry from where do I take money for my wishes.	partially -					
+TV	I was writting as reply of your letter , I am glad to have won the first prize in your competition for two weeks at Camp California in the USA .	wrong	I was writing as a reply to your letter. I am glad to have won the first prize in your competition for two weeks at Camp California in the USA.	fully					
+			I was writing as a reply to your letter. I am glad to have won the first prize in your competition last two weeks at Camp California in the USA.	divergent					
+			I was writing as a reply to your letter. I am glad to have won the first prize in your competition for two weeks at Camp California in USA.	divergent					
+			I was writing as a reply to your letter. I am glad to have won the first prize in your competition for two weeks at Camp California in the US.	divergent					
+			I was writing as a reply to your letter. I am glad to have won the first prize in your competition for two weeks at Camp California in the USA.	fully					
+TV	When her best friend , Scala , asked her an idea to surprise her husband because she 's pregnant , Pat put her feets in the plate just before Scala 's husband got the surprise .	wrong	When her best friend, Scala, asked her for an idea to surprise her husband because she's pregnant, Pat put her feet in the plate just before Scala's husband got the surprise.	partially -					
+			When her best friend, Scala, asked her for an idea to surprise her husband because she is pregnant, Pat put her feet in the plate just before her husband got the surprise.	divergent					
+			When her best friend, Scala, asked her for an idea to surprise her husband because she's pregnant, Pat put her feet in the plate just before Scala's husband got surprised.	divergent					
+			When her best friend, Scala, asked her for an idea to surprise her husband because she is pregnant, Pat put her feet in the plate just before her husband got surprised.	divergent					
+			When her best friend, Scala, asked her for an idea to surprise her husband because she is pregnant, Pat put her feet on the plate just before her husband got the surprise.	divergent					
+TV	The fourth day , the singers and the players have been to there to test .	wrong	The fourth day, the singers and players have been there to test.	partially -					
+			The fourth day, the singers and the players have gone there to test.	divergent					
+			The fourth day, the singers and the players had been there to test.	partially -					
+			The fourth day, the singers and the players have been there for testing.	divergent					
+			The fourth day, the singers and the players have been there to do tests.	divergent					
+TV	A very good point of this change is that women have more freedom to have a job because before reaching the technology they have to stay at home doing housework but now we have laundries and a lot of machines like microwave oven .	plausible	A very good point of this change is that women have more freedom to have a job because before they reached the technology, they had to stay at home doing housework, but now we have laundries and a lot of machines, like microwave ovens.	fully					
+			A very good point of this change is that women have more freedom to have a job because before reaching the technology, they had to stay at home doing housework, but now we have laundries and a lot of machines.	partially +					
+			A very good point of this change is that women have more freedom to have a job because before reaching the technology, they have to stay at home doing housework, but now we have laundries and many machines like microwave ovens.	divergent					
+			A very good point of this change is that women have more freedom to have a job because before reaching the technology, they had to stay at home doing housework, but now we have laundries and lots of machines including microwave ovens.	divergent					
+			A very good point of this change is that women have more freedom to have a job because before they reached the technology, they had to stay at home doing housework, but now we have many laundries and machines like microwave ovens.	fully					
+TV	I am really appreciate if you can answer me these doubt and saying again .	wrong	I am really appreciate it if you can answer my doubts and say again.	partially -					
+			I am really appreciative if you can answer my doubts and say again.	partially -					
+			I am really appreciate if you can answer my doubts and say again.	partially -					
+			I am really appreciate if you can answer these doubts and say again.	partially -					
+			I am really appreciate if you can answer my doubts and saying it again.	partially -					
+TV	For the men and women is important the appearance and they spent a lot of money in buy clothes , cosmetic , accesories , jewels etc .	wrong	For the men and women it is important the appearance and they spent a lot of money buying clothes cosmetic accessories jewels etc	introducing error					
+			For the men and women it is important their appearance and they spent a lot of money in buy clothes cosmetic accessories jewels etc	introducing error					
+			For the men and women it is important their appearance and they spent a lot of money buying clothes cosmetics accessories jewels etc	partially -					
+			For the men and women it is important the appearance and they spend a lot of money in buying clothes cosmetic accessories jewels etc	partially -					
+			For the men and women it is important the appearance and they spend a lot of money buying clothes cosmetics accessories jewels etc	partially +					
+			For	divergent					
+			For the men and women their appearance is important and they spent a lot of money in buy clothes cosmetic accessories jewels etc	introducing error					
+			For the men and women their appearance is important and they spent a lot of money buying clothes cosmetic accessories jewels etc	partially -					
+			For the men and women their appearance is important and they spend a lot of money in buying clothes cosmetic accessories jewels etc	partially +					
+			For the men and women their appearance is important and they spend a lot of money buying clothes cosmetics accessories jewels etc	partially +					
+			For	divergent					
+TV	It was a big one that I never thougth and I could n't imagine how amazing was it .	wrong	It was a big one that I never thought and I couldn't imagine how amazing it was.	partially -					
+			It was a big one that I never thought it would be and I could n't imagine how amazing it was.	divergent					
+			It was a big one that I never thought and I could n't imagine how amazing was it.	divergent					
+			It was a big one that I never thought and I could n't imagine how amazing it was.	partially -					
+			It was a big one that I never thought and I couldn't imagine how amazing it was.	partially -					
+TV	Because I did it for the first time.	grammatical	Because I did it for the first time.	fully					
+			Because I did it for the very first time.	divergent					
+			Because I did it for the first time.	fully					
+			Because I did it on my first time.	divergent					
+			Because I did it for my first time.	divergent					
+TV	It's happened three months ago and during this months I am very upset.	wrong	It's happened 3 months ago, and during this time I have been very upset.	partially +					
+			It's happened 3 months ago, and during these months I was very upset.	partially -					
+			It's happened 3 months ago, and during this month I was very upset.	partially -					
+			It's happened 3 months ago, and during this period I have been very upset.	partially +					
+			It's happened 3 months ago, and during this time I was very upset.	divergent					
+TV	The trip that you have planned for us, students, it's a great chance to meet new people and visit a beautiful city like London.	grammatical	The trip that you planned for us, students, is a great chance to meet new people and visit a beautiful city like London.	fully					
+			The trip that you planned for us students it's a great chance to meet new people and visit a beautiful city like London	no modification					
+			The trip that you planned for us students is a great chance to meet new people and visit a beautiful city like London	introducing error					
+			The trip that you planned for us, students, is a great chance to meet new people and visit a beautiful place like London	introducing error					
+			The trip that you planned for us, students, is a wonderful chance to meet new people and visit a beautiful city like London	divergent					
+TV	So I hope I could help you.	plausible	So I hope I can help you.	fully					
+			I hope I could help you.	divergent					
+			So I hope I could have helped you.	fully					
+			So I hope to help you.	divergent					
+			So I hope that I could help you.	fully					
+TV	I told her everything abat my boyfreind and when we were met each other and evertauly we were falling in love.	plausible	I told her everything about my boyfriend and when we met each other, eventually we fell in love.	fully					
+			I told her everything about my boyfreind and when we were met each other, eventually we fell in love.	partially -					
+			I told her everything about my boyfreind and when we were met each other and eventually we fell in love.	partially -					
+			I told her everything about my boyfriend and when we were met each other and eventually we were falling in love.	partially +					
+			I told her everything about my boyfriend and when we met each other and eventually we were falling in love.	partially +					
+			I told her everything about my boyfriend and when we met each other and evertauly we fell in love.	partially +					
+RV	I think that this programme has a good organisation , as you know , due to we have enough time to visit plenty of local interest points .	grammatical	I think that this program has good organization, as you know, due to we have enough time to visit plenty of local interest points.	divergent	133		245		51
+			I think that this programme has a good organisation, as you know, due to we have enough time to visit plenty of local interest points.	partially -	13				
+			I think that this programme has a good organisation, as you know, due to we have enough time to visit plenty of local interests.	divergent	43				
+			I think that this programme has a good organization, as you know, due to we have enough time to visit plenty of local interests.	divergent	18				
+			I think that this programme has a good organisation, as you know, because we have enough time to visit plenty of local interest points.	fully	29				
+RV	The sun was shining and wind were breezing like we had imaged .	grammatical	The sun was shining and the wind was breezing like we had imagined.	fully	9				
+			The sun was shining and winds were breezing like we had imaged.	fully					
+			The sun was shining and the wind was breezing like we had imaged.	fully					
+			The sun was shining and the wind was breezing as we had imaged.	divergent					
+			The sun was shining and the wind was breezing like we had imagined.	fully					
+RV	I got to go .	wrong	I have to go.	fully					
+			I need to go.	fully					
+			I got to going.	introducing error					
+			I had to go.	fully					
+			I must go.	fully					
+RV	I am very well I 'm writing to explain my experience with the pop concert ; last month .	grammatical	I am very well. I'm writing to explain my experience with the pop concert; last month.	partially -					
+			I am very good. I'm writing to explain my experience with the pop concert; last month.	divergent					
+			I am very well I'm writing to explain my experience with the pop concert last month.	partially -					
+			I am very well. I'm writing to explain my experience with the pop concert last month.	partially -					
+			I am well. I'm writing to explain my experience with the pop concert; last month.	divergent					
+RV	I am very happy to win this prize and I am going to give you some information from me that you need to make me have a good time at Camp California .	grammatical	I am very happy to win this prize and I am going to give you some information that you need to make me have a good time at Camp California.	divergent					
+			I am very happy to win this prize. I am going to give you some information from me that you need to make me have a good time at Camp California.	partially -					
+			I am very happy to win this prize and I am going to give you some information from me that you need to make it fun for me at Camp California.	divergent					
+			I am very happy to win this prize and I am going to give you some information from me that you need to ensure I have a good time at Camp California.	fully					
+			I am very happy to win this prize and I am going to give you some information from me that you need to help me have a good time at Camp California.	fully					
+RV	A traditional way to earn money , in the spare time , is to bring newspapers or magazines to the families in your town or village .	grammatical	A traditional way to earn money in spare time is to deliver newspapers or magazines to families in your town or village.	partially +					
+			A traditional way to earn money in the spare time is to bring newspapers or magazines to families in your town or village.	partially -					
+			A traditional way to earn money during spare time is to deliver newspapers or magazines to families in your town or village.	partially +					
+			A traditional way to earn money in one's spare time is to bring newspapers or magazines to families in your town or village.	divergent					
+			A traditional way to make money in the spare time is to bring newspapers or magazines to families in your town or village.	divergent					
+RV	She told me Pat had phoned her while we were going and my mum followed us because it was so dangerous to went by bicycle .	grammatical	She told me Pat had phoned her while we were going and my mum followed us because it was so dangerous to go by bicycle.	fully					
+			She told me Pat had phoned her while we were going and my mum followed us because it was so dangerous to have gone by bicycle.	divergent					
+			She told me Pat had phoned her while we were going and my mum followed us because it was so dangerous to be going by bicycle.	divergent					
+			She told me Pat had phoned her while we were going and my mum followed us because it was so dangerous to go by bicycle, not walking.	divergent					
+			She told me Pat had phoned her while we were going and my mum followed us because it was so dangerous to go by bicycle, not walking.	divergent					
+RV	ON THE OTHER HAND - IT 'S VERY COMFORTABLE TO SEAT AT HOME , CALL AND WAIT FOR THE ORDER REALISATION .	wrong	ON THE OTHER HAND IT'S VERY COMFORTABLE TO SEAT AT HOME CALL AND WAIT FOR THE ORDER REALISATION .	introducing error					
+			ON THE OTHER HAND IT'S VERY COMFORTABLE TO SEAT AT HOME CALL AND WAIT FOR THE ORDER TO BE REALISED .	divergent					
+			ON THE OTHER HAND IT'S VERY COMFORTABLE TO SEAT AT HOME CALL AND WAIT FOR THE ORDER REALISATION .	introducing error					
+			ON THE OTHER HAND IT'S VERY COMFORTABLE TO SEAT AT HOME CALL AND WAIT FOR THE ORDER .	divergent					
+			ON THE OTHER HAND IT'S VERY COMFORTABLE TO SEAT AT HOME . CALL AND WAIT FOR THE ORDER REALISATION .	no modification					
+RV	Even if I like to do shopping with some people and kind of shops I will kill myself because I waste my time .	wrong	Even if I like to do shopping with some people and kinds of shops, I will kill myself because I waste my time.	partially -					
+			Even if I like to do shopping with some people and the kind of shops, I will kill myself because I waste my time.	no modification					
+			Even if I like to do shopping with some people and kind of shops, I will kill myself as I waste my time.	divergent					
+			Even if I like to shop with some people and kinds of shops, I will kill myself because I waste my time.	fully					
+			Even if I like to shop with some people and the kind of shops, I will kill myself because I waste my time.	partially +					
+RV	We might still favour that old carpet and couch .	grammatical	We might still favour the old carpet and couch.	divergent					
+			We might still prefer the old carpet and couch.	fully					
+			We might still like the old carpet and couch.	fully					
+			We might still favor the old carpet and couch.	divergent					
+			We might still enjoy the old carpet and couch.	divergent					
+RV	We might even be able to open the door without getting out from the living room .	grammatical	We might even be able to open the door without getting up from the living room.	divergent					
+			We might even be able to open the door without leaving the living room.	fully					
+			We might even be able to open the door without getting out of the living room.	divergent					
+			We might even be able to open the door without coming out from the living room.	divergent					
+			We might even be able to open the door without going out from the living room.	partially +					
+RV	For example , I was born knowing the man has stepped on the moon .	grammatical	For example, I was born knowing the man had stepped on the moon.	divergent					
+			For example, I was born knowing that the man has stepped on the moon.	divergent					
+			For example, I was born knowing that the man had stepped on the moon.	divergent					
+			For example, For instance, I was born knowing the man had stepped on the moon.	divergent					
+			For example, For instance, I was born knowing that the man had stepped on the moon.	divergent					
+RV	"We put off the lights and then the door opened and I just heard """""""" What the hell is going on ? ! ! """""""""	wrong	"We put off the lights and then the door opened, and I just heard ""What the hell is going on?!?"""	partially -					
+			"We put off the lights and then the door opened, and I just heard """" What the hell is going on? !!"""	no modification					
+			"We put off the lights and then the door opened, and I just heard ""What the hell is going on?!!"""	no modification					
+			"We put off the lights and then the door opened; I just heard ""What the hell is going on?!!"""	divergent					
+			"We put off the lights and then the door opened, and I just heard ""What the hell is going on?!"""	partially -					
+RV	COULD YOU PLEASE BE SO KIND AND CHANGE SOME OF THE ACTIVITIES THAT WE WILL HAVE ?	grammatical	COULD YOU PLEASE BE SO KIND AND CHANGE SOME OF THE ACTIVITIES THAT WE WILL HAVE	divergent					
+			COULD YOU PLEASE BE SO KIND AND CHANGE SOME ACTIVITIES THAT WE WILL HAVE	divergent					
+			COULD YOU PLEASE BE SO KIND TO CHANGE SOME OF THE ACTIVITIES THAT WE WILL HAVE	divergent					
+			COULD YOU PLEASE BE SO KIND TO CHANGE SOME ACTIVITIES THAT WE WILL HAVE	divergent					
+			COULD YOU PLEASE DO US A FAVOR AND CHANGE SOME OF THE ACTIVITIES THAT WE WILL HAVE	divergent					
+RV	Although all that may change our houses may be still the same .	grammatical	Although all that may change, our houses may still be the same.	fully					
+			Although what may change our houses may still be the same.	divergent					
+			Although all that may change, our houses may be still the same.	fully					
+			Although all that may change, our houses may still be the same.	fully					
+			Although all that may change, our houses might still be the same.	divergent					
+RV	Agatha said that it was the greatest present she could ever get !	grammatical	Agatha said that it was the greatest present she could ever receive!	fully					
+			Agatha said that this was the greatest present she could ever get!	divergent					
+			Agatha said that it was the greatest gift she could ever get!	fully					
+			Agatha said that it was the greatest present she had ever received!	partially +					
+			Agatha said that it was the greatest present she could have ever gotten!	divergent					
+RV	I 've seen your festival and I would like to give you my suggestions to it .	grammatical	I've seen your festival and I would like to give you my suggestions.	divergent					
+			I've seen your festival and I would like to give you my suggestions about it.	fully					
+RV	The public was so excited to see the concert that we had to place some bouncer front of the scene , to avoid the people coming on the concert floor .	wrong	The public was so excited to see the concert that we had to place some bouncers in front of the scene to avoid people coming onto the concert floor.	partially -					
+			The public was so excited to see the concert that we had to place some bouncers at the front of the scene to avoid people entering the concert floor.	partially -					
+			The public was so excited to see the concert that we had to place some bouncers in front of the scene to avoid people entering the concert area.	divergent					
+			The public was so excited to see the concert that we had to place some bouncers at the entrance of the scene to prevent people from accessing the concert floor.	divergent					
+			The public was so excited to see the concert that we had to place some bouncers in front of the scene to stop people from getting on the concert floor.	partially +					
+RV	I would rather stay in one of the log cabins as I am allergic to many plants and insects and I should avoid contacting them .	grammatical	I would rather stay in one of the log cabins as I am allergic to many plants and insects, and I should avoid contacting them.	partially -					
+			I would rather stay in a log cabin as I am allergic to many plants and insects, and I should avoid contacting them.	divergent					
+			I would rather stay in one of the log cabins as I am allergic to many plants and insects; I should avoid contacting them.	divergent					
+			I would rather stay in one of the log cabins as I am allergic to many plants and insects, so I should avoid contacting them.	divergent					
+			I would rather stay in a log cabin as I am allergic to many plants and insects, and I should avoid them.	divergent					
+RV	I would be also grateful if you could send me information about the average living cost at California as I have to arrange the amount of money that I am going to spend , and some advice about the clothes that I need .	grammatical	I  would also be grateful if you could send me information about the average living cost in California as I have to arrange the amount of money that I am going to spend and some advice about the clothes that I need .	partially -					
+			I would be grateful if you could send me information about the average living cost in California as I have to arrange the amount of money that I am going to spend and some advice about the clothes that I need .	divergent					
+			I would be also grateful if you could send me information about the average living cost in California as I have to arrange the amount of money that I am going to spend and some advice about the clothes that I need .	divergent					
+			I would be also grateful if you could send me information about the average living cost at California as I have to arrange the amount of money that I am going to spend and some advice about the clothes that I need .	divergent					
+			I would be also grateful if you could send me information about the average living cost in California as I have to arrange the amount of money that I am going to spend and some advice about the clothes that I need .	divergent					
+RV	I do understand that it must be difficult to get these people to go to the festival , but it would be nice if next year we could meet other personalities .	grammatical	I do understand that it must be difficult to get these people to go to the festival, but it would be nice if next year we could meet other personalities.	fully					
+			I do understand that it is must be difficult to get these people to go to the festival, but it would be nice if next year we could meet other personalities.	introducing error					
+			I do understand that it is must be difficult to get these people to go to the festival, but it would be nice if next year we could meet other personalities.	introducing error					
+			I do understand that it must be difficult to get these people to attend the festival, but it would be nice if next year we could meet other personalities.	fully					
+			I do understand that it must be difficult to get these people to go to the festival, but it would be nice if next year we could meet different personalities.	divergent					
+RV	Moreover , I was shocked by the reason for which it was closed : the chef went away after he received a phone call !	grammatical	Moreover, I was shocked by the reason for which it was closed: The chef went away after he received a phone call!	introducing error					
+			Moreover, I was shocked by the reason for which it was closed: The chef left after receiving a phone call!	partially +					
+			Moreover, I was shocked by the reason for which it was closed: The chef went away because of a phone call!	divergent					
+			Moreover, I was shocked by the reason for which it was closed: Because the chef received a phone call, he went away!	divergent					
+			Moreover, I was shocked by the reason for which it was closed: The chef left due to a phone call!	partially +					
+RV	I 'm also fond of tennis , I 've just started my lessons and would like to continue practising during the summer .	grammatical	I'm also fond of tennis. I've just started my lessons and would like to continue practising during the summer.	fully					
+			I'm also fond of tennis, I've just started my lessons and would like to continue practicing during the summer.	fully					
+			I'm also fond of tennis. I've just started lessons and would like to continue practising during the summer.	divergent					
+			I'm also fond of tennis, I've just started lessons and would like to continue practicing during the summer.	divergent					
+			I'm also fond of tennis, I've just begun my lessons and would like to continue practising during the summer.	divergent					
+			I'm also fond of tennis. I've just started my lessons and would like to continue practising during the summer.	fully					
+			I'm also fond of tennis, I've just started my lessons and would like to continue practicing during the summer.	fully					
+			I'm also fond of tennis. I've just begun my lessons and would like to continue practising during the summer.	divergent					
+			I'm also fond of tennis, I've just begun my lessons and would like to continue practicing during the summer.	divergent					
+			I'm also fond of tennis, I've just started my lesson and would like to continue practising during the summer.	divergent					
+			I'm also fond of tennis, I've just started my lesson and would like to continue practicing during the summer.	divergent					
+RV	People should have to take a license to drive those things .	wrong	People should have to take a license to drive those vehicles.	divergent					
+			People should be able to take a license to drive those things.	divergent					
+			People must take a license to drive those things.	divergent					
+			People need to get a license to drive those things.	partially +					
+			People ought to get a license to drive those things.	partially +					
+RV	There would be many things to say about .	wrong	There would be many things to say about .	no modification					
+			There are many things to say about .	divergent					
+			There would be much to say about .	divergent					
+			There would be many things to say on .	divergent					
+			There would be many things to say regarding .	divergent					
+RV	I have got very responsible work I had to bring food for Peter Bolen and Tomas Anders .	wrong	I have got very responsible work. I had to bring food for Peter Bolen and Tomas Anders.	divergent					
+			I have got very responsible work. I had to bring food for Peter and Tomas.	divergent					
+			I have got a very responsible job. I had to bring food for Peter Bolen and Tomas Anders.	divergent					
+			I have got very responsible work. I had to bring food for Peter and Anders.	divergent					
+			I have got very responsible work. I had to bring food for Peter, Bolen, and Anders.	divergent					
+RV	I think this festival is a great idea because it 's a possibility to see and to love the art , but , I think also there are some things thas could be changed .	grammatical	I think this festival is a great idea because it's a possibility to see and love the art, but I also think there are some things that could be changed.	partially -					
+			I think this festival is a great idea because it's a possibility to see and love the art but I think there are some things that could be changed.	divergent					
+			I think this festival is a great idea because it's a possibility to see and love the art but I also think there are some things which could be changed.	partially -					
+			I think this festival is a great idea because it's a possibility to see and love the art but I also think there are some things that might be changed.	divergent					
+			I think this festival is a great idea because it's a possibility to see and love the art, but I think there are some things which could be changed.	divergent					
+RV	Sometimes , they are happy to do shopping .	wrong	Sometimes they are happy to shop.	fully					
+			Sometimes, they are happy to do shopping.	no modification					
+			Sometimes, they are happy to go shopping.	fully					
+			Sometimes they are happy doing shopping.	divergent					
+			Sometimes, they are happy shopping.	divergent					
+RV	Shopping is enjoyable when you want to offer some thing to someone .	grammatical	Shopping is enjoyable when you want to offer something to someone.	fully					
+			Shopping is enjoyable when you want to offer things to someone.	divergent					
+			Shopping is enjoyable when you want to offer some things to someone.	divergent					
+			Shopping is enjoyable when you want to offer something.	divergent					
+			Shopping is enjoyable when you want to offer things.	divergent					
+RV	Hopping to hear from you	wrong	Hoping to hear from you	partially +					
+			Hoping to hear from you soon	divergent					
+			Hoping to hear from you later	divergent					
+			Hoping to hear from you soon.	divergent					
+			Hoping to hear from you later.	divergent					
+RV	And many people are in a hurry , so do n't wonder if other people have not tolerance and patience to wait and hit you with their shopping cars .	wrong	And many people are in a hurry, so don't wonder if other people lack tolerance and patience to wait and hit you with their shopping cars.	divergent					
+			And many people are in a hurry, so don't wonder if others lack tolerance and patience to wait and hit you with their shopping carts.	divergent					
+			And many people are in a hurry, so don't wonder if other people have no tolerance and patience to wait and hit you with their shopping cars.	no modification					
+			And many people are in a hurry, so don't wonder if other people lack the tolerance and patience to wait and be hit by their shopping cars.	divergent					
+			And many people are in a hurry, so don't wonder if other people lack the tolerance and patience to wait and have their shopping cars hit them.	divergent					
+RV	Finally , I suggest you should try as I did if you have any opportunity . You must like it .	grammatical	Finally, I suggest you try as I did if you have any opportunity. You must like it.	divergent					
+			Finally, I suggest that you should try as I did if you have any opportunity. You must like it.	divergent					
+			Finally, I suggest you should try as I did if you have any opportunity. You must like it.	fully					
+			Finally, I suggest you should try as I did if you have any opportunity. You must like it.	fully					
+			Finally, I suggest you try as I did if you have the opportunity. You must like it.	divergent					
+RV	Unfortunately we realised that on the 14th we will already visit the Science Museum .	grammatical	Unfortunately we realised that on the 14th we will already visit the Science Museum.	fully					
+			Unfortunately we realized that on the 14th we will have already visited the Science Museum.	fully					
+			Unfortunately we realized that on the 14th we will already be visiting the Science Museum.	fully					
+			Unfortunately we realized that we will already visit the Science Museum on the 14th.	divergent					
+			Unfortunately we realize that on the 14th we will already visit the Science Museum.	divergent					
+RV	All I ought to do is buy and choose .	grammatical	All I ought to do is buy and select.	divergent					
+RV	So we can do shopping instead .	wrong	So we can do shopping instead.	no modification					
+			So we can shop instead.	divergent					
+RV	I would like to know only in July because I have set my holidays this month since last January .	grammatical	I would like to know only in July because I have set my holidays this month since January .	divergent					
+			I would like to know only in July because I have set my holidays for this month since last January .	divergent					
+			I would like to know only in July because I have set my holidays this month since January .	divergent					
+			I would like to know only in July because I have already set my holidays this month since January .	divergent					
+			I would like to know only in July because I have set my holidays this month since January .	divergent					
+RV	"Additionally , you could n't believe , but the vocalist said """""""" All the chairs you are sitting down were set from him , """""""" pointing at me ! !"	plausible	"Additionally, you couldn't believe, but the vocalist said ""All the chairs you are sitting down were set by him,"" pointing at me!"	partially -					
+			"Additionally, you couldn't believe, but the vocalist said ""All the chairs that you are sitting down were set from him,"" pointing at me!"	divergent					
+			"Additionally, you couldn't believe, but the vocalist said ""All the chairs you are sitting down were set by him,"" pointing at me!"	partially -					
+			"Additionally, you couldn't believe, but the vocalist said ""All the chairs you are sitting down were set from him,"" pointing at me!"	no modification					
+RV	The computer for example makes communication much easier and faster then in past time , when everything was send by common mail , and it took weeks till it got the right place .	wrong	The computer, for example, makes communication much easier and faster than in past times. When everything was sent by common mail, it took weeks to get the right place.	divergent					
+			The computer, for example, makes communication much easier and faster than in the past. Everything was sent by common mail in the past, and it took weeks to reach its destination.	divergent					
+			The computer, for example, makes communication much easier and faster than in the past. When everything was send by common mail in the past, it took weeks to get there.	divergent					
+			The computer, for example, makes communication much easier and faster than in the past. In the past, when everything was sent by common mail, it took weeks to reach its destination.	divergent					
+			The computer, for example, makes communication much easier and faster than before. When everything was send by common mail, it took weeks to get there.	divergent					
+RV	Choosing gave me such big pleasure because I never have to worry from vere do I take money for my wishes .	wrong	Choosing gave me such big pleasure because I never have to worry about where I take money for my wishes.	partially -					
+			Choosing gave me such big pleasure because I never have to worry from where I get money for my wishes.	partially +					
+			Choosing gave me such great pleasure because I never have to worry from where I take money for my wishes.	divergent					
+			Choosing gave me such big pleasure because I never had to worry from where I take money for my wishes.	divergent					
+			Choosing gave me such big pleasure because I never have to worry about where I get money for my wishes.	fully					
+RV	Thanks to his habit , he is still alive and all money were backed to the bank .	wrong	Thanks to his habit, he is still alive and all the money were backed to the bank.	partially -					
+			Thanks to his habit, he is still alive and all the money have been backed to the bank.	divergent					
+			Thanks to his habit, he is still alive and all money was backed to the bank.	partially -					
+			Thanks to his habit, he is still alive and all money has been backed to the bank.	divergent					
+			Thanks to his habit, he is still alive and all money were back to the bank.	divergent					
+RV	In the afternoon she had phoned at a Francis 's mother and she explained her the secret , then she phoned at her best friend and she speak about that too ; she phoned at many people all the day .	plausible	In the afternoon, she had phoned Francis's mother and she explained her the secret; then she phoned her best friend and spoke about that too; she phoned many people all day.	divergent					
+			In the afternoon she had phoned at Francis's mother and she explained her the secret then she phoned at her best friend and she speak about that too she phoned at many people all the day	no modification					
+			In the afternoon she had phoned at a Francis's mother and she explained her the secret then she phoned at her best friend and she speak about that too; she phoned at many people all the day.	no modification					
+			In the afternoon she had phoned at a Francis's mother and she explained to her the secret then she phoned at her best friend and spoke about that too; she phoned at many people all the day.	partially +					
+			In the afternoon she had phoned at a Francis's mother and she explained the secret to her then she phoned at her best friend and spoke about that too; she phoned at many people all the day.	fully					
+RV	We thought , as usual we do in London theatre , we could have discounts as it 's written on your advertisement .	grammatical	We thought, as usual we do in London theatre, we could have discounts as it's written on your advertisement.	no modification					
+			We thought, as usual we do at London theatre, we could have discounts as it's written on your advertisement.	divergent					
+			We thought as usual we do in London theatre we could have discounts as it's written on your advertisement.	introducing error					
+			We thought as usual we do in London theatre that we could have discounts as it's written on your advertisement.	introducing error					
+			We thought as usual we do at London theatre that we could have discounts as it's written on your advertisement.	introducing error					
+RV	Maria was nervous , but for the first time , she could talk to him as she never did before , and at the end of the day , she was the happiest person of the world , she gave her first kiss and she had Pat 's friendship back , after all , everything happened because of her .	wrong	Maria was nervous, but for the first time, she could talk to him as she never had before, and at the end of the day, she was the happiest person in the world. She gave her first kiss and got back Pat's friendship, after all; everything happened because of her.	partially +					
+			Maria was nervous, but for the first time, she could talk to him as she never did before, and at the end of the day, she was the happiest person in the world. She gave her first kiss and got back Pat's friendship, after all; everything happened because of her.	partially -					
+			Maria was nervous, but for the first time, she could talk to him as she never had before, and at the end of the day, she was the happiest person in the world. She gave her first kiss and had Pat's friendship back, after all; everything happened because of her.	partially +					
+			Maria was nervous, but for the first time, she could talk to him as she never did before, and at the end of the day, she was the happiest person in the world. She gave her first kiss and got back Pat's friendship, after all. Everything happened because of her.	partially -					
+			Maria was nervous, but for the first time, she could talk to him as she never had before, and at the end of the day, she was the happiest person in the world. She gave her first kiss and got back Pat's friendship, after all; everything happened due to her.	partially +					
+RV	I would like you to back my money because that was not same as your advertisement .	wrong	I would like you to back my money because that was not the same as your advertisement.	partially -					
+			I would like you to return my money because that was not the same as your advertisement.	fully					
+			I would like you to back my money because what I received was not the same as your advertisement.	divergent					
+			I would like you to refund my money because that was not the same as your advertisement.	divergent					
+RV	A very good point of this change is that women have more freedom to have a job because before reaching the technology they have to stay at home doing housework but now we have laundries and a lot of machines like microwave oven .	grammatical	A very good point of this change is that women have more freedom to have a job because before reaching the technology they have to stay at home doing housework but now we have laundries and a lot of machines like microwave oven .	no modification					
+			A very good point of this change is that women have more freedom to have a job because before they reached the technology they had to stay at home doing housework but now we have laundries and a lot of machines like microwave ovens.	partially -					
+			A very good point of this change is that women have more freedom to have a job because before reaching the technology women had to stay at home doing housework but now we have laundries and a lot of machines like microwave ovens.	partially -					
+			A very good point of this change is that women have more freedom to have a job because before they reached the technology women had to stay at home doing housework but now we have laundries and a lot of machines like microwave ovens.	partially -					
+			A very good point of this change is that women have more freedom to have a job because before reaching the technology they had to stay at home doing housework but now we have laundries and many machines like microwave ovens.	partially -					
+RV	If you have to run from one shop to another and always looking at the watch , doing shopping is a terrible activity .	wrong	If you have to run from one shop to another and always look at the watch, doing shopping is a terrible activity.	partially -					
+			If you have to run from one shop to another and are always looking at the watch, doing shopping is a terrible activity.	divergent					
+			If you have to run from one shop to another and always look at watches, doing shopping is a terrible activity.	divergent					
+			If you have to run from one shop to another and always look at the watch when shopping, it is a terrible activity.	divergent					
+			If you have to run from one shop to another and are always looking at the watch while doing shopping, it is a terrible activity.	divergent					
+RV	I AM WRITING YOU WITH REFERENCE IN THE LONDON TRIP WE ARE HAVING PRERY SOON .	grammatical	I AM WRITING YOU WITH REFERENCE TO THE LONDON TRIP WE ARE HAVING PRETTY SOON .	fully					
+			I AM WRITING YOU WITH REFERENCE TO THE LONDON TRIP WE ARE HAVING PREVIOUSLY SOON .	divergent					
+			I AM WRITING YOU WITH REFERENCE TO THE LONDON TRIP WE ARE HAVING PRETTY SOON .	fully					
+			I AM WRITING YOU WITH REFERENCE TO THE LONDON TRIP WE ARE HAVING PRIOR SOON .	divergent					
+			I AM WRITING YOU WITH REFERENCE TO THE LONDON TRIP WE ARE HAVING BEFORE SOON .	divergent					
+RV	I wish that you can provide a better service next time , and this time you need give back the money we paid .	grammatical	I wish that you can provide a better service next time, and this time you need to give back the money we paid.	fully					
+			I wish that you could provide a better service next time, and this time you need to give back the money we paid.	divergent					
+			I wish that you can provide a better service next time, and this time you need give the money back we paid.	divergent					
+			I wish that you could provide a better service next time, and this time you need give the money back we paid.	divergent					
+			I wish that you could provide a better service next time, and this time you need to give back the money we paid.	divergent					
+RV	Accordiing to the advertisement you gave, there have been some important differents.	grammatical	According to the advertisement you gave, there have been some important differences.	fully					
+RV	But when we talked to the doctor we felt more relaxed because he answered us that the operation was a very simple one.	grammatical	But when we talked to the doctor, we felt more relaxed because he answered us that the operation was a very simple one.	partially -					
+			But when we talked to the doctor we felt more relaxed because he answered that the operation was a very simple one.	divergent					
+			But when we talked to the doctor we felt more relaxed because he answered us that the operation was very simple.	divergent					
+			But when we spoke to the doctor we felt more relaxed because he answered us that the operation was a very simple one.	divergent					
+			But when we spoke to the doctor we felt more relaxed because he told us that the operation was a very simple one.	partially +					
+RV	You can not lose the time because all the other shops could be closed when you arrive.	grammatical	You cannot lose time because all other shops could be closed when you arrive.	divergent					
+			You can't lose the time because other shops might be closed when you arrive.	divergent					
+			You cannot afford to lose time because all the other shops might be closed when you arrive.	divergent					
+			You can not waste time because all other shops could be closed when you arrive.	partially +					
+			You cannot lose time because other shops may be closed when you arrive.	divergent					
+W	First of all , I would like to tell you that I 've never had a such good time in my life !	wrong	First of all, I would like to tell you that I've never had such a good time in my life!	fully	120		243		50
+			First of all, I would like to tell you that I have never had such a good time in my life!	fully	14				
+			First of all, I would like to tell you that I've never had so good a time in my life!	divergent	28				
+			First of all, I would like to tell you that I've never had such good a time in my life!	fully	26				
+			First of all, I would like to tell you that I've never had such a good time ever!	divergent	41				
+W	Also , in Augost I will be studying a summer English course .	grammatical	Also, in August I will be studying a summer English course.	partially -	14				
+			Also in August I will study a summer English course.	divergent					
+			In August also I will be studying for a summer English course.	divergent					
+			In August I will also be studying an English summer course.	divergent					
+			Also in August I will study an English summer course.	divergent					
+W	I think this festival is a great idea because it 's a possibility to see and to love the art , but , I think also there are some things thas could be changed .	grammatical	I think this festival is a great idea because it's a possibility to see and love the art, but I think also there are some things that could be changed.	partially -					
+			I think this festival is a great idea because it's a possibility to see and love the art but I think also there are some things that could be changed	introducing error					
+			I think this festival is a great idea because it's a possibility to see and love the art but I think there are some things that could be changed	introducing error					
+			I think this festival is a great idea because it's a possibility to see and love the art, but I think there are some things that could be changed.	divergent					
+			I think this festival is a great idea because it's a possibility to see and love the art, but I think also there are some things which could be changed.	divergent					
+W	I am disappointed because of the horrible evening I have had , I was on holiday in London and I did not have time enough to spend there , but when you said that show was the best I decided to go .	wrong	I am disappointed because of the horrible evening I had, I was on holiday in London and did not have enough time to spend there, but when you said that show was the best I decided to go.	fully					
+			I am disappointed with the horrible evening I had, I was on holiday in London and did not have enough time to spend there, but when you said that show was the best I decided to go.	partially +					
+			I am disappointed because of the horrible evening I had, I was on holiday in London, did not have enough time to spend there, but when you said that show was the best I decided to go.	partially +					
+			I am disappointed because of the horrible evening I had, I was on holiday in London and I did not have enough time to spend there, but when you said the show was the best I decided to go.	partially +					
+			I am disappointed because of the horrible evening I had, I was on holiday in London and I did not have enough time to spend there, but when you said that the best show I decided to go.	divergent					
+W	I also would like to claim some refund for the evening .	wrong	I also would like to claim a refund for the evening.	partially -					
+			I would like to claim some refund for the evening.	divergent					
+			I want to claim a refund for the evening.	divergent					
+			I would like to get a refund for the evening.	divergent					
+			I would like to claim some money back for the evening.	divergent					
+W	Technical and Warm Home People 's way of life has considerably been changed by rapdily developing mordern technology .	grammatical	Technical and Warm Home People's way of life has considerably been changed by rapidly developing modern technology.	partially -					
+			Technical and warm home people's way of life has considerably been changed by rapidly developing modern technology.	partially -					
+			Technical and warm home people's ways of life have considerably been changed by rapidly developing modern technology.	divergent					
+			Technical and warm home people's ways of life have been considerably changed by rapidly developing modern technology.	divergent					
+			Technical and warm home people's ways of life have been changed considerably by rapidly developing modern technology.	partially +					
+W	I wasted time too much for waiting .	wrong	I wasted too much time waiting 	partially +					
+W	It 's great to visit especially the Science Museum because of its expositions .	grammatical	It's great to visit especially the Science Museum because of its exhibitions.	no modification					
+			It's great to visit, especially the Science Museum, because of its expositions.	divergent					
+			It's great to visit the Science Museum because of its expositions.	divergent					
+			It's great to visit, especially for the Science Museum, because of its expositions.	divergent					
+			It's great to visit, especially the Science Museum's exhibitions.	divergent					
+W	After that , I would like to say Thanks , I never have won any price at all .	wrong	After that, I would like to say thanks. I have never won any prize at all.	fully					
+			After that, I would like to say thank you. I have never won any prize at all.	partially +					
+			After that, I would like to say Thanks. I never won any price at all.	divergent					
+			After that, I would like to say thanks. I never won any prize at all.	divergent					
+			After that, I would like to say thanks. I have never won any prize at all.	fully					
+W	It is said that the singers are Danny Brook and Tina Truelove in the advertisement .	grammatical	It is said that the singers are Danny Brook and Tina Truelove in the commercial.	divergent					
+			It is said that the singers in the advertisement are Danny Brook and Tina Truelove.	divergent					
+			It is said that Danny Brook and Tina Truelove are the singers in the advertisement.	divergent					
+			The singers in the advertisement are said to be Danny Brook and Tina Truelove.	partially +					
+			It is said that the singers in the ad are Danny Brook and Tina Truelove.	divergent					
+W	NOWADAYS , PEOPLE SEEM TO BE ALWAYS WORRIED .	grammatical	NOWAYS, PEOPLE SEEM TO BE ALWAYS WORRIED.	fully					
+			TODAY, PEOPLE SEEM TO BE ALWAYS WORRIED.	divergent					
+			NOWADAYS PEOPLE SEEM TO BE ALWAYS WORRIED.	divergent					
+			NOWADAYS, PEOPLE SEEMS TO BE ALWAYS WORRIED.	introducing error					
+			NOWADAYS, PEOPLE SEEM TO ALWAYS WORRIED.	introducing error					
+W	First of all on Tuesday we all will go to the show and spend there all our day , but on Wednesday in the afternoon when we have free time we can go to the Science Museum if you do n't mind , of course .	wrong	First of all on Tuesday we all will go to the show and spend the whole day there, but on Wednesday in the afternoon when we have free time we can go to the Science Museum if you don't mind, of course.	partially -					
+			First of all on Tuesday we all will go to the show and spend our whole day there, but on Wednesday in the afternoon when we have free time we can go to the Science Museum if you don't mind, of course.	partially -					
+			First of all on Tuesday we all will go to the show and spend the whole day there, but on Wednesday at the afternoon when we have free time we can go to the Science Museum if you don't mind, of course.	partially -					
+			First of all on Tuesday we all will go to the show and spend the whole day there, but on Wednesday in the afternoon when we have our free time we can go to the Science Museum if you don't mind, of course.	divergent					
+			First of all on Tuesday we all will go to the show and spend the whole day there, but on Wednesday in the afternoon when we have free time we can go to the science museum if you don't mind, of course.	divergent					
+W	We 'd like to thank you because the kind of happening shows how you are dedicated with our school and the students that study there .	wrong	We'd like to thank you because the kind of happening shows how you are dedicated to our school and the students who study there.	no modification					
+			We'd like to thank you for the kind of happening that shows how you are dedicated to our school and the students who study there.	divergent					
+			We'd like to thank you for the kind of happening shows your dedication to our school and the students studying there.	divergent					
+			We'd like to thank you because the kind of happening shows your dedication to our school and the students studying there.	divergent					
+			We'd like to thank you for the kind of happening that shows how dedicated you are to our school and the students who study there.	partially +					
+W	Front my point of view , we are very interested in the latest fashions like the leisure , sports wear , make up , hairstyles , you know ... I strongly believe that we will be at the right time and best city to appreciate it .	wrong	Front my point of view, we are very interested in the latest fashions like leisure, sports wear, make up, hairstyles. You know...	divergent					
+			I strongly believe that we will be at the right time and best city to appreciate it.	divergent					
+			Front my point of view, we are very interested in the latest fashions such as leisure, sports wear, makeup, hair styles. You know...	divergent					
+			I strongly believe that we will be at the right time and the best city to appreciate them.	divergent					
+			Front my perspective, we are very interested in the latest fashion like leisure, sports wear, make up, hairstyles. You know...	divergent					
+			I strongly believe that we will be at the right time and the best city to appreciate it.	divergent					
+W	I am writting to thank you for your letter confirming the first prize that I won in your competition .	grammatical	I am writing to thank you for your letter confirming the first prize that I won in your competition.	partially -					
+			I am writting to thank you for your letter confirming the first prize that I won in your competition.	no modification					
+			I am writing to thank you for your letter confirming the first prize which I won in your competition.	divergent					
+			I am writing to thank you for your letter confirming that I won the first prize in your competition.	fully					
+			I am writing to thank you for your letter confirming the first prize I won in your competition.	divergent					
+W	I 'm writing back to answer the questions that you send me in the past letter , so refering to the question of when I would like to travel , I would like to go anytime during july , because I have to be in august back home , because I need to apply and get everithing sortted out , to go into college next september .	plausible	I'm writing back to answer the questions that you sent me in the past letter, so referring to the question of when I would like to travel, I would like to go anytime during July, because I have to be back home in August, because I need to apply and get everything sorted out, to go to college next September.	fully					
+			I'm writing back to answer the questions that you sent me in the past letter, so referring to the question of when I would like to travel, I would like to go anytime during July, because I have to be back home in August, because I need to apply and get everything sorted out, to go into college next September.	fully					
+			I'm writing back to answer the questions that you sent me in the past letter, so referring to the question of when I would like to travel, I would like to go anytime during July, because I have to be back home in August, because I need to apply and get everything sorted out, to college next September.	fully					
+			I'm writing back to answer the questions that you sent me in the past letter, so referring to the question of when I would like to travel, I would like to go anytime during July, because I have to be back home in August, because I need to apply and get everything sorted out, to go to college next September.	fully					
+			I'm writing back to answer the questions that you sent me in the past letter, so referring to the question of when I would like to travel, I would like to go anytime during July, because I have to be back home in August, because I need to apply and get everything sorted out, to college next September.	fully					
+W	It was a Friday suny afternoon , Scala was really excited to tell her the new .	plausible	It was a Friday sunny afternoon, Scala was really excited to tell her the new.	no modification					
+			It was a Friday sunny afternoon, Scala was really excited to tell her about the new.	divergent					
+			It was a Friday sunny afternoon, Scala was really excited to tell her the news.	partially -					
+			It was a Friday sunny afternoon, Scala was really excited to share the new with her.	divergent					
+			It was a Friday sunny afternoon, Scala was really excited to give her the new.	divergent					
+W	For me was this aventure one of the Best .	wrong	For me, this was an aventure one of the best.	partially -					
+			For me, this was a aventure one of the best.	partially -					
+			For me, this was this aventure one of the best.	partially -					
+			For me, this was the aventure one of the best.	partially -					
+			For me, this was this aventure one of best.	partially -					
+W	Particularly I am pleased to had know the most popular pop stars in the world .	grammatical	Particularly I am pleased to have known the most popular pop stars in the world.	partially -					
+			Particularly I am pleased to have know the most popular pop stars in the world.	partially -					
+			Particularly I am please to have known the most popular pop stars in the world.	partially -					
+			Particularly I am pleased to had known the most popular pop stars in the world.	no modification					
+			I am particularly pleased to have known the most popular pop stars in the world.	fully					
+W	Othrewise , there are people who think the opposite ; such as : children , teenagers , men ; but not always , because they go to buy hardly ever , only when they need clothes or something for their job or school .	plausible	Otherwise, there are people who think the opposite; such as: children, teenagers, men; but not always because they go to buy hardly ever only when they need clothes or something for their job or school.	partially -					
+			Othrewise, there are people who think the opposite such as children teenagers men but not always because they go to buy hardly ever only when they need clothes or something for their job or school.	partially -					
+			Otherwise, there are people who think the opposite; such as: children, teenagers, men; but not always because they go to buy hardly ever only when they need clothes or something for their job or school.	partially -					
+			Otherwise, there are people who think the opposite; such as children teenagers men; but not always because they go to buy hardly ever only when they need clothes or something for their job or school.	partially -					
+			Otherwise, there are people who think the opposite; such as: children, teenagers, men but not always because they go to buy hardly ever only when they need clothes or something for their job or school.	partially -					
+W	Just imagine the way of future people 's life .	grammatical	Just imagine the way of future people's life.	no modification					
+			Just imagine the way future people's life.	divergent					
+			Just imagine the way of future people life.	divergent					
+			Just imagine the way future people life.	divergent					
+			Just imagine the way of people's future life.	divergent					
+W	I would like also to know how much money I can bring .	grammatical	I would also like to know how much money I can bring.	fully					
+W	However my family 's members do less communicate with each other than we used to , because my children are keen on playing computer games .	wrong	However, my family's members do less communicate with each other than we used to because my children are keen on playing computer games.	no modification					
+			However, my family members' communication has decreased compared to before because my children are keen on playing computer games.	divergent					
+			However, my family members communicate less with each other than we used to because my children are keen on playing computer games.	fully					
+			However, my family's members do not communicate as much with each other as we used to because my children are keen on playing computer games.	divergent					
+			However, my family members communicate less frequently with each other than we used to because my children are keen on playing computer games.	divergent					
+W	I paid for the show £ 50 I also have a recite to prove it .	grammatical	I paid for the show £50. I also have a receipt to prove it.	partially -					
+			I paid £50 for the show. I also have a recite to prove it.	divergent					
+			I paid £50 for the show. I also have a receipt to prove it.	fully					
+			I paid for the show. I also have a receipt to prove it.	divergent					
+			I paid for the show £50. I also have a receipt to prove it.	partially -					
+W	I want if it is possible a log cabins like accommodation because I have been suffering from my back since my childhood , therefore I need a confortable accommodation .	grammatical	I want if it is possible cabin accommodation because I have been suffering from my back since my childhood therefore I need comfortable accommodation	introducing error					
+			I want if it is possible log cabin accommodation because I have been suffering from my back since my childhood therefore I need comfortable accommodation	introducing error					
+			I want if it is possible a log cabin like accommodation because I have been suffering from my back since my childhood therefore I need comfortable accommodation	introducing error					
+			I want if it is possible a log cabin like accommodation because I have been suffering from my back since my childhood therefore I need a comfortable accommodation	introducing error					
+			I want if it is possible log cabins like accommodation because I have been suffering from my back since my childhood therefore I need a comfortable accommodation	introducing error					
+W	Could you do me my half of money back .	grammatical	Could you do me half of my money back.	partially +					
+			Could you do me my half of the money back.	partially +					
+			Could you do me a half of my money back.	divergent					
+			Could you do me my share of money back.	divergent					
+			Could you do me my half of the payment back.	divergent					
+W	In my opinion shopping sometimes is really boring specially when you buy at the supermarkets almost all the time the same things like cleaning products and the ingredients for every day food .	grammatical	In my opinion, shopping sometimes is really boring. Especially when you buy at the supermarkets almost all the time, the same things, like cleaning products and the ingredients for everyday food.	divergent					
+			In my opinion, shopping sometimes is really boring, specially when you buy at the supermarkets almost all the time the same things, like cleaning products and the ingredients for every day's food.	divergent					
+			In my opinion, shopping sometimes is really boring. Especially when you buy at the supermarkets almost all the time, the same things, like cleaning products and the ingredients for everyday foods.	divergent					
+			In my opinion, shopping sometimes is really boring. Especially when you buy at the supermarkets almost all the time, the same items, like cleaning products and the ingredients for every day food.	divergent					
+			In my opinion, shopping sometimes is really boring. Especially when you shop at the supermarkets almost all the time, the same things, like cleaning products and the ingredients for everyday food.	divergent					
+W	I am also used to write exams which are in polish schools very often .	wrong	I am also used to write exams which are in Polish schools very often.	partially -					
+			I am used to writing exams which are in Polish schools very often.	partially -					
+			I am used to write exams which are in Polish schools very frequently.	divergent					
+			I am used to write exams that are in Polish schools very often.	partially -					
+			I am used to write exams which are at Polish schools very often.	divergent					
+W	I would like also to specify if the food is including in the prize .	grammatical	I would like to also specify if the food is included in the price .	divergent					
+			I would like to specify if the food is included in the price .	divergent					
+			I would like also to specify if the food is included in the price .	divergent					
+			I would like to also specify if the food is included in the prize .	partially +					
+			I would like to specify if the food is included in the prize .	divergent					
+W	I would like also with the present to give you some information about me in order to arrange the details for the trip .	grammatical	I would like to also give you some information about me in order to arrange the details for the trip.	divergent					
+			I would like with the present to give you some information about me in order to arrange the details for the trip.	divergent					
+			I would like as well with the present to give you some information about me in order to arrange the details for the trip.	divergent					
+			I would like also to give you some information about me in order to arrange the details for the trip.	divergent					
+			I would like to give you some information about me in order to arrange the details for the trip.	divergent					
+W	I am very happy to win this prize and I am going to give you some information from me that you need to make me have a good time at Camp California .	grammatical	I am very happy to win this prize and I am going to give you some information that you need to make me have a good time at Camp California.	divergent					
+			I am very happy to win this prize. I am going to give you some information from me that you need to make sure I have a good time at Camp California.	divergent					
+			I am very happy to win this prize and I am going to give you some necessary information from me that will help you make me have a good time at Camp California.	divergent					
+			I am very happy to win this prize. I am going to give you some information from me that you need for me to have a good time at Camp California.	divergent					
+			I am very happy to win this prize and I am going to give you some information from me that will help you make me have a good time at Camp California.	divergent					
+W	Machines , such as a dish washer , laundry machine and remote controller help us jut to relax or do a little work necessary .	wrong	Machines, such as a dish washer, laundry machine, and remote controller, help us just to relax or do a little necessary work.	partially +					
+			Machines, such as a dishwasher, laundry machine, and remote controller, help us just to relax or do a little necessary work.	partially +					
+			Machines, such as a dishwasher, laundry machine, and remote controllers, help us just to relax or do a little necessary work.	partially +					
+			Machines, such as a dish washer, laundry machine, and remote controllers, help us just to relax or do a little necessary work.	partially +					
+			Machines, such as a dishwashers, laundry machines, and remote controller, help us just to relax or do a little necessary work.	partially +					
+W	To sum up modern technology has change a lot our daily life and this is going to increase .	grammatical	To sum up, modern technology has changed a lot our daily life and this is going to increase.	no modification					
+			To sum up, modern technology has changed a lot our daily lives and this is going to increase.	partially -					
+			To sum up, modern technology has changed a lot our daily lives and this is going to be increased.	divergent					
+			To sum up, modern technology has changed a lot our daily lives and this will increase.	divergent					
+			To sum up, modern technology has changed a lot our lives and this is going to increase.	divergent					
+W	When appeared the first car , it was already a great success .	wrong	When did the first car appear, it was already a great success.	partially +					
+			When the first car appeared, it was already a great success.	fully					
+			The first car appeared when it was already a great success.	divergent					
+			When the first car appeared, already it was a great success.	partially +					
+			When the first car appeared, it was already a great success.	fully					
+W	Open some foreign language classes at part - time for the students who is interested in it .	wrong	Open some foreign language classes part-time for the students who are interested in it.	partially -					
+			Open some foreign language classes at part-time for the students who is interested in it.	no modification					
+			Open some foreign language classes at part time for the students who is interested in it.	divergent					
+			Open some foreign language classes at part-time for the students who are interested in it.	partially -					
+			Open some foreign language classes for the students who are interested in it part-time.	divergent					
+W	For the men and women is important the appearance and they spent a lot of money in buy clothes , cosmetic , accesories , jewels etc .	grammatical	For the men and women it is important the appearance and they spent a lot of money buying clothes cosmetic accessories jewels etc	introducing error					
+			For the men and women it is important their appearance and they spent a lot of money in buying clothes cosmetics accessories jewels etc	introducing error					
+			For the men and women it is important their appearance and they spend a lot of money buying clothes cosmetics accessories jewels etc	introducing error					
+			For the men and women it is important the appearance and they spend a lot of money buying clothes cosmetic accessories jewels etc	introducing error					
+			For the men and women it is important the appearance and they spent a lot of money in buy clothes cosmetics accessories jewels etc	introducing error					
+W	Firstly , I 'm writing to thank you the great opportunity you give us , especially in planing all this programme in a such acurate way .	plausible	Firstly, I'm writing to thank you for the great opportunity you give us, especially in planning all this programme in such an accurate way.	fully					
+			Firstly, I'm writing to thank you for the great opportunity you have given us, especially in planning all this programme in a such accurate way.	partially -					
+			Firstly, I'm writing to thank you for the great opportunity you have given us, especially in planning all this program in a such accurate way.	partially -					
+			Firstly, I'm writing to thank you for the great opportunity you gave us, especially in planning all this programme in a such accurate way.	partially -					
+			Firstly, I'm writing to thank you for the great opportunity you gave us, especially in planning all this program in such an accurate way.	fully					
+W	I will only be able to set off in July and I also will give my thesis to my teacher in August .	plausible	I will only be able to set off in July and I will also give my thesis to my teacher in August.	partially +					
+			I will only be able to set out in July and I will also give my thesis to my teacher in August.	partially +					
+			I will only be able to leave in July and I will also give my thesis to my teacher in August.	partially +					
+			I will only be able to depart in July and I will also give my thesis to my teacher in August.	partially +					
+			I will only be able to set off in July and I will give my thesis to my teacher in August.	partially +					
+W	To spend the two weeks I would prefer to live in tents , that 's in my opinion a way to be nearer the enviroment and the animals , although I do n't mind living in log cabins .	wrong	To spend the two weeks, I would prefer to live in tents. That's in my opinion a way to be nearer to the environment and the animals. Although I don't mind living in log cabins.	partially -					
+			To spend the two weeks, I would prefer to live in tents. That's in my opinion a way to be nearer to the environment and the animals although I don't mind living in log cabins.	partially -					
+			To spend the two weeks I would prefer to live in tents that's in my opinion a way to be nearer to the environment and the animals although I don't mind living in log cabins.	partially -					
+			To spend the two weeks, I would prefer to live in tents. That's in my opinion a way to be nearer to the enviroment and the animals although I don't mind living in log cabins.	partially -					
+			To spend the two weeks, I would prefer to live in tents that's in my opinion a way to be nearer to the environment and the animals although I don't mind living in log cabins.	partially -					
+W	At first several days , Pat all the time was with us .	wrong	At first, several days, Pat was with us all the time.	fully					
+			At first several days, Pat was with us all the time.	partially +					
+			At first several days, Pat was with us.	divergent					
+			At first, several days, Pat was with us.	divergent					
+W	"Now many people knew the secret but Pat said everyone : """""""" I tell you a small secret , but you do n't speak , please ! """""""""	wrong	"Now many people knew the secret, but Pat said, ""I tell you a small secret, but you don't speak, please!"""	divergent					
+			"Now many people knew the secret, but Pat said, ""I will tell you a small secret, but you do not speak, please!"""	divergent					
+			"Now many people knew the secret, but Pat said, ""I'll tell you a small secret, but you don't speak, please!"""	divergent					
+			"Now many people knew the secret, but Pat said, ""I tell you a small secret, but you don't speak please!"""	divergent					
+			"Now many people knew the secret, but Pat said, ""I tell you a small secret, but you do not speak, please!"""	divergent					
+W	I would like to travel in July for two reason one 's is because I totaly will finish my exam in that date and the other in the first two week I will go to Farnborought is special 10 days the presentation the Air show and will be there the delegation from my country .	wrong	I would like to travel in July for two reasons. One is because I will totally finish my exam on that date, and the other is that in the first two weeks I will go to Farnborough- it's a special 10-day Airshow with delegation from my country.	divergent					
+			I would like to travel in July for two reasons. One is because I will totally finish my exams on that date, and the other is that in the first two weeks I will go to Farnborough-is special 10 days the presentation the Air show and will be there the delegation from my country.	divergent					
+			I would like to travel in July for two reasons. One is because I will totally finish my exam on that date, and the other is that in the first two weeks I will go to Farnborough-special 10-day Air show with delegation from my country.	divergent					
+			I would like to travel in July for two reasons. One is because I will totally finish my exams on that date, and the other is that in the first two weeks I will go to Farnborough-is special 10 days the presentation of the Air show and will be there the delegation from my country.	divergent					
+			I would like to travel in July for two reasons. One is because I will totally finish my exam on that date, and the other is that in the first two weeks I will go to Farnborough-special 10-day Air show with delegations from my country.	divergent					
+W	And the other they choose sometimes just for the label .	wrong	And the other they choose sometimes just for the label.	no modification					
+			And the others they choose sometimes just for the label.	divergent					
+			And they choose sometimes just for the label.	divergent					
+			And the other is sometimes just for the label.	divergent					
+			And the other they choose sometimes just for the .	divergent					
+			And	divergent					
+W	I m not so good as her , but I 'm going every week once to her training .	wrong	I am not as good as her, but I go to her training once a week.	fully					
+			I am not so good as her, but I go to her training every week.	divergent					
+			I am not so good as her, but I go to her training once a week.	partially +					
+			I am not as good as her, but I go to her training.	divergent					
+			I am not so good as her, but I go every week to her training.	divergent					
+W	Basketball I have been playing in a team , of my town for ten years .	plausible	Basketball I have been playing on a team in my town for ten years.	divergent					
+			Basketball I have been playing in a team in my town for ten years.	no modification					
+			I have been playing basketball in a team in my town for ten years.	fully					
+			I have been playing basketball in my town for ten years.	partially +					
+			Basketball I have been playing in a team of my town for ten years.	no modification					
+W	Even we could make a trip to Paris in the school holiday !	grammatical	Even we could make a trip to Paris during the school holidays!	divergent					
+			Even we could make a trip to Paris in the school vacations!	divergent					
+			Even though we could make a trip to Paris during the school holiday!	divergent					
+			Even if we could make a trip to Paris during the school holiday!	divergent					
+			Even we could make a trip to Paris on the school holiday!	divergent					
+W	I think also that it will be a good idea to take some general plans of the school area.	plausible	I think also that will be a good idea to take some general plans of the school area as there is a huge background.	no modification					
+			I think that will be a good idea to take some general plans of the school area as there is a huge background.	divergent					
+			I think that will be a good idea to take some general plans of the school area because there is a huge background.	divergent					
+			I think also that it will be a good idea to take some general plans of the school area as there is a huge background.	partially -					
+			I think also that will be a good idea to take some general plans of the school area as there is a huge background history.	divergent					
+W	She was a such wonderful person in our class.	wrong	She was such a wonderful person in our class.	fully					
+			She was a very wonderful person in our class.	divergent					
+			She was a truly wonderful person in our class.	divergent					
+			She was a great wonderful person in our class.	divergent					
+			She was a wonderful person in our class.	divergent					
+W	Most of  the time is shopping fun and enjoyable.	wrong	Most of the time is shopping fun and enjoyable.	no modification					
+			Most of the time shopping is fun and enjoyable.	fully					
+			Most of the time shopping is fun and enjoyable.	fully					
+			Most of the time is spent shopping, which is fun and enjoyable.	divergent					
+			Most of the time is spent on shopping, which is fun and enjoyable.	divergent					
+W	This kind of problem you could avoid when you look for big halls at the beginning.	wrong	This kind of problem you could avoid when you look for big halls at the beginning.	partially -					
+			This kind of problem you could avoid when you look for big halls when you begin.	divergent					
+			This kind of problem you could avoid when you look for big halls at first.	divergent					
+			You could avoid this kind of problem when you look for big halls at the beginning.	fully					
+			This kind of problem you could avoid by looking for big halls at the beginning.	divergent					

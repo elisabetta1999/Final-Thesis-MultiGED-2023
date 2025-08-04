@@ -1,0 +1,501 @@
+error_type	sentence	model prediction	generated sentences	generated sentences evaluation				
+G_Art	Da due anni che sto imparando inglese .	wrong	Da due anni sto imparando inglese .	partially -		104	172	36
+			Da due anni ho imparato inglese .	divergent		12		
+			Da due anni sto imparando l'inglese .	fully		20		
+			Da due anni imparo inglese .	divergent		10		
+G_Art	Dopo 15 ottobre sono costretta di andare dalla mia sorella Maria ( Maria è malata ) .	wrong	Dopo 15 ottobre sono costretta a andare dalla mia sorella Maria (Maria è malata).	partially -		19		
+			Dopo 15 ottobre sono costretta di andare dalla mia sorella (Maria è malata).	divergent		7		
+			Dopo 15 ottobre sono costretta dal andare dalla mia sorella Maria (Maria è malata).	divergent				
+			Dopo 15 ottobre sono costretta a andare da mia sorella Maria (Maria è malata).	partially +				
+			Dopo 15 ottobre sono costretta a andare dalla sorella Maria (Maria è malata).	partially -				
+G_Art	Mia figlia ha comminciato a giocare al tennis e adesso andiamo a giocare insieme ogni lunedì .	wrong	Mia figlia ha cominciato a giocare al tennis e adesso andiamo a giocare insieme ogni lunedì .	no modification				
+			Mia figlia ha cominciato a giocare al tennis e adesso lui andiamo a giocare insieme ogni lunedì .	divergent				
+			Mia figlia ha cominciato a giocare al tennis e adesso andiamo a giocare insieme un lunedì .	divergent				
+			Mia figlia ha cominciato a giocare al tennis e adesso andiamo a giocare insieme ogni lunedì .	no modification				
+			Mia figlia ha cominciato a giocare al tennis e adesso andiamo a giocare insieme ogni lunedì .	no modification				
+G_Art	perchè non parli un po' di matrimonio quando telefoni con me ?	grammatical	perché non parli un po' di matrimonio quando telefoni con me	introducing error				
+			perché non parli un po' di matrimonio quando chiami con me	divergent				
+			perché non parli un po' di matrimonio quando parli con me	divergent				
+			perché non parli un po' di matrimonio quando mi telefoni	partially +				
+			perché non parli un po' di matrimonio quando mi chiami	divergent				
+G_Art	Mio suocero ha una casa in quale siamo stati per una settimana .	wrong	Mio suocero ha una casa dove siamo stati per una settimana .	fully				
+			Mio suocero ha una casa in cui siamo stati per una settimana .	fully				
+			Mio suocero ha una casa a cui siamo stati per una settimana .	divergent				
+			Mio suocero ha una casa nella quale siamo stati per una settimana .	fully				
+			Mio suocero ha una casa dove siamo rimasti per una settimana .	divergent				
+G_Art	E come stanno tua sorella e tuoi genitori ?	wrong	E come stanno tua sorella e i tuoi genitori ?	fully				
+			E come stanno tua sorella e tuoi genitori?	no modification				
+			E come stanno tua sorella e i tuoi genitori	fully				
+			E come sta tua sorella e tuoi genitori?	divergent				
+			E come stanno tua sorella e tuoi genitori?	no modification				
+G_Art	Ancora volta mi dispiace , ma non è mia colpa , Mio capo ha organizzato una runione giovedi pomeriggio e per questo dobbiamo cambiare nostro appuntamento .	wrong	Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo cambiare nostro appuntamento.	no modification				
+			Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo cambiare l'appuntamento.	divergent				
+			Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo modificare nostro appuntamento.	divergent				
+			Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo modificare l'appuntamento.	divergent				
+G_Art	Anch' io ho appena fatto un esame il giovedi scorso .	wrong	Anch'io ho appena fatto un esame il giovedì scorso .	partially -				
+			Anch'io ho appena fatto un esame lo scorso giovedì .	fully				
+			Anch'io ho appena fatto un esame il giovedì scorsa .	partially -				
+			Anch'io ho appena fatto un esame il giorno scorso .	divergent				
+			Anch'io ho appena fatto un esame ieri .	divergent				
+G_Art	Se accettassi , dovrei registare i fogli di ufficio , come no .	wrong	Se accettassi, dovrei registrare i fogli di ufficio, come no.	no modification				
+			Se accettassi, dovrei registra i fogli di ufficio, come no.	divergent				
+			Se accettassi, dovrei registare i fogli di ufficio come no.	divergent				
+			Se accettassi, dovrei registrare i fogli di ufficio come non.	divergent				
+			Se accettassi, dovrei registrare i fogli di ufficio come no .	divergent				
+G_Art	Participerò volentieri a tutti i due eventi e sono molto contento di essere invitato .	wrong	Parteciperò volentieri a tutti e due gli eventi e sono molto contento di essere stato invitato .	fully				
+			Parteciperò volentieri ai due eventi e sono molto contento di essere stato invitato .	partially -				
+			Parteciperò volentieri a entrambi i eventi e sono molto contento di essere stato invitato .	divergent				
+			Parteciperò volentieri ai due eventi e sono molto contento di questa invitation .	divergent				
+			Parteciperò volentieri a tutti e due gli eventi e sono molto contento di questa invitation .	partially -				
+G_Art	Qualce volta , vado in calcio .	wrong	Qualche volta, vado in calcio .	partially -				
+G_Art	Nostre insegnante e bella ragazza .	wrong	Nostre insegnanti sono belle ragazze .	partially -				
+			Nostre insegnante è bella ragazza.	partially -				
+			Nostre insegnante è una bella ragazza.	partially +				
+			Nostre insegnanti sono belle ragazze.	partially -				
+			Nostre insegnante è bella.	divergent				
+G_Art	Tutto sommato , sono felice di studiare lingue straniere e me le aiutano molto .	grammatical	Tutto sommato, sono felice di studiare lingue straniere e mi le aiutano molto .	divergent				
+			Tutto sommato, sono felice di studiare lingue straniere e le aiutano molto .	divergent				
+			Tutto sommato, sono felice di studiare lingue straniere e mi le aiutano .	divergent				
+			Tutto sommato, sono felice di studiare lingue straniere e me ne aiutano molto .	divergent				
+G_Art	Hai voglia di incontro sabato sera ?	wrong	Hai voglia di incontrare sabato sera?	divergent				
+			Hai voglia di un incontro sabato sera?	fully				
+			Hai voglia di incontrarsi sabato sera?	fully				
+			Hai voglia di fare un incontro sabato sera?	divergent				
+			Hai voglia di vedersi sabato sera?	divergent				
+G_Art	Oppure potresti fare una formazione in un albergo .	wrong	Oppure potresti fare una formazione in un hotel .	divergent				
+			Oppure potresti fare una formazione in un albergo differente.	divergent				
+			Oppure potresti fare una formazione in un albergo per un periodo diverso.	divergent				
+			Oppure potresti fare una formazione in un altro albergo.	divergent				
+G_Art	In mio tempo libero sto facendo un corso di tennis , che mi piace molto .	wrong	In mio tempo libero sto facendo un corso di tennis che mi piace molto.	partially -				
+			In mio tempo libero faccio un corso di tennis che mi piace molto.	divergent				
+			In mio tempo libero sto facendo un corso di tennis, ma mi piace molto.	divergent				
+			In mio tempo libero sto facendo un corso di tennis, che mi piacciono molto.	divergent				
+			In mio tempo libero sto facendo un corso di tennis, che mi piace molto..	no modification				
+G_Art	Ho cominciato a studiare l' inglese molto presto , quando andavo al asilo e continuavo anche dopo , fino a quando avevo la possibilità di andare all' estero , in Inghilterra per due mesi .	wrong	Ho cominciato a studiare l'inglese molto presto quando andavo all'asilo e continuavo anche dopo fino a quando avevo la possibilità di andare all'estero in Inghilterra per due mesi	partially +				
+			Ho cominciato a studiare l'inglese molto presto quando andavo al asilo e continuavo anche dopo fino a quando avevo la possibilità di andare all'estero in Inghilterra per due mesi	introducing error				
+			Ho cominciato a studiare l'inglese molto presto quando andavo all'asilo e continuavo anche dopo fino a quando avevo la possibilità di andare all'estero in Inghilterra per due mesi	partially +				
+			Ho cominciato a studiare l'inglese molto presto quando andavo all'asilo e continuavo anche dopo fino a quando avevo la possibilità di andare all'estero in Inghilterra per due mesi	partially +				
+G_Art	È stata una esperienza straordinaria di attraversare gli Alpi .	wrong	È stata una esperienza straordinaria attraversare gli Alpi .	partially -				
+			È stata una esperienza straordinaria per attraversare gli Alpi .	divergent				
+			È stata una esperienza straordinaria durante l'attraversamento degli Alpi .	divergent				
+			È stata una esperienza straordinaria l'attraversamento degli Alpi .	divergent				
+			È stata una esperienza straordinaria di attraversare gli Alpi .	divergent				
+G_Art	Puoi fare il shopping o andare in piscina o andare in cinema .	wrong	Puoi fare il shopping o andare in piscina o vedere un film .	divergent				
+			Puoi fare il shopping o andare in piscina o andare al cinema .	no modification				
+			Puoi fare il shopping o andare a piscina o andare in cinema .	divergent				
+			Puoi fare il shopping o andare in piscine o andare in cinema .	divergent				
+			Puoi fare il shopping o andare in piscina o andare in cinema .	divergent				
+G_Art	Ci vediamo prossima settimana .	wrong	Ci vediamo la prossima settimana.	fully				
+			Ci vediamo la prossima settimana .	fully				
+			Ci vediamo la prossima settimanà.	divergent				
+			Ci vediamo alla prossima settimana.	divergent				
+			Ci vediamo la prossima setimana .	fully				
+G_Art	Ho letto che a scuola organizza un corso speciale con un programma di Natale .	wrong	Ho letto che a scuola organizza un corso speciale con un programma natale .	introducing error				
+			Ho letto che a scuola organizza un corso di Natale .	divergent				
+			Ho letto che a scuola organizza un corso con un programma natalizio .	divergent				
+			Ho letto che a scuola organizza un corso con un programma di Natale .	divergent				
+G_Art	La sera vado al concerto della cantanta famosa che si chiama Cecilia Bartoli .	grammatical	La sera vado al concerto della cantante famosa che si chiama Cecilia Bartoli .	fully				
+			La sera vado al concerto della cantata famosa che si chiama Cecilia Bartoli .	divergent				
+			La sera vado al concerto della cantante famosa che chiamasi Cecilia Bartoli .	divergent				
+			La sera vado al concerto della cantante famosa che si chiama Cecilia Bartoli.	fully				
+			La sera vado al concerto della cantante famosa che si chiama Cecilia Bartoli.	fully				
+G_Art	Posso ricevere una camera all' hotel del mio fratello e voi due potete passare le vacanze romantico a Città X se volete !	wrong	Posso ricevere una camera all'hotel del mio fratello e voi due potete passare le vacanze romantiche a Città X se volete !	no modification				
+			Posso ricevere una camera all'hotel del mio fratello e voi due potete passare le vacanze romanzate a Città X se volete !	divergent				
+			Posso ricevere una camera all'hotel del mio fratello e voi due potete passare le vacanze romantiche in Città X se volete !	divergent				
+			Posso ricevere una camera all'hotel del mio fratello e voi due potete passare le vacanze romantico in Città X se volete !	divergent				
+			Posso ricevere una camera all'hotel del mio fratello e voi due potete passare le vacanze a Città X romantiche se volete !	divergent				
+G_Art	VISITA AL CITTA , Monumento X Monumento Y , CITTA BELLISSIMO .	grammatical	VISITA AL CITTÀ , MONUMENTO X MONUMENTO Y , CITTÀ BELLISSIMA .	partially -				
+			VISITA A CITTÀ , MONUMENTO X MONUMENTO Y , CITTÀ BELLISSIMA .	partially -				
+			VISITA IN CITTÀ , MONUMENTO X MONUMENTO Y , CITTÀ BELLISSIMA .	divergent				
+			VISITA A CITTÀ , MONUMENTI X MONUMENTO Y , CITTÀ BELLISSIMA .	divergent				
+			VISITA A CITTÀ , MONUMENTO X MONUMENTI Y , CITTÀ BELLISSIMA .	divergent				
+G_Art	Ho domande : Quando euro dell' aloggio per una sera ?	wrong	Ho domande : Quando euro per l'abbiamaggio per una sera ?	divergent				
+			Ho domande : Quando euro per l'alloggio per una sera ?	divergent				
+			Ho domande : Quando euro dell'alloggio per una sera ?	divergent				
+			Ho domande : Quand'euro dell'alloggio per una sera ?	divergent				
+			Ho domande : Quando euro dell'alloggio per la sera ?	divergent				
+G_Art	Sono stata impiegata in GAL ( Gruppo Azzione Locale ) quindi lo so come importante è il sviluppo , anche presso l' universita sto studiando politico di sviluppo reggionale .	wrong	Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università sto studiando politica di sviluppo reggionale .	partially -				
+			Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università sto studiando sviluppo reggionale .	divergent				
+			Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università sto di sviluppo reggionale .	divergent				
+			Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università studiando politica di sviluppo reggionale .	partially -				
+			Sono stata impiegata in GAL (Gruppo AzioneLocale) quindi lo so come importante è il sviluppo anche presso l'università sto studiando politica di sviluppo regionale .	partially -				
+G_Art	Inoltre , come brasiliana e sapendo che il progetto aiuta a finanziare grupi con scopo di sviluppamento in America latina , mi sento ancora più felice e soddisfata di poter partecipare .	grammatical	Inoltre, come brasiliana e sapendo che il progetto aiuta a finanziare grupi con scopo di sviluppamento in America Latina, mi sento ancora più felice e soddisfatta di poter partecipare.	no modification				
+			Inoltre, come brasiliana e sapendo che il progetto aiuta a finanziare grupi con lo scopo di sviluppamento in America Latina, mi sento ancora più felice e soddisfatta di poter partecipare.	partially +				
+			Inoltre, come brasiliana e sapendo che il progetto contribuisce a finanziare gruppi con scopo di sviluppamento in America Latina, mi sento ancora più felice e soddisfatta di poter partecipare.	partially -				
+			Inoltre, come brasiliana e sapendo che il progetto aiuta a finanziare grupi con finalità di sviluppamento in America Latina, mi sento ancora più felice e soddisfatta di poter partecipare.	divergent				
+			Inoltre, come brasiliana e sapendo che il progetto contribuisce a finanziare gruppi con scopo di sviluppo in America Latina, mi sento ancora più felice e soddisfatta di poter partecipare.	divergent				
+G_Art	Quando hai il tempo per la mia visita ?	wrong	Quando hai il tempo per la mia visita?	no modification				
+			Quando hai tempo per la mia visita?	fully				
+			Quando hai il tempo per visitarmi?	divergent				
+			Quando hai tempo per visitarmi?	divergent				
+			Quando hai il tempo per venire a trovarmi?	divergent				
+			Quando hai tempo per venire a trovarmi?	divergent				
+G_Art	Conosco un veramente buonissimo !	plausible	Conosco un buonissimo!	divergent				
+			Conosco un veramente buono!	divergent				
+			Conosco un veramente buonissimo.	divergent				
+			Conosco un molto buonissimo!	divergent				
+			Conosco un davvero buonissimo!	divergent				
+G_Art	E se hai usato Facebook per fare le conoscenze , poi provare anche Google + .	wrong	E se hai usato Facebook per fare conoscenze, poi provare anche Google+.	partially +				
+			E se hai usato Facebook per fare le conoscenze, poi provare anche Google.	divergent				
+			E se hai usato Facebook per fare le conoscenze, poi provare Google+.	divergent				
+			E se hai usato Facebook per fare le conoscenze, poi prova anche Google+.	divergent				
+			E se hai usato Facebook per fare le conoscenze, poi provare anche Google.	divergent				
+G_Art	Credo qualcosa per noi gardino vi preferite forse nuove sedie e un nuovo tavolo ?	wrong	Credo qualcosa per noi, guardino vi preferite forse nuove sedie e un nuovo tavolo ?	divergent				
+			Credo qualcosa per noi guardino voi preferite forse nuove sedie e un nuovo tavolo ?	divergent				
+			Credo qualcosa per noi guardino vi preferite forse nuove sedie e un nuovo tavolo ?	divergent				
+			Credo qualcosa per noi guardino vi preferite forse una nuova sedia e un nuovo tavolo ?	divergent				
+			Credo qualcosa per noi, guardino vi preferite forse una nuova sedia e un nuovo tavolo ?	divergent				
+G_Art	Quanto costa il questo viaggio ?	plausible	Quanto costa questo viaggio ?	fully				
+			Quanto costa il viaggio ?	fully				
+			Quanto costa questo?	divergent				
+			Quanto questo viaggio costa ?	divergent				
+			Quanto il viaggio costa ?	divergent				
+G_Art	Vorrei offrire il mio aiuto , per aiutare al Vostro Instituto , pratticamente ai abitanti di America latina e per formare la mia personalità , per conoscere altre paese , altre culture .	wrong	Vorrei offrire il mio aiuto per aiutare al Vostro Instituto praticamente agli abitanti di America Latina e per formare la mia personalità per conoscere altre paesi altre culture	introducing error				
+			Vorrei offrire il mio aiuto , per aiutare al Vostro Instituto , praticamente agli abitanti di America Latina , e per formare la mia personalità , per conoscere altre paesi , altre culture	introducing error				
+			Vorrei offrire il mio aiuto , per aiutare al Vostro Instituto , pratica mente ai abitanti di America Latina e per formare la mia personalità , per conoscere altre paesi , altre culture	divergent				
+			Vorrei offrire il mio aiuto , per aiutare al Vostro Instituto , praticamente ai abitanti di America Latina e per formare la mia personalità , per conoscere altre paese , altre cultura	introducing error				
+			Vorrei offrire il mio aiuto , per aiutare al Vostro Instituto , pratica mente ai abitanti di America Latina e per formare la mia personalità , per conoscere altre paesi , altre culture	divergent				
+			Vorrei offrire il mio aiuto , per aiutare al Vostro Instituto , praticamente agli abitanti di America Latina e per formare la mia personalità , per conoscere altre paesi , altre culture	introducing error				
+G_Art	Penso che la societa sia formata così , anch' io avevo quel pensiero ma quando sono andato in viaggio in Africa , mi sono riso conto che siamo privilegiati , tutti noi che viviamo in uno stato senza dittatura e dove esiste una copertura malattia sociale .	grammatical	Penso che la società sia formata così, anch'io avevo quel pensiero ma quando sono andato in viaggio in Africa, mi sono reso conto che siamo privilegiati, tutti noi che viviamo in uno stato senza dittatura e dove esiste una copertura malattia sociale.	fully				
+			Penso che la società sia formata così, anch'io avevo quel pensiero ma quando sono andato in viaggio in Africa, mi sono riso della situazione perché siamo privilegiati, tutti noi che viviamo in uno stato senza dittatura e dove esiste una copertura malattia sociale.	divergent				
+			Penso che la società sia formata così, anch'io avevo quel pensiero ma quando sono andato in viaggio in Africa, mi sono riso della situazione perché siamo privilegiati, tutti noi che viviamo in uno stato senza dittatura e dove esiste una copertura sanitaria.	divergent				
+			Penso che la società sia formata così, anch'io avevo quel pensiero ma quando sono andato in viaggio in Africa, mi sono riso di questa situazione perché siamo privilegiati, tutti noi che viviamo in uno stato senza dittatura e dove esiste una copertura sanitaria.	divergent				
+			Penso che la società sia formata così, anch'io avevo quel pensiero ma quando sono andato in viaggio in Africa, mi sono riso della situazione perché siamo privilegiati, tutti noi che viviamo in uno stato senza dittatura.	divergent				
+G_Art	La sera io posso andare al un concerto con la mia padre o andare in un ristorante con la mia famiglia .	plausible	La sera io posso andare a un concerto con la mia madre o andare in un ristorante con la mia famiglia .	divergent				
+			La sera io posso andare al concerto con la mia sorella o andare in un ristorante con la mia famiglia .	divergent				
+			La sera io posso andare al concerto con il mio amico o andare in un ristorante con la mia famiglia .	divergent				
+			La sera io posso andare a un concerto con la mia moglie o andare in un ristorante con la mia famiglia .	divergent				
+			La sera io posso andare a un concerto con il mio cugino o andare in un ristorante con la mia famiglia .	divergent				
+G_Art	Vorrei partecipare in primo ciclo di serate ( quello di maggio ) , ma devo chiederVi le informazioni più dettagliate sul calendario degli incontri .	wrong	Vorrei partecipare al primo ciclo di serate (quello di maggio), ma devo chiederLe le informazioni più dettagliate sul calendario degli incontri .	partially +				
+			Vorrei partecipare in primo ciclo di serate (quello di maggio), ma devo chiedere loro le informazioni più dettagliate sul calendario degli incontri .	divergent				
+			Vorrei partecipare in primo ciclo di serate (quello di maggio), ma devo chiederLe le informazioni più dettagliate sul calendario dei incontri .	divergent				
+			Vorrei partecipare al primo ciclo di serate (quello di maggio), ma devo chiedere Le informazioni più dettagliate sul calendario degli incontri .	partially +				
+			Vorrei partecipare in primo ciclo di serate (quello di maggio), ma devo chiederLe le informazioni dettagliate sul calendario degli incontri .	divergent				
+G_Agr	Se avete altri cosi che vi faccio piacere potete dirmi .	wrong	Se avete altri cosi che vi piace potete dirmi .	divergent		30	43	9
+			Se avete cose altre che vi piacciono potete dirmi .	partially +		3		
+			Se avete cose altre che vi piacciano potete dirmi .	divergent		0		
+			Se avete cose altre che vi facciano piacere potete dirmi .	divergent		10		
+			Se avete cose altre che mi piace potete dirmi .	divergent		0		
+G_Agr	Secondo me i tuoi amici perdonano e non ti chiedono più perchè non ti faccio più sentire .	wrong	Secondo me i tuoi amici perdonano e non ti chiedono più perché non ti faccio più sentire .	no modification		0		
+			Secondo me i tuoi amici perdonano e non ti chiedono più il motivo per cui non ti faccio più sentire .	divergent				
+			Secondo me i tuoi amici perdonano e non ti chiedono più il motivo per cui non ti faccio più sentirvi .	divergent				
+			Secondo me i tuoi amici perdonano e non ti chiedono più il motivo per cui non ti faccio più sentirti .	divergent				
+			Secondo me i tuoi amici perdonano e non ti chiedono più il motivo per cui non ti faccio più sentire .	divergent				
+G_Agr	Anche io ho una notizia a darvi , sono fidanzata di un ragazzo gentili e mi piacerebbe molto andare al vostro matrimonio con lui così potresti conoscerlo .	grammatical	Anche io ho una notizia a darvi, sono fidanzata con un ragazzo gentile e mi piacerebbe molto andare al vostro matrimonio con lui così potresti conoscerlo .	partially +				
+			Anche io ho una notizia a darvi, sono fidanzata di un ragazzo gentile e mi piacerebbe molto andare al vostro matrimonio con lui e così potresti conoscerlo .	partially +				
+			Anche io ho una notizia a darvi, sono fidanzata con un ragazzo gentile e mi piacerebbe molto andare al vostro matrimonio con lui e così potresti conoscerlo .	partially +				
+			Anche io ho una notizia a darvi, sono fidanzata con un ragazzo gentile e mi piacerebbe molto andare al vostro matrimonio con lui e potresti così conoscerlo .	partially +				
+			Anche io ho una notizia a darvi, sono fidanzata con un ragazzo gentile e mi piacerebbe molto andare al vostro matrimonio con lui e così potresti conoscerlo .	partially +				
+G_Agr	Mi immaginerei un corso in un gruppo nuomente piccolo - 4 persone al massimo - se questo non è possibile prenderai dei lezioni individuali .	grammatical	Mi immaginerei un corso in un gruppo nuovamente piccolo - 4 persone al massimo - se questo non è possibile prenderai delle lezioni individuali .	partially +				
+			Mi immaginerei un corso in un gruppo nuovamente piccolo - 4 persone al massimo - se questo non è possibile prenderai dei lezioni individuali .	divergent				
+			Mi immaginerei un corso in un gruppo nuovamente piccolo - 4 persone al massimo - se questo non è possibile prenderesti delle lezioni individuali .	partially +				
+			Mi immaginerei un corso in un gruppo nuovamente piccolo - 4 persone al massimo - se questo non è possibile prenderesti dei lezioni individuali .	divergent				
+G_Agr	Invece , l' inglese , che lo aveva usato prima moltissimo quando lavorava , solo l' uso quando stiamo con gli amici stranieri che non parlano italiano .	wrong	Invece, l'inglese, che lo aveva usato molto prima quando lavorava, lo usiamo solo quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, l'uso solo quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, lo uso solo quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, lo uso soltanto quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, solo l'uso quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+G_Agr	Probabilmente arrivò il 18 novembre e resterò fino al 22 novembre .	wrong	Probabilmente arrivò il 18 novembre e resterò fino al 22 novembre.	no modification				
+			Probabilmente arriverà il 18 novembre e resterò fino al 22 novembre.	divergent				
+			Probabilmente arrivò il 18 novembre e resterò fino al 23 novembre .	divergent				
+			Probabilmente arrivò il 18 novembre e rimarrò fino al 22 novembre .	divergent				
+			Probabilmente arrivò il 18 novembre e resterò fino al 21 novembre .	divergent				
+G_Agr	Mia sorella era malata fra due giorni e poi non ha potuto andare con mio fratello in Francia per vedere i nostri parenti .	wrong	Mia sorella era malata e fra due giorni non ha potuto andare in Francia con mio fratello per vedere i nostri parenti .	divergent				
+			Mia sorella era malata e poi fra due giorni non ha potuto andare in Francia con mio fratello per vedere i nostri parenti .	divergent				
+			Mia sorella era malata e poi non ha potuto andare in Francia con mio fratello per vedere i nostri parenti .	divergent				
+			Mia sorella era malata e poi non ha potuto andare con mio fratello in Francia per vedere i nostri parenti .	divergent				
+			Mia sorella era malata e poi non ha potuto andare con mio fratello in Francia per vedere i nostri parenti .	divergent				
+G_Agr	E quando abbiamo deciso di sposarvi ?	grammatical	E quando abbiamo deciso di sposarvi?	no modification				
+			E quando abbiamo deciso di sposarli?	divergent				
+			E quando abbiamo deciso di sposarveli?	divergent				
+			E quando abbiamo deciso di sposare voi?	divergent				
+			E quando abbiamo deciso di sposare loro?	divergent				
+G_Agr	Ma tutto era al contrario come era scritta nel Suo annuncio .	wrong	Ma tutto era al contrario come era scritto nel Suo annuncio .	partially +				
+			Ma tutto era al contrario come era scritto nel suo annuncio .	partially +				
+			Ma tutto era contrario come era scritto nel Suo annuncio .	divergent				
+			Ma tutto era contrario come era scritto nel suo annuncio .	divergent				
+G_Verb	Sempre mi piaceva l' Italia e la pronuncia italiana .	grammatical	Sempre mi piaceva l'Italia e la pronuncia italiana .	no modification		74	117	25
+			Sempre mi piace l'Italia e la pronuncia italiana .	divergent		10		
+			Sempre mi piaceva l'Italia e la pronunzia italiana .	divergent		12		
+			Sempre mi piacevo l'Italia e la pronunzia italiana .	divergent		11		
+			Sempre mi piacevo l'Italia e la pronuncia italiana .	divergent		10		
+G_Verb	Perché non faresti un bel viaggio per pensarci ?	wrong	Perché non fai un bel viaggio per pensarci ?	fully		0		
+			Perché non faresti un bel viaggio per pensarlo ?	no modification				
+			Perché non faresti un bel viaggio per pensarci?	divergent				
+			Perché non faresti un bel viaggio per pensarci a lungo?	divergent				
+			Perché non faresti un bel viaggio per considerarlo?	divergent				
+G_Verb	Oggi scriverti per il mio viaggio di te .	wrong	Oggi scriverti per il mio viaggio .	divergent				
+			Oggi scriverlo per il mio viaggio di te .	divergent				
+			Oggi scrivo per il mio viaggio di te .	partially +				
+			Oggi scriverti per il mio viaggio .	divergent				
+G_Verb	Vi ringrazio per l' invito e mi piacere venire .	wrong	Vi ringrazio per l' invito e mi piacerebbe venire .	fully				
+			Vi ringrazio per l' invito e mi piacerebbe di venire .	partially +				
+			Vi ringrazio per l' invito e sarei onorato di venire .	divergent				
+			Vi ringrazio per l' invito e sarei lieto di venire .	divergent				
+			Vi ringrazio per l' invito e vorrei venire .	divergent				
+G_Verb	Ma il nostro appartamento è stato molto vecchio e non è stato molto moderno .	wrong	Ma il nostro appartamento è stato molto vecchio e non era molto moderno.	partially +				
+			Ma il nostro appartamento era stato molto vecchio e non era stato molto moderno.	divergent				
+			Ma nostro appartamento è stato molto vecchio e non era molto moderno.	partially +				
+			Ma il nostro appartamento era stato molto vecchio e non è stata molto moderno.	divergent				
+			Ma il nostro appartamento era molto vecchio e non era molto moderno.	fully				
+G_Verb	Invece potrai dirmi se avete fatto una lista di nozze o qual regalo vi fará piacere .	grammatical	Invece potrai dirmi se avete fatto una lista di nozze o qual regalo vi farà piacere.	no modification				
+			Invece potrai dirmi se avete fatto una lista di nozze o quale regalo vi fará piacere.	fully				
+			Invece potrai dirmi se avete fatto una lista di nozze o qual regalo vi piace fare.	divergent				
+			Invece potrai dirmi se avete fatto una lista di nozze o qual regalo vi piacerebbe ricevere.	divergent				
+			Invece potrai dirmi se avete fatto una lista di nozze o quale regalo vi piacerebbe ricevere.	divergent				
+G_Verb	Inoltre io colgo l' occasione di invitarvi per una settimana nellà piccola città se avrete un po tempo dopo di tornare dal vostro viaggio .	wrong	Inoltre io colgo l'occasione di invitarvi per una settimana nella piccola città se avrete un po' tempo dopo di tornare dal vostro viaggio.	no modification				
+			Inoltre io colgo l'occasione di invitarvi per una settimana nell'piccola città se avrete un po' tempo dopo di tornare dal vostro viaggio.	divergent				
+			Inoltre io colgo l'occasione di invitarvi per una settimana in una piccola città se avrete un po' tempo dopo di tornare dal vostro viaggio.	divergent				
+			Inoltre io colgo l'occasione di invitarvi per una settimana nell'piccola città se avrete un po' tempo dopo il vostro viaggio.	divergent				
+			Inoltre io colgo l'occasione di invitarvi per una settimana nella piccola città se avrete un po' tempo dopo il vostro viaggio.	divergent				
+G_Verb	Ho cominciato a studiare l' inglese molto presto , quando andavo al asilo e continuavo anche dopo , fino a quando avevo la possibilità di andare all' estero , in Inghilterra per due mesi .	wrong	Ho cominciato a studiare l'inglese molto presto quando andavo all'asilo e continuavo anche dopo fino a quando avevo la possibilità di andare all'estero in Inghilterra per due mesi	no modification				
+G_Verb	Caro Francesco , tanti auguri a te per prendere la maturità linguistica !	wrong	Caro Francesco, tanti auguri per prendere la maturità linguistica!	divergent				
+			Caro Francesco, tanti auguri a te per la maturità linguistica!	divergent				
+			Caro Francesco, tanti auguri per la tua maturità linguistica!	divergent				
+			Tanti auguri a te per la maturità linguistica, caro Francesco!	divergent				
+			Per la maturità linguistica, tanti auguri a te, caro Francesco!	divergent				
+G_Verb	Fa un momento che non ti ho scritto , mi dispiace .	wrong	Fa un momento che non ti ho scritto, mi dispiace.	no modification				
+			Fa un momento che non ti scrivevo, mi dispiace.	divergent				
+			Fa un momento che non ti ho scritto, mi spiace.	divergent				
+			Fa un momento che non ti ho scritto, mi dispiaccio.	divergent				
+			Fa un momento che non ti ho scritto, mi dispiace.	no modification				
+G_Verb	Che ne dici di incontrami sabato sera , pérchè ho molto tempo .	wrong	Che ne dici di incontrarmi sabato sera, perché ho molto tempo .	no modification				
+			Che ne dici di incontrarmi sabato pomeriggio, perché ho molto tempo .	divergent				
+			Che ne dici di incontrarmi sabato sera?	divergent				
+			Che ne dici di incontrarmi sabato sera perché ho molto tempo?	divergent				
+			Che ne dici di vedermi sabato sera, perché ho molto tempo .	divergent				
+G_Verb	Mia sorella era malata fra due giorni e poi non ha potuto andare con mio fratello in Francia per vedere i nostri parenti .	grammatical	Mia sorella era malata fra due giorni e poi non ha potuto andare in Francia con mio fratello per vedere i nostri parenti .	divergent				
+			Mia sorella era malata fra due giorni e poi non è stata in grado di andare in Francia con mio fratello per vedere i nostri parenti .	divergent				
+			Mia sorella era malata fra due giorni e poi non ha potuto andare a Francia con mio fratello per vedere i nostri parenti .	divergent				
+			Mia sorella era malata fra due giorni e poi non ha potuto viaggiare in Francia con mio fratello per vedere i nostri parenti .	divergent				
+			Mia sorella era malata fra due giorni e poi non ha potuto andare in Francia con mio fratello a visitare i nostri parenti .	divergent				
+G_Verb	sará meglio quando uno di voi mi chiama é parliamo di questa questione .	wrong	sarà meglio quando uno di voi mi chiama e parliamo di questa questione .	partially -				
+			sarà meglio quando uno di voi mi chiama ed parliamo di questa questione .	partially -				
+			sarà meglio quando uno di voi mi chiami e parliamo di questa questione .	partially +				
+			sarà meglio quando uno di voi mi chiami ed parliamo di questa questione .	partially +				
+			sarà meglio quando uno di voi mi chiama parliamo di questa questione .	divergent				
+G_Verb	Io lo sapevo , che tu ce la fai senza problemi .	wrong	Io lo sapevo che tu ce la fai senza problemi .	partially -				
+			Io lo sapevo, tu ci la fai senza problemi.	divergent				
+			Io lo sapevo, tu ce la fai senzaproblemi.	divergent				
+			Io lo sapevo, tu ce la fai.	divergent				
+G_Verb	Secondo me è molto cattivo che tu non hai amici , ma queste notizia che cerchi è buono .	wrong	Secondo me è molto cattivo che tu non hai amici, ma queste notizie che cerchi sono buone.	partially -				
+			Secondo me è molto cattivo che tu non hai amici ma queste notizie che cerchi sono buone.	partially -				
+			Secondo me è molto cattivo che tu non hai amici e queste notizie che cerchi sono buone.	divergent				
+			Secondo me è molto cattivo che tu non hai amici , ma queste notizie che cerchi sono positive.	divergent				
+			Secondo me è molto cattivo che tu non hai amici, ma queste notizie che cerchi sono buone.	partially -				
+G_Verb	In augosto faceva molto caldo , ma l' aria condizionata non ha funzionato nella nostra camera .	wrong	In agosto faceva molto caldo, ma l'aria condizionata non ha funzionato nella nostra camera.	partially -				
+			In agosto faceva molto caldo, ma l'aria condizionata non funzionava nella nostra camera.	fully				
+			In agosto faceva molto caldo, ma nell'aria condizionata non ha funzionato nella nostra camera.	divergent				
+			In agosto faceva molto caldo, ma l'aria condizionata non funzionò nella nostra camera.	divergent				
+			In agosto faceva molto caldo, ma l'aria condizionata non ha funzionato in camera nostra.	divergent				
+G_Verb	Ma la prossima settimana sara al IKEA e lì trovo un regalo buono .	wrong	Ma la prossima settimana sarò al IKEA e lì trovo un regalo buono .	no modification				
+			Ma la prossima settimana sarò al IKEA e lí trovo un regalo buono .	divergent				
+			Ma la prossima settimana sarò al IKEA e lì trovo un regalo migliore .	divergent				
+			Ma la prossima settimana sarò al IKEA e lì trovo un bel regalo .	divergent				
+			Ma la prossima settimana sarò al IKEA e lí trovo un bel regalo .	divergent				
+G_Verb	Pensavo che è una buona scelta per impararmi una lingua meno faticosa .	wrong	Pensavo che è una buona scelta per imparare una lingua meno faticosa .	partially -				
+			Pensavo che è una buona scelta per impararmi una lingua meno faticosa .	no modification				
+			Pensavo che è una buona scelta per imparare una lingua più facile .	divergent				
+			Pensavo che è una buona scelta per imparare una lingua diversa .	divergent				
+G_Verb	Puoi dirmi dove hai lavorato adesso ?	wrong	Puoi dirmi dove hai lavorato recently?	divergent				
+			Puoi dirmi dove lavori adesso?	fully				
+			Puoi dirmi dove hai lavorato di recente?	fully				
+			Puoi dirmi dove sei impiegato adesso?	divergent				
+			Puoi dirmi dove hai lavorato ultimamente?	fully				
+G_Verb	Cosi avevamo sentito male .	grammatical	Così avevamo sentito male.	fully				
+			Così avevamo sentito male.	fully				
+			Così abbiamo sentito male.	fully				
+			Così avevamo sentito male.	fully				
+			Così avevamo sentito corretto.	divergent				
+G_Verb	"Adesso Vi prego di riflettere in che modo dovete migliorare la Vostra programma nel """""""" Residence del Lago """""""" o di corretare la pubblicità che poi tutti possono vedere la realtà ."	wrong	"Adesso vi prego di riflettere in che modo dovete migliorare la vostra programma nel ""Residence del Lago"" o di corretta la pubblicità che poi tutti possano vedere la realtà ."	divergent				
+			"Adesso vi prego di riflettere in che modo dovete migliorare la vostra programma nel ""Residence del Lago"" o di correggere la pubblicità che poi tutti possano vedere la realtà ."	partially +				
+			"Adesso vi prego di riflettere in che modo dovete migliorare il vostro programma nel ""Residence del Lago"" o di correggere la pubblicità che poi tutti possano vedere la realtà ."	partially +				
+			"Adesso vi prego di riflettere in che modo dovete migliorare la vostra programmazione nel ""Residence del Lago"" o di correggere la pubblicità che poi tutti possano vedere la realtà ."	partially +				
+			Adesso vi prego di riflettere in che modo dovete migliorare la vostra programma nel Residence del Lago o di correggere la pubblicità che poi tutti possano vedere la realtà .	partially -				
+G_Verb	Ti scritto qualcosa ti me .	wrong	Ti scrivo qualcosa ti me .	partially +				
+			Ti scrivo qualcosa tu me .	divergent				
+			Ti scrivi qualcosa ti me .	divergent				
+			Ti scrivi qualcosa tu me .	divergent				
+			Ti scriverai qualcosa ti me .	divergent				
+G_Verb	Io vi ringrazio di avermi invitare , però non potrei venire perché devo andare in Francia per vedere la mia famiglia , che no visto di dopo le vacanzia di natal .	grammatical	Io vi ringrazio di avermi invitato, però non potrei venire perché devo andare in Francia per vedere la mia famiglia, che non ho visto dopo le vacanze di Natale.	partially -				
+			Io vi ringrazio di avermi invitato, ma non posso venire perché devo andare in Francia per vedere la mia famiglia, che non ho visto dopo le vacanze di Natale.	divergent				
+			Io vi ringrazio di avermi invitato, tuttavia non potrei venire perché devo andare in Francia per vedere la mia famiglia, che non ho visto dopo le vacanze di Natale.	divergent				
+			Io vi ringrazio di avermi invitato, però non posso venire perché devo andare in Francia per vedere la mia famiglia, che non ho visto dopo le vacanze di Natale.	partially +				
+G_Verb	Adesso non credete che è anche in questo corso !	grammatical	Adesso non credete che sia anche in questo corso!	divergent				
+			Adesso non credete che è presente anche in questo corso!	divergent				
+			Adesso non credete che è nel corso anche!	divergent				
+			Adesso non credete che è anche in questo corso?	divergent				
+			Adesso non credete che è nella formazione anche!	divergent				
+G_Verb	Se si cercava un' alternativa , non si è trovata ciò che i campi da tennis sono stati in riparazione e l' animazione c' era solo una sera la settimana .	wrong	Se si cercava un'alternativa, non si è trovata. Cosa i campi da tennis sono stati in riparazione e l'animazione c'era solo una sera la settimana.	divergent				
+			Se si cercava un'alternativa, non si è trovata. Ciò che i campi da tennis sono stati in riparazione e l'animazione c'era solo una sera la settimana.	divergent				
+			Se si cercava un'alternativa, non si è trovata ciò che i campi da tennis sono stati in riparazione. E l'animazione c'era solo una sera la settimana.	divergent				
+			Se si cercava un'alternativa, non si è trovata. Cosa i campi da tennis sono stati in riparazione e l'animazione c'era solo una sera.	divergent				
+			Se si cercava un'alternativa, non si è trovata ciò che i campi da tennis sono stati in riparazione e l'animazione c'era solo una sera la settimana.	divergent				
+G_Valency	Secondo me i tuoi amici perdonano e non ti chiedono più perchè non ti faccio più sentire .	wrong	Secondo me i tuoi amici perdonano e non ti chiedono più perché non ti faccio più sentire .	partially -		54	83	17
+			Secondo me i tuoi amici perdonano e non ti chiedono più il motivo per cui non ti faccio più sentire .	divergent		4		
+			Secondo me i tuoi amici perdonano e non ti chiedono più la ragione per cui non ti faccio più sentire .	divergent		6		
+			Secondo me i tuoi amici perdonano e non ti chiedono più il motivo di non ti faccio più sentire .	divergent		8		
+			Secondo me i tuoi amici perdonano e non ti chiedono più .	divergent		10		
+G_Valency	Prego di rispondere sulla mia lettera il più presto possibile .	wrong	Prego di rispondere alla mia lettera il più presto possibile .	partially -		1		
+			Prego di rispondere alla mia lettera quanto prima.	divergent				
+			Prego di rispondere alla mia lettera al più presto.	divergent				
+			Prego di rispondere alla mia lettera nel più breve tempo.	divergent				
+			Prego di rispondere alla mia lettera con la massima rapidità.	divergent				
+G_Valency	Città X , 24.03.12 Caro Francesco , all' inizio ringrazio per la tua lettera .	wrong	Città X , 24.03.12 Caro Francesco , all'inizio ringrazio per la tua lettera .	no modification				
+			Città X , 24.03.12 Caro Francesco , all'inizio ti ringrazio per la tua lettera .	fully				
+			Città X , 24.03.12 Caro Francesco , al principio ringrazio per la tua lettera .	divergent				
+			Città X , 24.03.12 Caro Francesco , al principio ti ringrazio per la tua lettera .	partially +				
+			Città X 24.03.12 Caro Francesco all'inizio ringrazio per la tua lettera .	divergent				
+G_Valency	Purtroppo non ho niente idea di comprare .	wrong	Purtroppo non ho nessuna idea di comprare .	partially -				
+			Purtroppo non ho idea di come comprare .	divergent				
+			Purtroppo non ho idea di comprare .	divergent				
+			Purtroppo non ho idea di comprare niente .	divergent				
+			Purtroppo non ho idea di cosa comprare .	partially +				
+G_Valency	Invece , l' inglese , che lo aveva usato prima moltissimo quando lavorava , solo l' uso quando stiamo con gli amici stranieri che non parlano italiano .	wrong	Invece, l'inglese, che lo aveva usato molto prima quando lavorava, lo usiamo solo quando stiamo con gli amici stranieri che non parlano italiano .	partially -				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, solo l'uso quando stiamo con gli amici stranieri che non parlano italiano .	no modification				
+			Invece, l'inglese, che lo aveva usato moltissimo prima quando lavorava, lo usiamo solo quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, lo uso solo quando stiamo con gli amici stranieri che non parlano italiano .	partially -				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, lo usi solo quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+G_Valency	Gli occhi parlano molto e si danno informazioni importanti per giudicare una persona .	wrong	Gli occhi parlano molto e danno informazioni importanti per giudicare una persona .	fully				
+			Gli occhi parlano molto e si danno informazioni importanti per giudicare una persona	introducing error				
+			Gli occhi parlano molto e forniscono informazioni importanti per giudicare una persona	divergent				
+			Gli occhi parlano molto e forniscono informazioni importanti per giudicare la persona	divergent				
+			Gli occhi parlano molto e si danno informazioni importanti per giudicare la persona .	divergent				
+G_Valency	Certo io posso aiutare .	grammatical	Certo io posso aiutarti .	partially +				
+			Certo io posso aiutare qualcuno.	partially +				
+			Certo io posso aiutare .	partially +				
+			Certo posso aiutare .	partially +				
+G_Valency	Non sto bene è una settimana orribile .	grammatical	Non sto bene. È una settimana orribile.	fully				
+			Non sto bene, è stata una settimana orribile.	divergent				
+			Non sto bene: è una settimana orribile.	fully				
+			Non sono bene, è una settimana orribile.	divergent				
+			Non sto bene, è una settimana orribile .	fully				
+G_Valency	Sono stata impiegata in GAL ( Gruppo Azzione Locale ) quindi lo so come importante è il sviluppo , anche presso l' universita sto studiando politico di sviluppo reggionale .	wrong	Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università sto studiando politica di sviluppo reggionale .	partially -				
+			Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università sto studiando sviluppo reggionale .	divergent				
+			Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università sto di sviluppo reggionale .	divergent				
+			Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'università studio politica di sviluppo reggionale .	partially -				
+			Sono stata impiegata in GAL (Gruppo Azione Locale) quindi lo so come importante è il sviluppo anche presso l'Università sto studiando politica di sviluppo regionale .	partially -				
+G_Valency	Per questo grande passo vi auguro profondamente .	wrong	Per questo grande passo vi auguro profondamente .	no modification				
+			Per questo grande passo vi auguro sinceramente .	divergent				
+			Per questo grande passo vi auguro calorosamente .	divergent				
+			Per questo grande passo vi auguro terna .	divergent				
+			Per questo grande passo vi auguro .	divergent				
+G_Valency	Chiamami o chiamero te al cellulare .	grammatical	Chiamami o chiamami al cellulare .	divergent				
+			Chiamami o chiamerò te al cellulare .	fully				
+			Chiamami o chiami me al cellulare .	divergent				
+			Chiamami o chiamati al cellulare .	divergent				
+			Chiamami o chiamalo al cellulare .	divergent				
+G_Valency	Mi piace molto che avete deciso di sposare !	grammatical	Mi piace molto che avete deciso di sposarvi !	partially +				
+			Mi piace molto che avete deciso di sposare volontariamente !	divergent				
+			Mi piace molto che avete deciso di contrarmi matrimonio !	divergent				
+			Mi piace molto che avete deciso di contrarre matrimonio !	divergent				
+			Mi piace molto che avete deciso di sposare!	no modification				
+G_Valency	Conosco un veramente buonissimo !	plausible	Conosco un buonissimo!	divergent				
+			Conosco un veramente buono!	divergent				
+			Conosco un buonissimo restaurant!	partially +				
+			Conosco un vero e proprio buonissimo!	divergent				
+			Conosco un veramente buonissimo.	divergent				
+G_Valency	Quando ti vuoi inizarer il nuovo posto di lavaro ?	wrong	Quando ti voglio iniziare il nuovo posto di lavoro ?	divergent				
+			Quando ti vuoi iniziare il nuovo posto di lavoro ?	partially -				
+			Quando ti vuoi iniziarizzare il nuovo posto di lavoro ?	divergent				
+			Quando ti vuoi iniziare il nuovo posti di lavore ?	divergent				
+			Quando ti vuoi iniziare il nuovo posto di lavoro ?	divergent				
+G_Valency	Sa-unreadable-ete essatamente che voi non avete ancora .	plausible	Sa uno siete esattamente che voi non avete ancora .	divergent				
+			Sa un unreadable e siete esattamente che voi non avete ancora .	divergent				
+			Sa un ette siete esattamente che voi non avete ancora .	divergent				
+			Sa un eta siete esattamente che voi non avete ancora .	divergent				
+			Sa un ete siete esattamente che voi non avete ancora .	divergent				
+G_Valency	Adesso non credete che è anche in questo corso !	wrong	Adesso non credete che sia anche in questo corso!	divergent				
+			Adesso non credete che è anche nel corso!	divergent				
+			Adesso credete che è anche in questo corso?	divergent				
+			Adesso non credevo che era anche in questo corso!	divergent				
+G_Valency	Io do una mano con tuo curriculum .	grammatical	Io do una mano con il tuo curriculum .	partially -				
+			Io aiuto con il tuo curriculum .	divergent				
+			Io contribuisco al tuo curriculum .	divergent				
+			Con il tuo curriculum io aiuto .	divergent				
+			Con il tuo curriculum io contribuisco .	divergent				
+G_Wo	È molto importante di avere un lavoro fisso e per trovarlo ti vorrei aiutare .	wrong	È molto importante avere un lavoro fisso e per trovarlo ti vorrei aiutare.	no modification		62	85	17
+			È molto importante avere un lavoro fisso e per trovarlo mi vorresti aiutare.	divergent		11		
+			È molto importante avere un lavoro fisso e per trovarlo ti vogliero' aiutare.	divergent		8		
+			È molto importante avere un lavoro fisso e per trovarlo ti vorrei aiutarti.	divergent		0		
+			È molto importante avere un lavoro fisso e per trovarlo ti vorrei aiutare .	divergent		4		
+G_Wo	Ancora volta mi dispiace , ma non è mia colpa , Mio capo ha organizzato una runione giovedi pomeriggio e per questo dobbiamo cambiare nostro appuntamento .	wrong	Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo cambiare nostro appuntamento.	no modification		0		
+			Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo cambiarlo appuntamento.	divergent				
+			Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo devo cambiare l'appuntamento.	divergent				
+			Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo cambiare appuntamento.	divergent				
+			Ancora volta mi dispiace, ma non è mia colpa, Mio capo ha organizzato una riunione giovedì pomeriggio e per questo dobbiamo cambiarne l'appuntamento.	no modification				
+G_Wo	Ma non c' è così tutto che abbiamo pensato .	wrong	Ma non ce ne è così tanto che abbiamo pensato .	divergent				
+			Ma non c'è così tanto che abbiamo pensato .	divergent				
+			Ma non c'è così tutto che abbiamo pensato .	no modification				
+			Ma non ci è così tutto che abbiamo pensato .	divergent				
+			Ma non c'è così completo che abbiamo pensato .	divergent				
+G_Wo	Non potrei imaginarmi di scrivere , di parlare , o anche di lottare con una persona che ho visto mai , anche se è un pensiero interessante .	wrong	Non potrei imaginarmi di scrivere, di parlare, o anche di lottare con una persona che ho visto mai, anche se è un pensiero interessante.	no modification				
+			Non potrei imaginarmi di scrivere, di parlare, o anche di lottare con una persona che ho visto mai, anche se è un pensiero interessante.	no modification				
+			Non potrei imaginarmi di scrivere, di parlare, o anche di lottare con una persona che ho visto mai, anche se è un pensiero interessante.	no modification				
+			Non potrei imaginarmi di scrivere, di parlare, o anche di lottare con una persona che ho visto mai, anche se è un pensiero interessante.	no modification				
+			Non potrei imaginarmi di scrivere, di parlare, o anche di lottare con una persona che ho visto mai, anche se è un pensiero interessante.	no modification				
+G_Wo	Questo non è un bugio totalmente ma c' erano pochi collegamenti però non ho potuto andarci .	plausible	Questo non è un buglio totalmente, ma c'erano pochi collegamenti. Non ho potuto andarci.	divergent				
+			Questo non è un bugio totalmente, ma c'erano pochi collegamenti. Non ce ne sono stati molti.	divergent				
+			Questo non è un bugio totalmente, ma c'erano pochi collegamenti. Tuttavia non ce n'ho andato.	divergent				
+			Questo non è un buglio totalmente, ma c'erano pochi collegamenti. Tuttavia non ho potuto.	divergent				
+			Questo non è un bugio totalmente, ma c'erano pochi collegamenti. Ho however not been able to go there.	divergent				
+			Questo non è un bugio totalmente, ma c'erano pochi collegamenti. Tuttavia non ce n'ho andato.	divergent				
+G_Wo	Sempre mi piaceva l' Italia e la pronuncia italiana .	grammatical	Sempre mi piace l'Italia e la pronuncia italiana .	divergent				
+			Sempre mi piaceva l'Italia e la pronunzia italiana .	divergent				
+			Sempre mi piace l'Italia e la pronunzia italiana .	divergent				
+			Sempre mi piace l' Italia e la pronuncia italiana .	divergent				
+			Sempre mi piaceva l'Italia e la pronuncia .	divergent				
+G_Wo	Sono euphorica che volete stare insieme sempre e che i genitori annunciate il matrimonio finalmente !	grammatical	Sono euforica che volete stare insieme sempre e che i genitori annuncerete il matrimonio finalmente!	partially -				
+			Sono euforica che volete stare insieme sempre e i genitori annunceranno il matrimonio finalmente!	partially -				
+			Sono euforica che volete stare insieme sempre e che i genitori annunceranno il matrimonio finalmente!	partially -				
+			Sono euforica che volete stare insieme sempre e che i genitori annunciate il matrimonio finalmente!	partially -				
+			Sono euforica che volete stare insieme sempre!	divergent				
+G_Wo	Invece , l' inglese , che lo aveva usato prima moltissimo quando lavorava , solo l' uso quando stiamo con gli amici stranieri che non parlano italiano .	wrong	Invece, l'inglese, che lo aveva usato molto prima quando lavorava, solo l'uso quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato moltissimo prima quando lavorava, l'uso solo quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, l'uso solo quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato moltissimo prima quando lavorava, solo l'uso quando stiamo con gli amici stranieri che non parlano italiano .	divergent				
+			Invece, l'inglese, che lo aveva usato molto prima quando lavorava, solo l'uso quando stiamo con gli amici stranieri .	divergent				
+G_Wo	Sono apena arrivato da Città Y qui ho fatto due settimane di vacanza .	grammatical	Sono appena arrivato a Città Y. Qui ho fatto due settimane di vacanza.	divergent				
+			Sono appena arrivato da Città Y. Ho fatto due settimane di vacanza qui.	fully				
+			Sono appena arrivato da Città Y. Qui ho fatto una breve pausa di due settimane.	divergent				
+			Sono appena arrivato a Città Y. Fino a qui sono state due settimane di vacanza.	divergent				
+			Sono appena arrivato a Città Y. Ho fatto due settimane di vacanza.	divergent				
+G_Wo	"Sono sicuro che loro aspettano molto """""""" il giorno grande """""""" ."	plausible	Sono sicuro che loro aspettano molto il giorno grande.	divergent				
+			Sono sicuro che loro aspettano il giorno grande molto.	divergent				
+			Sono certo che loro aspettano molto il giorno grande.	divergent				
+			Sono sicuro di loro aspettativa di un giorno grande molto.	divergent				
+			Sono sicuro che aspettano molto il giorno grande.	divergent				
+G_Wo	In attesa di una risposta buona porgo i miei cordiali saluti .	grammatical	In attesa di una buona risposta porgo i miei cordiali saluti .	fully				
+			In attesa di una risposta porgo i miei saluti .	divergent				
+			In attesa di una risposta buone porgo i miei cordiali saluti .	divergent				
+			In attesa di una risposta porgo i miei saluti cordiali .	fully				
+			In attesa di una risposta buona porgo i saluti .	divergent				
+G_Wo	Gabriella , io sono Maria Rossi in Ungheria , vivo a Città X .	wrong	Gabriella, io sono Maria Rossi in Ungheria, vivo a Città X.	no modification				
+			Gabriella, io sono Maria Rossi in Ungheria, vivero a Città X.	divergent				
+			Gabriella, io sono Maria Rossi in Ungheria, vivo in Città X.	divergent				
+			Gabriella, io sono Maria Rossi in Ungheria, vivo a Citta' X.	divergent				
+			Gabriella, io sono Maria Rossi in Ungheria, vivo a Città X.	no modification				
+G_Wo	Andiamo a cena al ristorante tailandese insieme ?	grammatical	Andiamo a cena al ristorante tailandese insieme!	divergent				
+			Andiamo a cena al ristorante tailandese!	divergent				
+			Andiamo a mangiare al ristorante tailandese insieme?	divergent				
+			Andiamo a pranzo al ristorante tailandese insieme?	divergent				
+			Andiamo al ristorante tailandese insieme?	divergent				
+G_Wo	La settimana scorsa hanno comminciato cinque nuove persone !	grammatical	La settimana scorsa hanno cominciato cinque nuove persone !	fully				
+			La settimana scorsa sono commesse cinque nuove persone !	divergent				
+			La settimana scorsa cinque persone si sono commesse !	divergent				
+			La settimana scorsa cinque nuove persone hanno cominciato !	fully				
+			La settimana scorsa cinque nuove persone hanno iniziato !	divergent				
+G_Wo	Vogliamo qui andare a cena sabato sera ?	wrong	Vogliamo andare a cena sabato sera ?	fully				
+			Vogliamo qui a cena sabato sera ?	divergent				
+			Vogliamo qui andare sabato sera ?	divergent				
+			Vogliamo qui andare a sera ?	divergent				
+G_Wo	Benché io abbia tanto da fare al lavoro , non vorrei evitare d' essere parte della festa grande .	plausible	Benché io abbia tanto da fare al lavoro, non vorrei evitare di essere parte della festa grande.	divergent				
+			Benché io abbia tanto da fare al lavoro, non vorrei evitare di essere parte della grande festa.	fully				
+			Benché io abbia tanto da fare al lavoro, non vorrei evitare d' essere parte della festa.	divergent				
+			Benché io abbia tanto da fare al lavoro, non vorrei evitare d' essere parte della grande festa.	fully				
+			Benché io abbia tanto da fare al lavoro, non vorrei evitare di essere parte della festa grande.	divergent				
+G_Wo	Veramente spero che , con l' impegno messo ad imparare bene l' italiano , adesso sia il momento per me di poter trovare un bel' lavoro .	wrong	Veramente spero che, con l'impegno messo ad imparare bene l'italiano, adesso sia il momento per me di poter trovare un bel lavoro .	divergent				
+			Veramente spero che, con l'impegno messo a imparare bene l'italiano, adesso sia il momento per me di poter trovare un bel lavoro .	divergent				
+			Veramente spero che, con l'impegno messo ad imparare bene italiano, adesso sia il momento per me di poter trovare un bel lavoro .	divergent				
+			Veramente spero che, con l'impegno messo a imparare bene italiano, adesso sia il momento per me di poter trovare un bel lavoro .	divergent				
+			Veramente spero che con l'impegno messo ad imparare bene l'italiano adesso sia il momento per me di poter trovare un bel lavoro .	divergent				
