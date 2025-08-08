@@ -10,7 +10,7 @@ The notebooks used to extract quantitative information for my error analysis and
 
 Various .tsv files can also be found:
 
-- processed_fce/merlin/realec.tsv are the result of the pre-processing steps and are used in the notebooks stored in evaluating-aligned-dev-notebooks.
+- processed_*.tsv are the result of the pre-processing steps and are used in the notebooks stored in evaluating-aligned-dev-notebooks.
 
 - proc_*_xlm_roberta.tsv stored in error_analysis_stats_and_generating_corrections contain the aligned sentences together with XLM-RoBERTa's predictions and are used to extract statistics for the error analysis and then to generate corrections through Qwen.
 
