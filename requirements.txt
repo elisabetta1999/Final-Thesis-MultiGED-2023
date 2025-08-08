@@ -1,0 +1,15 @@
+transformers
+datasets
+evaluate
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+lxml
+spacy
+nltk
+rapidfuzz
+tqdm
+openai
+
