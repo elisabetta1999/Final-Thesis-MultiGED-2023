@@ -17,3 +17,20 @@ Various .tsv files can also be found:
 - classified_sentences_*.tsv store all the manually labeled predictions and generations. They are not used in any notebook, but they collect the classifications used for the error analysis of both the discriminative and generative model.
 
 To run the pre-processing notebooks, the fine-tuning and evaluating notebooks, one must also use the MultiGED-2023 datasets for English (FCE), English (REALEC) and Italian (MERLIN), together with the original datasets FCE, REALEC and MERLIN.
+
+# Setup & Usage Guide
+**Folder Structure**
+
+For ease of use, unpack all files and notebooks from the GitHub repository into the same directory, without preserving subfolders. This means:
+
+    All notebooks (pre-processing, fine-tuning, evaluation, error analysis) are in the same directory.
+
+    All .tsv files (processed, predictions, classified sentences) are also in this directory.
+
+    The thesis_utils.py file and requirements.txt are in the same directory.
+
+    The folders of the original datasets (FCE, REALEC, MERLIN) and the MultiGED-2023 datasets should also be placed in this root directory.
+
+**Important file placement:**
+
+    proc_*_xlm_roberta.tsv files must be present in a directory called predictions_on_processedfiles to run the error analysis notebooks.
