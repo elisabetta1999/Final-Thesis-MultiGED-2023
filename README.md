@@ -5,3 +5,7 @@ The notebooks used to fine tune and generate predictions on the test set are sto
 
 The notebooks used to extract quantitative information for my error analysis and to generate corrections through QWEN can be found in 'error_analysis_stats_and_generating_corrections'.
 
+Various .tsv files can also be found:
+- processed_fce/merlin/realec.tsv are the result of the pre-processing steps and are used in the notebooks stored in 'evaluating-aligned-dev-notebooks'
+- classified_sentences_*.tsv store all the manually labeled predictions and generations. They are not used in any notebook, but they collect the classifications used for the error analysis of both the discriminative and generative model.
+- 
